@@ -1,0 +1,44 @@
+# Abaikan semua file core WordPress
+index.php
+license.txt
+readme.html
+wp-activate.php
+wp-blog-header.php
+wp-comments-post.php
+wp-config-sample.php
+wp-cron.php
+wp-links-opml.php
+wp-load.php
+wp-login.php
+wp-mail.php
+wp-settings.php
+wp-signup.php
+wp-trackback.php
+xmlrpc.php
+wp-admin/
+wp-includes/
+
+# Abaikan folder upload (gambar/video) agar repo tidak bengkak
+wp-content/uploads/
+wp-content/upgrade/
+wp-content/cache/
+
+# Abaikan SEMUA plugin kecuali yang kamu buat/modifikasi sendiri
+wp-content/plugins/*
+!wp-content/plugins/tutor/
+!wp-content/plugins/tutor-pro/
+!wp-content/plugins/elementor-pro/
+
+# Abaikan SEMUA tema kecuali Hello Elementor atau Child Theme kamu
+wp-content/themes/*
+!wp-content/themes/hello-elementor/
+!wp-content/themes/hello-elementor-child/
+
+# Abaikan file .DS_Store (khusus Mac/Windows)
+.DS_Store
+
+# Abaikan file konfigurasi sensitif
+wp-config.php
+
+# Abaikan folder backup Updraft
+wp-content/updraft/
