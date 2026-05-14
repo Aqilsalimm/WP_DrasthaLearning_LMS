@@ -1,0 +1,479 @@
+/* Mengubah background area header dashboard */
+.tutor-wrap.tutor-dashboard {
+    background-color: #F4F7F9 !important;
+    padding-top: 1.5rem !important; /* Memberi sedikit ruang napas di atas */
+}
+
+/* Memastikan area header sejajar secara vertikal */
+.tutor-dashboard-header {
+    display: flex !important;
+    align-items: center !important;
+    padding-bottom: 1.5rem !important;
+}
+
+/* Styling Avatar Foto */
+.tutor-dashboard-header .tutor-avatar-xl {
+    width: 5.5rem !important;
+    height: 5.5rem !important;
+    border-radius: 50% !important;
+    border: 3px solid #ffffff !important; /* Efek bingkai putih bersih */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05) !important;
+}
+
+/* Styling Avatar Teks (Jika user belum upload foto) */
+.tutor-dashboard-header .tutor-avatar-text {
+    background-color: #274C8E !important; /* Biru Drastha */
+    font-family: 'Montserrat', sans-serif !important;
+    font-weight: 700 !important;
+    color: #ffffff !important;
+}
+
+/* Tipografi Nama User */
+.tutor-dashboard-header-username {
+    font-family: 'Montserrat', sans-serif !important;
+    font-weight: 800 !important; /* ExtraBold */
+    font-size: 1.6rem !important;
+    color: #1A2B4C !important; /* Warna Dark Navy seperti di desain */
+    margin-bottom: 0.25rem !important;
+    letter-spacing: -0.02em !important;
+}
+
+/* Warna Bintang (Stars) */
+.tutor-dashboard-header-stats .tutor-icon-star-full {
+    color: #F4C150 !important; /* Kuning Emas */
+    font-size: 1.1rem !important;
+}
+
+/* Container tombol sebelah kanan agar sejajar */
+.tutor-header-right-side {
+    gap: 0.75rem !important; /* Jarak antar tombol */
+}
+
+/* A. Tombol Notifikasi (Lonceng) */
+.btn-offcanvas-open {
+    background-color: #ffffff !important;
+    border: 1px solid #e1e8ed !important;
+    border-radius: 50% !important; /* Bentuk lingkaran sempurna */
+    width: 3rem !important;
+    height: 3rem !important;
+    min-width: 3rem !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    color: #1A2B4C !important;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.02) !important;
+    transition: all 0.3s ease !important;
+}
+
+.btn-offcanvas-open:hover {
+    border-color: #274C8E !important;
+    color: #274C8E !important;
+    box-shadow: 0 4px 12px rgba(39, 76, 142, 0.1) !important;
+}
+
+/* B. Tombol New Bundle & New Course (Diperkuat Specificity-nya) */
+.tutor-header-right-side .tutor-add-new-course-bundle,
+.tutor-header-right-side .tutor-create-new-course {
+    background-color: #ffffff !important;
+    border: 1px solid #e1e8ed !important;
+    border-radius: 50px !important; /* Bentuk Pill */
+    padding: 0 1.25rem !important;
+    height: 3rem !important; /* Menyamakan tinggi dengan tombol notif */
+    
+    display: flex !important;
+    align-items: center !important;
+    gap: 0.5rem !important; /* Jarak antara ikon dan teks */
+    
+    font-family: 'Montserrat', sans-serif !important;
+    font-weight: 600 !important;
+    font-size: 0.95rem !important;
+    color: #1A2B4C !important;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.02) !important;
+    transition: all 0.3s ease !important;
+}
+
+/* Mengatur ukuran Ikon bawaan di dalam tombol */
+.tutor-header-right-side .tutor-add-new-course-bundle i,
+.tutor-header-right-side .tutor-create-new-course i {
+    font-size: 1.2rem !important;
+    margin: 0 !important; 
+    color: #1A2B4C !important;
+}
+
+/* Efek Hover untuk tombol Bundle & Course */
+.tutor-header-right-side .tutor-add-new-course-bundle:hover,
+.tutor-header-right-side .tutor-create-new-course:hover {
+    background-color: #f8fbff !important;
+    border-color: #274C8E !important;
+    color: #274C8E !important;
+}
+
+.tutor-header-right-side .tutor-add-new-course-bundle:hover i,
+.tutor-header-right-side .tutor-create-new-course:hover i {
+    color: #274C8E !important;
+}
+
+/* Menghapus background bawaan dan border pada sidebar kiri */
+.tutor-dashboard-left-menu .tutor-dashboard-permalinks {
+    background-color: transparent !important;
+    border: none !important;
+    padding: 0 !important;
+}
+
+/* Menyembunyikan garis pembatas bawaan Tutor LMS */
+.tutor-dashboard-menu-divider {
+    display: none !important;
+}
+
+/* Mengatur wadah list menu dengan Flexbox agar jaraknya rapi */
+.tutor-dashboard-permalinks ul {
+    display: flex !important;
+    flex-direction: column !important;
+    gap: 0.3rem !important; /* Jarak antar menu */
+    padding: 0 !important;
+}
+
+.tutor-dashboard-permalinks li {
+    margin-bottom: 0.5rem !important;
+    list-style: none !important;
+}
+
+.tutor-dashboard-permalinks li a {
+    display: flex !important;
+    align-items: center !important;
+    padding: 0.8rem 1.25rem !important;
+    border-radius: 0.75rem !important; /* Membuat sudut membulat (rounded) 12px */
+    font-family: 'Montserrat', sans-serif !important;
+    font-weight: 600 !important;
+    font-size: 1rem !important;
+    color: #6B7E94 !important; /* Warna abu-abu kebiruan untuk menu tidak aktif */
+    text-decoration: none !important;
+    transition: all 0.3s ease !important;
+    background-color: transparent !important;
+}
+
+/* Mengatur ukuran dan jarak Ikon */
+.tutor-dashboard-permalinks li a i,
+.tutor-dashboard-permalinks li a span[class^="tutor-icon-"] {
+    font-size: 1.3rem !important; /* Menyesuaikan ukuran ikon dengan desain */
+    margin-right: 1rem !important;
+    color: inherit !important;
+}
+
+/* Efek Hover untuk menu biasa */
+.tutor-dashboard-permalinks li a:hover {
+    background-color: #ffffff !important;
+    color: #1A2B4C !important;
+}
+
+.tutor-dashboard-permalinks li.active a {
+    background-color: #ffffff !important;
+    color: #1A2B4C !important; /* Dark Navy untuk menu aktif */
+    font-weight: 700 !important; /* Ditebalkan sedikit */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.02) !important; /* Bayangan sangat halus */
+}
+
+/* Memberi jarak ekstra sebelum tombol Setting */
+.tutor-dashboard-permalinks li.tutor-dashboard-menu-settings {
+    margin-top: 1rem !important;
+		margin-bottom: 1rem !important;
+}
+
+/* Tombol Settings (Biru Muda) */
+.tutor-dashboard-permalinks li.tutor-dashboard-menu-settings a {
+    background-color: #48A4D4 !important; /* Sesuaikan kode hex ini jika kurang pas */
+    color: #1A2B4C !important;
+    font-weight: 700 !important;
+    border-radius: 0.5rem !important;
+}
+
+.tutor-dashboard-permalinks li.tutor-dashboard-menu-settings a:hover {
+    background-color: #3895C2 !important;
+    transform: scale(0.98);
+}
+
+/* Tombol Logout (Dark Navy) */
+.tutor-dashboard-permalinks li.tutor-dashboard-menu-logout a {
+    background-color: #1D2D44 !important;
+    color: #ffffff !important;
+    font-weight: 700 !important;
+    border-radius: 0.5rem !important;
+}
+
+.tutor-dashboard-permalinks li.tutor-dashboard-menu-logout a:hover {
+    background-color: #111B29 !important;
+    transform: scale(0.98);
+}
+
+/* Menyesuaikan teks judul section agar menyatu dengan desain */
+.tutor-dashboard-menu-title {
+    font-family: 'Montserrat', sans-serif !important;
+    font-size: 0.8rem !important;
+    text-transform: uppercase !important;
+    letter-spacing: 0.05em !important;
+    color: #A0AEC0 !important;
+    padding: 1rem 1.25rem 0.5rem !important;
+    margin: 0 !important;
+    font-weight: 700 !important;
+}
+
+/* Menghapus garis horizontal di bawah Header */
+.tutor-dashboard-header::after,
+.tutor-frontend-dashboard-header::after {
+    display: none !important;
+    content: none !important;
+}
+
+/* Menghapus garis vertikal di sebelah kanan Menu Navigasi */
+.tutor-dashboard-left-menu ul.tutor-dashboard-permalinks::before {
+    display: none !important;
+    content: none !important;
+}
+
+/* Berjaga-jaga jika ada sisa pseudo-element di baris utama */
+.tutor-frontend-dashboard-maincontent::before,
+.tutor-frontend-dashboard-maincontent::after {
+    display: none !important;
+}
+
+.tutor-dashboard-content {
+    font-family: 'Montserrat', sans-serif !important;
+}
+
+/* Mengubah ukuran Title menjadi ~22px dan menebalkannya */
+.tutor-dashboard-title {
+    font-size: 22px !important; 
+    font-weight: 800 !important; /* Ditebalkan agar lebih tegas */
+    color: #1A2B4C !important;
+}
+
+.tutor-card {
+    border-radius: 20px !important;
+    font-family: 'Montserrat', sans-serif !important;
+    font-weight: 500 !important;
+    border: none !important;
+}
+
+.tutor-card:hover {
+    cursor: pointer;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05) !important;
+}
+
+.tutor-text-capitalize {
+    font-weight: 700 !important;
+}
+
+.tutor-nav {
+    gap: 1rem !important;
+    border: none !important; 
+}
+
+.tutor-nav-item {
+    border-radius: 50px !important;
+    background-color: #ffffff !important;
+    transition: all 0.3s ease !important;
+    padding: 0 !important; /* Padding dipindah ke link agar area klik luas */
+    overflow: hidden !important; 
+}
+
+/* Menargetkan teks dan area klik di dalam tombol */
+.tutor-nav-item .tutor-nav-link {
+    font-weight: 600 !important;
+    padding: 10px 20px !important; 
+    color: #1A2B4C !important;
+    border: none !important; 
+    text-decoration: none !important;
+    display: block !important;
+    transition: all 0.3s ease !important;
+}
+
+/* Menghilangkan garis biru (underline) bawaan Tutor LMS */
+.tutor-nav-item .tutor-nav-link::before,
+.tutor-nav-item .tutor-nav-link::after {
+    display: none !important;
+    content: none !important;
+}
+
+/* Efek Hover: Background biru gelap, teks putih dan menjadi tebal */
+.tutor-nav-item:hover,
+.tutor-nav-item .tutor-nav-link:hover {
+    background-color: #1A2B4C !important;
+    color: #ffffff !important;
+    font-weight: 700 !important; 
+    transform: scale(0.98);
+}
+
+/* Status Aktif (Tab yang sedang dibuka) */
+.tutor-nav-item .tutor-nav-link.is-active {
+    background-color: #1A2B4C !important;
+    color: #ffffff !important;
+    font-weight: 700 !important;
+}
+
+/* Menghilangkan wadah putih di belakang filter */
+.tutor-dashboard-enrolled-filter {
+    background-color: transparent !important;
+    border: none !important;
+    box-shadow: none !important;
+    padding: 0 !important;
+}
+
+/* Mengatur style Select agar bersih (hanya font Montserrat dan icon bawaan) */
+
+/* Menghilangkan wadah putih di belakang filter (Targeting Custom Div) */
+.tutor-dashboard-filter-item .tutor-form-select,
+.tutor-dashboard-enrolled-filter {
+    background-color: transparent !important;
+    border: none !important;
+    box-shadow: none !important;
+    padding-left: 0.25rem !important; /* Memberi sedikit jarak dari kata "Type:" */
+    padding-right: 0 !important;
+}
+
+/* Memastikan tulisan "Type:" selaras dengan desain */
+.tutor-dashboard-filter-item > span:first-child {
+    font-family: 'Montserrat', sans-serif !important;
+    font-weight: 500 !important;
+    color: #1A2B4C !important;
+    font-size: 1rem !important;
+}
+
+/* Styling khusus untuk teks dalam dropdown ("Courses" / "Bundles") */
+.tutor-form-select-label {
+    font-family: 'Montserrat', sans-serif !important;
+    font-weight: 600 !important; /* Ditebalkan agar sejajar dengan UI Anda */
+    font-size: 1rem !important;
+    color: #1A2B4C !important;
+}
+
+/* Memastikan panah ikon tetap ada dan warnanya menyatu */
+.tutor-form-select::after, 
+.tutor-form-select i {
+    color: #1A2B4C !important;
+}
+
+/* Menghilangkan outline/border ketika dropdown diklik/aktif */
+.tutor-form-select.is-active,
+.tutor-form-select:focus {
+    border: none !important;
+    box-shadow: none !important;
+}
+
+/* Wishlist Nav Card */
+.tutor-dashboard-content-inner.my-wishlist{
+	font-family: 'Montserrat', sans-serif !important;
+}
+
+.tutor-card-image-top {
+	border-radius: 20px 20px 0 0 !important;
+}
+
+.tutor-card.tutor-course-card {
+	border-radius: 20px !important;
+}
+
+.tutor-icon-star-line {
+	font-size: 0.875rem !important;
+}
+
+.tutor-course-name {
+	font-family: 'Montserrat', sans-serif !important;
+}
+
+.tutor-meta-course-by-cat {
+	gap: 10px !important;
+	margin-top: 16px !important;
+}
+
+.tutor-meta-course-cat {
+	font-size: 10px !important;
+}
+
+.tutor-meta-course-by {
+	font-size: 10px !important;
+}
+
+.tutor-course-price {
+    margin: 0 !important;
+    padding: 0 !important;
+    line-height: 1 !important;
+    display: flex !important;
+    align-items: center !important;
+}
+.woocommerce-Price-amount.amount {
+    font-size: 1.08rem !important;
+    font-weight: 800 !important;
+    line-height: 1 !important;
+    margin: 0 !important;
+    display: flex !important;
+    align-items: center !important;
+}
+
+.woocommerce-Price-currencySymbol {
+    margin-right: 2px !important;
+    line-height: 1 !important;
+}
+
+/* Mengunci efek background abu-abu hanya untuk tombol outline di dalam kartu kursus */
+.tutor-course-booking-availability, .tutor-course-card .tutor-btn.tutor-btn-outline-primary {
+    border-radius: 20px !important;
+    border: none !important;
+    background-color: #F4F7F9 !important;
+}
+
+/* Mengunci efek hover hanya untuk tombol di dalam kartu kursus */
+.tutor-course-card .tutor-btn.tutor-btn-outline-primary:hover {
+    background-color: #264790 !important;
+    color: #ffffff !important; /* Tambahan agar teks tetap terlihat saat di-hover biru gelap */
+}
+
+.cart-text {
+	font-size: 13px !important;
+	font-weight: 600 !important;
+}
+
+.tutor-icon-cart-line::before {
+	font-size: 14px !important;
+}
+
+.tutor-course-wishlist-btn {
+	background-color: white !important;
+}
+
+.tutor-course-wishlist-btn:hover {
+	background-color: #264790 !important;
+}
+
+.tutor-dashboard-content .tutor-color-black {
+    font-size: 30px !important;
+    font-weight: 700 !important;
+}
+
+.tutor-course-booking-progress {
+    display: flex !important;
+    align-items: center !important;
+}
+
+.tutor-course-booking-progress .tutor-progress-circle {
+    width: 20px !important; 
+    height: 20px !important;
+    --tutor-progress-circle-size: 20px;
+}
+
+.tutor-course-booking-progress .tutor-progress-circle svg {
+    width: 20px !important;
+    height: 20px !important;
+}
+
+.tutor-dashboard-content .tutor-course-booking-progress .tutor-color-black {
+    font-size: 12px !important;
+    font-weight: 500 !important;
+    line-height: 0 !important; 
+    margin: 0 !important;
+}
+
+body:has(.tutor-dashboard) footer,
+body:has(.tutor-dashboard) .elementor-location-footer,
+body:has(.tutor-dashboard) [data-elementor-type="footer"] {
+    display: none !important;
+}
