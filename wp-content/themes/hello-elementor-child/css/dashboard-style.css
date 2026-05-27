@@ -1,7 +1,7 @@
 /* Mengubah background area header dashboard */
 .tutor-wrap.tutor-dashboard {
     background-color: #F4F7F9 !important;
-    padding-top: 1.5rem !important; /* Memberi sedikit ruang napas di atas */
+    padding-top: 1.5rem !important;
 }
 
 /* Memastikan area header sejajar secara vertikal */
@@ -16,13 +16,13 @@
     width: 5.5rem !important;
     height: 5.5rem !important;
     border-radius: 50% !important;
-    border: 3px solid #ffffff !important; /* Efek bingkai putih bersih */
+    border: 3px solid #ffffff !important;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05) !important;
 }
 
 /* Styling Avatar Teks (Jika user belum upload foto) */
 .tutor-dashboard-header .tutor-avatar-text {
-    background-color: #274C8E !important; /* Biru Drastha */
+    background-color: #274C8E !important;
     font-family: 'Montserrat', sans-serif !important;
     font-weight: 700 !important;
     color: #ffffff !important;
@@ -31,29 +31,29 @@
 /* Tipografi Nama User */
 .tutor-dashboard-header-username {
     font-family: 'Montserrat', sans-serif !important;
-    font-weight: 800 !important; /* ExtraBold */
+    font-weight: 800 !important;
     font-size: 1.6rem !important;
-    color: #1A2B4C !important; /* Warna Dark Navy seperti di desain */
+    color: #1A2B4C !important;
     margin-bottom: 0.25rem !important;
     letter-spacing: -0.02em !important;
 }
 
 /* Warna Bintang (Stars) */
 .tutor-dashboard-header-stats .tutor-icon-star-full {
-    color: #F4C150 !important; /* Kuning Emas */
+    color: #F4C150 !important;
     font-size: 1.1rem !important;
 }
 
 /* Container tombol sebelah kanan agar sejajar */
 .tutor-header-right-side {
-    gap: 0.75rem !important; /* Jarak antar tombol */
+    gap: 0.75rem !important;
 }
 
 /* A. Tombol Notifikasi (Lonceng) */
 .btn-offcanvas-open {
     background-color: #ffffff !important;
     border: 1px solid #e1e8ed !important;
-    border-radius: 50% !important; /* Bentuk lingkaran sempurna */
+    border-radius: 50% !important;
     width: 3rem !important;
     height: 3rem !important;
     min-width: 3rem !important;
@@ -76,13 +76,13 @@
 .tutor-header-right-side .tutor-create-new-course {
     background-color: #ffffff !important;
     border: 1px solid #e1e8ed !important;
-    border-radius: 50px !important; /* Bentuk Pill */
+    border-radius: 50px !important;
     padding: 0 1.25rem !important;
-    height: 3rem !important; /* Menyamakan tinggi dengan tombol notif */
+    height: 3rem !important;
     
     display: flex !important;
     align-items: center !important;
-    gap: 0.5rem !important; /* Jarak antara ikon dan teks */
+    gap: 0.5rem !important;
     
     font-family: 'Montserrat', sans-serif !important;
     font-weight: 600 !important;
@@ -129,7 +129,7 @@
 .tutor-dashboard-permalinks ul {
     display: flex !important;
     flex-direction: column !important;
-    gap: 0.3rem !important; /* Jarak antar menu */
+    gap: 0.3rem !important;
     padding: 0 !important;
 }
 
@@ -142,11 +142,11 @@
     display: flex !important;
     align-items: center !important;
     padding: 0.8rem 1.25rem !important;
-    border-radius: 0.75rem !important; /* Membuat sudut membulat (rounded) 12px */
+    border-radius: 0.75rem !important;
     font-family: 'Montserrat', sans-serif !important;
     font-weight: 600 !important;
     font-size: 1rem !important;
-    color: #6B7E94 !important; /* Warna abu-abu kebiruan untuk menu tidak aktif */
+    color: #6B7E94 !important;
     text-decoration: none !important;
     transition: all 0.3s ease !important;
     background-color: transparent !important;
@@ -155,7 +155,7 @@
 /* Mengatur ukuran dan jarak Ikon */
 .tutor-dashboard-permalinks li a i,
 .tutor-dashboard-permalinks li a span[class^="tutor-icon-"] {
-    font-size: 1.3rem !important; /* Menyesuaikan ukuran ikon dengan desain */
+    font-size: 1.3rem !important;
     margin-right: 1rem !important;
     color: inherit !important;
 }
@@ -168,9 +168,9 @@
 
 .tutor-dashboard-permalinks li.active a {
     background-color: #ffffff !important;
-    color: #1A2B4C !important; /* Dark Navy untuk menu aktif */
-    font-weight: 700 !important; /* Ditebalkan sedikit */
-    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.02) !important; /* Bayangan sangat halus */
+    color: #1A2B4C !important;
+    font-weight: 700 !important;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.02) !important;
 }
 
 /* Memberi jarak ekstra sebelum tombol Setting */
@@ -181,7 +181,7 @@
 
 /* Tombol Settings (Biru Muda) */
 .tutor-dashboard-permalinks li.tutor-dashboard-menu-settings a {
-    background-color: #48A4D4 !important; /* Sesuaikan kode hex ini jika kurang pas */
+    background-color: #48A4D4 !important;
     color: #1A2B4C !important;
     font-weight: 700 !important;
     border-radius: 0.5rem !important;
@@ -243,7 +243,7 @@
 /* Mengubah ukuran Title menjadi ~22px dan menebalkannya */
 .tutor-dashboard-title {
     font-size: 22px !important; 
-    font-weight: 800 !important; /* Ditebalkan agar lebih tegas */
+    font-weight: 800 !important;
     color: #1A2B4C !important;
 }
 
@@ -272,7 +272,7 @@
     border-radius: 50px !important;
     background-color: #ffffff !important;
     transition: all 0.3s ease !important;
-    padding: 0 !important; /* Padding dipindah ke link agar area klik luas */
+    padding: 0 !important; 
     overflow: hidden !important; 
 }
 
@@ -326,7 +326,7 @@
     background-color: transparent !important;
     border: none !important;
     box-shadow: none !important;
-    padding-left: 0.25rem !important; /* Memberi sedikit jarak dari kata "Type:" */
+    padding-left: 0.25rem !important;
     padding-right: 0 !important;
 }
 
@@ -341,7 +341,7 @@
 /* Styling khusus untuk teks dalam dropdown ("Courses" / "Bundles") */
 .tutor-form-select-label {
     font-family: 'Montserrat', sans-serif !important;
-    font-weight: 600 !important; /* Ditebalkan agar sejajar dengan UI Anda */
+    font-weight: 600 !important;
     font-size: 1rem !important;
     color: #1A2B4C !important;
 }
@@ -424,7 +424,7 @@
 /* Mengunci efek hover hanya untuk tombol di dalam kartu kursus */
 .tutor-course-card .tutor-btn.tutor-btn-outline-primary:hover {
     background-color: #264790 !important;
-    color: #ffffff !important; /* Tambahan agar teks tetap terlihat saat di-hover biru gelap */
+    color: #ffffff !important;
 }
 
 .cart-text {
@@ -455,7 +455,7 @@
 }
 
 .tutor-course-booking-progress .tutor-progress-circle {
-    width: 20px !important; 
+    width: 20px !important;     
     height: 20px !important;
     --tutor-progress-circle-size: 20px;
 }
@@ -476,4 +476,268 @@ body:has(.tutor-dashboard) footer,
 body:has(.tutor-dashboard) .elementor-location-footer,
 body:has(.tutor-dashboard) [data-elementor-type="footer"] {
     display: none !important;
+}
+
+/* 1. Memaksa Font Montserrat ke Seluruh Elemen di Dalam Tabel */
+.tutor-table.table-popular-courses,
+.tutor-table.table-popular-courses th,
+.tutor-table.table-popular-courses td,
+.tutor-table.table-popular-courses a {
+    font-family: 'Montserrat', sans-serif !important;
+}
+
+/* 2. Wrapper Tabel & Border Baru Sesuai Permintaan */
+.tutor-table.table-popular-courses {
+    border-collapse: separate !important;
+    border-spacing: 0 !important;
+    width: 100% !important;
+    border: 1px solid #1A2B49 !important;
+    border-radius: 12px !important; 
+    overflow: hidden !important; 
+    background-color: #ffffff !important;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.03) !important;
+}
+
+/* 3. Header Tabel (Kepala) */
+.tutor-table.table-popular-courses thead th {
+    background-color: #ffffff !important;
+    color: #64748B !important;
+    font-size: 13px !important;
+    font-weight: 700 !important;
+    text-transform: uppercase !important;
+    letter-spacing: 0.5px !important;
+    padding: 18px 24px !important;
+    border: none !important;
+    border-bottom: 2px solid #1A2B49 !important; /* Garis bawah header disamakan dengan border luar */
+}
+
+/* 4. Menghapus Efek Belang (Zebra) Bawaan Tutor LMS */
+/* Menargetkan nth-child agar menang telak dari CSS bawaan plugin */
+.tutor-table.table-popular-courses tbody tr td,
+.tutor-table.table-popular-courses tbody tr:nth-child(odd) td,
+.tutor-table.table-popular-courses tbody tr:nth-child(even) td {
+    background-color: #ffffff !important; /* Paksa jadi putih bersih total */
+    color: #1A2B49 !important;
+    font-size: 15px !important;
+    font-weight: 500 !important;
+    padding: 18px 24px !important;
+    border: none !important;
+    border-bottom: 1px solid #E2E8F0 !important; /* Garis pemisah baris abu-abu tipis */
+    vertical-align: middle !important;
+    transition: background-color 0.3s ease !important;
+}
+
+/* Menghapus garis pemisah di baris terakhir agar rapi */
+.tutor-table.table-popular-courses tbody tr:last-child td {
+    border-bottom: none !important;
+}
+
+/* 5. Efek Hover Kebiruan Saat Disorot Mouse */
+.tutor-table.table-popular-courses tbody tr:hover td {
+    background-color: #F0F7FF !important; /* Biru muda super halus */
+    cursor: pointer;
+}
+
+/* 6. Tebalkan sedikit khusus kolom Nama Kursus */
+.tutor-table.table-popular-courses tbody td:first-child,
+.tutor-table.table-popular-courses tbody td:first-child a {
+    font-weight: 600 !important;
+    color: #1A2B49 !important;
+    text-decoration: none !important;
+}
+
+/* Bagian Settings Profile di /dashboard/settings/ */
+#tutor_cover_area {
+	border-radius: 20px !important;
+}
+
+#tutor_photo_meta_area {
+	font-family: 'Montserrat', sans-serif !important;
+	font-size: 8px !important;
+}
+
+.tutor_cover_uploader {
+	font-family: 'Montserrat', sans-serif !important;
+	font-size: 12px !important;
+	border-radius: 20px !important;
+	font-weight: 600 !important;
+	background-color: #264790 !important;
+	border: none !important;
+}
+
+.tutor_cover_uploader:hover {
+	background-color: #44A6D9 !important;
+	border: none !important;
+	color: #1A2B49 !important;
+	transform: scale(0.98);
+}
+
+.tutor_cover_deleter {
+	background-color: #C31315 !important;
+}
+
+.tutor_cover_deleter:hover {
+	transform: scale(0.95) !important;
+	background-color: #F94144 !important;
+}
+
+.tutor-form-label {
+	font-weight: 700 !important;
+	font-family: 'Montserrat', sans-serif !important;
+	font-size: 0.875rem !important;
+	color: #1A2B49 !important;
+}
+
+.tutor-form-control {
+	border-radius: 0.875rem !important;
+	padding-top: 0.725rem !important;
+	padding-bottom: 0.725rem !important;
+	border: none !important;
+	font-weight: 500 !important
+}
+
+.tutor-form-control:focus {
+    border-color: #44A6D9 !important; 
+    box-shadow: 0 0 0 1px #44A6D9 !important;
+    outline: none !important;
+		background-color: #B7E8FF !important;
+}
+
+.tutor-form-select-dropdown, .tutor-form-select-options {
+	border-radius: 1rem !important;
+}
+
+.tutor-form-select.is-active {
+	background-color: #44A6D9 !important;
+}
+
+.tutor-form-select-option.is-active {
+	background-color: white !important;
+	font-family: 'Montserrat', sans-serif !important;
+	font-weight: 500 !important;
+}
+
+.tutor-form-select-option.is-active:hover {
+	color: #264790 !important;
+	font-weight: 700 !important;
+}
+
+.thumbnail-wrapper {
+	border-radius: 1rem !important;
+}
+
+.thumbnail-preview.image-previewer {
+    border-radius: 1rem 0 0 1rem !important;
+    overflow: hidden !important;
+}
+
+.thumbnail-preview.image-previewer img {
+    border-radius: 1rem !important;
+    object-fit: cover !important;
+}
+
+.thumbnail-input {
+	font-weight: 700 !important;
+	font-family: 'Montserrat', sans-serif !important;
+}
+
+.tutor-thumbnail-upload-button {
+	background-color: #1A2B49 !important;
+	color: white !important;
+	font-family: 'Montserrat', sans-serif !important;
+	font-size: 0.8rem !important;
+	padding: 0.5rem 1rem 0.5rem 1rem !important
+}
+
+.tutor-thumbnail-upload-button:hover {
+	background-color: #264790 !important;
+	transform: scale(0.98) !important;
+}
+
+.tutor-profile-settings-save {
+	font-family: 'Montserrat', sans-serif !important;
+	font-weight: 700 !important;
+	font-size: 1rem !important;
+	color: white !important;
+	background-color: #1A2B49 !important;
+	padding: 0.875rem 2rem 0.875rem 2rem !important;
+	border-radius: 1rem !important;
+}
+
+.tutor-profile-settings-save:hover {
+	background-color: #264790 !important;
+	transform: scale(0.98) !important;
+	box-shadow: 0 4px 15px rgba(0, 0, 0, 0.03) !important;
+}
+
+/* TOMBOL SAVE CHANGES (ZOOM / SETTINGS) Menggunakan ID agar tidak merusak tombol primary lain */
+button#save-changes.tutor-btn.tutor-btn-primary {
+    background-color: #1A2B49 !important;
+    color: white !important;
+    font-family: 'Montserrat', sans-serif !important;
+    font-size: 1rem !important;
+		font-weight: 700 !important;
+    padding: 0.8rem 1.8rem !important;
+    border: none !important;
+    border-radius: 8px !important; 
+    transition: all 0.3s ease !important;
+}
+
+button#save-changes.tutor-btn.tutor-btn-primary:hover {
+    background-color: #274C8E !important;
+    transform: translateY(-2px) !important;
+    box-shadow: 0 4px 10px rgba(26, 43, 73, 0.2) !important;
+}
+
+/* QUIZ ATTEMPT */
+.tutor-overflow-hidden {
+	margin-top: 1rem !important
+}
+
+.tutor-form-select-option:hover {
+	color: #264790 !important;
+	font-weight: 700 !important;
+	background-color: white !important;
+}
+
+/* Laman My Courses on Dashboard */
+.tutor-iconic-btn:not(.tutor-my-course-edit, .tutor-position-relative) {
+	background-color: white !important;
+	border: 1 !important;
+	border-color: #274C8E !important;
+	border-radius: 30px !important;
+	padding-bottom: 1.5625rem !important
+	
+}
+
+.tutor-iconic-btn:hover:not(.tutor-position-relative) {
+	background-color: #274C8E !important;
+}
+
+.tutor-icon-kebab-menu::before {
+	font-size: 14px !important;
+}
+
+.tutor-my-course-edit {
+	padding-bottom: 4px !important;
+}
+
+.tutor-icon-edit::before {
+	font-size: 12px !important;
+	color: white !important;
+}
+
+/* Dashboard Announcement Instructor */
+.tutor-btn.tutor-btn-primary:not(.tutor-create-new-course, .tutor-my-course-edit) {
+	font-family: 'Montserrat', sans-serif !important;
+	color: #1A2B49 !important;
+	font-weight: 600 !important;
+	font-size: 0.775rem !important;
+	border-color: #1A2B49 !important;
+	border-radius: 20px !important;
+}
+
+.tutor-btn.tutor-btn-primary:hover:not(.tutor-create-new-course, .tutor-my-course-edit) {
+	background-color: #1A2B49 !important;
+	color: white !important;
 }

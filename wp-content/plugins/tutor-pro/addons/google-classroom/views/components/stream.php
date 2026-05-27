@@ -8,7 +8,7 @@
 				<span><?php echo esc_html( $classroom_info->enrollmentCode ); ?></span>
 			</div>
 			<div>
-				<span class="tutor-iconic-btn tutor-iconic-btn-light tutor-copy-text" data-text="<?php echo esc_attr( $classroom_info->enrollmentCode ); ?>" role="button"><span class="tutor-icon-copy-text" area-hidden="true"></span></span>
+				<span class="tutor-iconic-btn tutor-iconic-btn-light tutor-copy-text" data-text="<?php echo esc_attr( $classroom_info->enrollmentCode ); ?>" role="button"><span class="tutor-icon-copy-text" aria-hidden="true"></span></span>
 			</div>
 		</span>
 

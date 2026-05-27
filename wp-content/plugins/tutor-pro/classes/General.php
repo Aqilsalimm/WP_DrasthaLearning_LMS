@@ -79,7 +79,7 @@ class General {
 					<input type="hidden" name="course_id" value="<?php echo esc_attr( $course_id ); ?>"/>
 					<input type="hidden" name="tutor_action" value="tutor_complete_course"/>
 					<button type="submit" class="tutor-topbar-mark-btn tutor-btn tutor-btn-primary tutor-ws-nowrap" name="complete_course" value="complete_course">
-						<span class="tutor-icon-circle-mark-line tutor-mr-8" area-hidden="true"></span>
+						<span class="tutor-icon-circle-mark-line tutor-mr-8" aria-hidden="true"></span>
 						<span><?php esc_html_e( 'Complete Course', 'tutor-pro' ); ?></span>
 					</button>
 				</form>

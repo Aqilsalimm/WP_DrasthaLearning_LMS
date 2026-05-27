@@ -203,7 +203,7 @@ class BundleDetails {
 							</span>
 						</div>
 						<div class="tutor-progress-bar tutor-mt-12" style="--tutor-progress-value:<?php echo esc_attr( $completed_percent ); ?>%;">
-							<span class="tutor-progress-value" area-hidden="true"></span>
+							<span class="tutor-progress-value" aria-hidden="true"></span>
 						</div>
 					</div>
 				</div>

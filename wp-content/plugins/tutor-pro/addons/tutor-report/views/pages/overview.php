@@ -18,7 +18,7 @@ use \TUTOR_REPORT\Analytics;
 			<div class="tutor-card tutor-card-secondary tutor-p-24">
 				<div class="tutor-d-flex">
 					<div class="tutor-round-box">
-						<span class="tutor-icon-mortarboard-o" area-hidden="true"></span>
+						<span class="tutor-icon-mortarboard-o" aria-hidden="true"></span>
 					</div>
 
 					<div class="tutor-ml-20">
@@ -33,7 +33,7 @@ use \TUTOR_REPORT\Analytics;
 			<div class="tutor-card tutor-card-secondary tutor-p-24">
 				<div class="tutor-d-flex">
 					<div class="tutor-round-box">
-						<span class="tutor-icon-add-member" area-hidden="true"></span>
+						<span class="tutor-icon-add-member" aria-hidden="true"></span>
 					</div>
 
 					<div class="tutor-ml-20">
@@ -48,7 +48,7 @@ use \TUTOR_REPORT\Analytics;
 			<div class="tutor-card tutor-card-secondary tutor-p-24">
 				<div class="tutor-d-flex">
 					<div class="tutor-round-box">
-						<span class="tutor-icon-book-open" area-hidden="true"></span>
+						<span class="tutor-icon-book-open" aria-hidden="true"></span>
 					</div>
 
 					<div class="tutor-ml-20">
@@ -63,7 +63,7 @@ use \TUTOR_REPORT\Analytics;
 			<div class="tutor-card tutor-card-secondary tutor-p-24">
 				<div class="tutor-d-flex">
 					<div class="tutor-round-box">
-						<span class="tutor-icon-quiz" area-hidden="true"></span>
+						<span class="tutor-icon-quiz" aria-hidden="true"></span>
 					</div>
 
 					<div class="tutor-ml-20">
@@ -78,7 +78,7 @@ use \TUTOR_REPORT\Analytics;
 			<div class="tutor-card tutor-card-secondary tutor-p-24">
 				<div class="tutor-d-flex">
 					<div class="tutor-round-box">
-						<span class="tutor-icon-question" area-hidden="true"></span>
+						<span class="tutor-icon-question" aria-hidden="true"></span>
 					</div>
 
 					<div class="tutor-ml-20">
@@ -93,7 +93,7 @@ use \TUTOR_REPORT\Analytics;
 			<div class="tutor-card tutor-card-secondary tutor-p-24">
 				<div class="tutor-d-flex">
 					<div class="tutor-round-box">
-						<span class="tutor-icon-user-bold" area-hidden="true"></span>
+						<span class="tutor-icon-user-bold" aria-hidden="true"></span>
 					</div>
 
 					<div class="tutor-ml-20">
@@ -108,7 +108,7 @@ use \TUTOR_REPORT\Analytics;
 			<div class="tutor-card tutor-card-secondary tutor-p-24">
 				<div class="tutor-d-flex">
 					<div class="tutor-round-box">
-						<span class="tutor-icon-user-graduate" area-hidden="true"></span>
+						<span class="tutor-icon-user-graduate" aria-hidden="true"></span>
 					</div>
 
 					<div class="tutor-ml-20">
@@ -123,7 +123,7 @@ use \TUTOR_REPORT\Analytics;
 			<div class="tutor-card tutor-card-secondary tutor-p-24">
 				<div class="tutor-d-flex">
 					<div class="tutor-round-box">
-						<span class="tutor-icon-star-bold" area-hidden="true"></span>
+						<span class="tutor-icon-star-bold" aria-hidden="true"></span>
 					</div>
 
 					<div class="tutor-ml-20">
@@ -341,7 +341,7 @@ use \TUTOR_REPORT\Analytics;
 										<span>
 											<?php echo esc_html( $review->display_name ); ?>
 										</span>
-										<a class="tutor-iconic-btn" href="<?php echo esc_url( tutor_utils()->profile_url( $review->user_id, false ) ); ?>"><span class="tutor-icon-external-link" area-hidden="true"></span></a>
+										<a class="tutor-iconic-btn" href="<?php echo esc_url( tutor_utils()->profile_url( $review->user_id, false ) ); ?>"><span class="tutor-icon-external-link" aria-hidden="true"></span></a>
 									</div>
 								</td>
 
@@ -410,7 +410,7 @@ use \TUTOR_REPORT\Analytics;
 											<div class="tutor-fs-7">
 												<?php echo esc_html( $student->display_name ); ?>
 											</div>
-											<a href="<?php echo esc_url( tutor_utils()->profile_url( $student->ID, false ) ); ?>" class="tutor-iconic-btn" target="_blank"><i class="tutor-icon-external-link" area-hidden="true"></i></a>
+											<a href="<?php echo esc_url( tutor_utils()->profile_url( $student->ID, false ) ); ?>" class="tutor-iconic-btn" target="_blank"><i class="tutor-icon-external-link" aria-hidden="true"></i></a>
 										</div>
 									</td>
 
@@ -463,7 +463,7 @@ use \TUTOR_REPORT\Analytics;
 											<div class="tutor-fs-7">
 												<?php echo esc_html( $teacher->display_name ); ?>
 											</div>
-											<a href="<?php echo esc_url( tutor_utils()->profile_url( $teacher->ID, true ) ); ?>" class="tutor-iconic-btn" target="_blank"><i class="tutor-icon-external-link" area-hidden="true"></i></a>
+											<a href="<?php echo esc_url( tutor_utils()->profile_url( $teacher->ID, true ) ); ?>" class="tutor-iconic-btn" target="_blank"><i class="tutor-icon-external-link" aria-hidden="true"></i></a>
 										</div>
 									</td>
 

@@ -5,6 +5,9 @@ if ( ! defined( 'ABSPATH' ) ) {
 
 add_action( 'wp_enqueue_scripts', 'drastha_child_enqueue_styles', 999 );
 function drastha_child_enqueue_styles() {
+
+    //mendapatkan URL
+    $current_url = $_SERVER['REQUEST_URI'];
     
     wp_enqueue_style( 'hello-elementor-parent', get_template_directory_uri() . '/style.css' );
 
@@ -14,8 +17,8 @@ function drastha_child_enqueue_styles() {
         wp_enqueue_style( 'drastha-course-css', get_stylesheet_directory_uri() . '/course-style.css', array(), time() );
     }
     
-    if ( is_page( 'dashboard' ) ) {
-        wp_enqueue_style( 'drastha-dashboard-css', get_stylesheet_directory_uri() . '/dashboard-style.css', array(), time() );
+    if ( is_page( 'dashboard' ) || strpos($current_url, '/dashboard/') !== false ) {
+        wp_enqueue_style( 'drastha-dashboard-css', get_stylesheet_directory_uri() . '/dashboard-style.css', array(), time(), 'all' );
     }
 }
 

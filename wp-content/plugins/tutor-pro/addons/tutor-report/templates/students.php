@@ -63,7 +63,7 @@ $courses       = CourseModel::get_courses_by_instructor();
 					<?php esc_html_e( 'Search', 'tutor-pro' ); ?>
 				</label>
 				<div class="tutor-form-wrap">
-					<span class="tutor-icon-search tutor-form-icon" area-hidden="true"></span>
+					<span class="tutor-icon-search tutor-form-icon" aria-hidden="true"></span>
 					<input type="search" class="tutor-form-control" autocomplete="off" name="search" placeholder="<?php esc_attr_e( 'Search...', 'tutor-pro' ); ?>">
 				</div>
 			</form>

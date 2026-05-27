@@ -26,7 +26,7 @@ $has_show_more = strlen( $description ) > 500 ? true : false;
 		</div>
 		<?php if ( $has_show_more ) : ?>
 			<a href="#" class="tutor-btn-show-more tutor-btn tutor-btn-ghost tutor-mt-32" data-tutor-toggle-more=".tutor-toggle-more-content">
-				<span class="tutor-toggle-btn-icon tutor-icon tutor-icon-plus tutor-mr-8" area-hidden="true"></span>
+				<span class="tutor-toggle-btn-icon tutor-icon tutor-icon-plus tutor-mr-8" aria-hidden="true"></span>
 				<span class="tutor-toggle-btn-text"><?php esc_html_e( 'Show More', 'tutor-pro' ); ?></span>
 			</a>
 		<?php endif; ?>
@@ -64,7 +64,7 @@ if ( tutor_utils()->count( $assignment_attachments ) ) :
 						</div>
 						<div class="tutor-d-flex tutor-align-center">
 							<a class="tutor-iconic-btn tutor-iconic-btn-outline" href="<?php echo esc_url( wp_get_attachment_url( $attachment_id ) ); ?>" target="_blank">
-								<span class="tutor-icon-download" area-hidden="true"></span>
+								<span class="tutor-icon-download" aria-hidden="true"></span>
 								</a>
 						</div>
 					</div>

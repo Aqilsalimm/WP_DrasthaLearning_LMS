@@ -616,9 +616,9 @@ class ContentController extends BaseController {
 
 		$deleted_answer_ids = $payload['deleted_answer_ids'] ?? array();
 		if ( count( $deleted_answer_ids ) ) {
-			$id_str = QueryHelper::prepare_in_clause( $deleted_answer_ids );
-			//phpcs:ignore -- sanitized $id_str.
-			$wpdb->query( "DELETE FROM {$wpdb->prefix}tutor_quiz_question_answers WHERE answer_id IN (" . $id_str . ')' );
+			$in_clause = QueryHelper::prepare_in_clause( $deleted_answer_ids );
+			//phpcs:ignore -- sanitized $in_clause.
+			$wpdb->query( $wpdb->prepare( "DELETE FROM {$wpdb->prefix}tutor_quiz_question_answers WHERE answer_id IN ({$in_clause})" ) );
 		}
 
 		$response_message = $is_update

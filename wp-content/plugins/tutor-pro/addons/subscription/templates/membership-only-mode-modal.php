@@ -10,20 +10,20 @@
 use TutorPro\Subscription\Utils;
 
 ?>
-<div id="tutor-membership-only-mode-consent-modal" class="tutor-modal">
+<div id="tutor-membership-only-mode-consent-modal" class="tutor-modal" role="dialog" aria-modal="true" aria-labelledby="tutor-membership-only-mode-title" aria-hidden="true">
 	<div class="tutor-modal-overlay"></div>
 	<div class="tutor-modal-window" style="max-width: 490px;">
 		<div class="tutor-modal-content tutor-modal-content-white">
-			<button class="tutor-iconic-btn tutor-modal-close-o" data-tutor-modal-close>
-				<span class="tutor-icon-times" area-hidden="true"></span>
+			<button type="button" class="tutor-iconic-btn tutor-modal-close-o" data-tutor-modal-close aria-label="<?php esc_attr_e( 'Close', 'tutor-pro' ); ?>">
+				<span class="tutor-icon-times" aria-hidden="true"></span>
 			</button>
 
 			<div class="tutor-modal-body tutor-text-center">
 				<div>
-					<img class="tutor-d-inline-block" src="<?php echo esc_attr( Utils::asset_url( 'images/membership-only-consent.svg' ) ); ?>" />
+					<img class="tutor-d-inline-block" src="<?php echo esc_attr( Utils::asset_url( 'images/membership-only-consent.svg' ) ); ?>" alt="<?php esc_attr_e( 'Enable Membership-Only Mode?', 'tutor-pro' ); ?>" aria-hidden="true" />
 				</div>
 
-				<div class="tutor-fs-5 tutor-fw-medium tutor-color-black tutor-mb-8"><?php esc_html_e( 'Enable Membership-Only Mode?', 'tutor-pro' ); ?></div>
+				<div id="tutor-membership-only-mode-title" class="tutor-fs-5 tutor-fw-medium tutor-color-black tutor-mb-8"><?php esc_html_e( 'Enable Membership-Only Mode?', 'tutor-pro' ); ?></div>
 				<div class="tutor-fs-6 tutor-mb-16 tutor-color-subdued">
 					<?php esc_html_e( 'Selecting Membership Mode lets you create only site-wide and category-specific plans. Here\'s what to expect:', 'tutor-pro' ); ?>
 				</div>
@@ -31,7 +31,7 @@ use TutorPro\Subscription\Utils;
 				<ul class="tutor-fs-6 tutor-d-flex tutor-flex-column tutor-gap-4px tutor-px-12">
 					<li class="tutor-d-flex tutor-gap-12px tutor-text-left">
 						<span class="tutor-pt-4">
-							<svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+							<svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
 								<path d="M7.95801 15.0013L3.20801 10.2513L4.39551 9.0638L7.95801 12.6263L15.6038 4.98047L16.7913 6.16797L7.95801 15.0013Z" fill="#239C46"/>
 							</svg>
 						</span>
@@ -39,7 +39,7 @@ use TutorPro\Subscription\Utils;
 					</li>
 					<li class="tutor-d-flex tutor-gap-12px tutor-text-left">
 						<span class="tutor-pt-4">
-							<svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+							<svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
 								<path d="M7.95801 15.0013L3.20801 10.2513L4.39551 9.0638L7.95801 12.6263L15.6038 4.98047L16.7913 6.16797L7.95801 15.0013Z" fill="#239C46"/>
 							</svg>
 						</span>
@@ -47,7 +47,7 @@ use TutorPro\Subscription\Utils;
 					</li>
 					<li class="tutor-d-flex tutor-gap-12px tutor-text-left">
 						<span class="tutor-pt-4">
-							<svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+							<svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
 								<path d="M11.167 10.0013L15.8337 14.668L14.667 15.8346L10.0003 11.168L5.33366 15.8346L4.16699 14.668L8.83366 10.0013L4.16699 5.33464L5.33366 4.16797L10.0003 8.83464L14.667 4.16797L15.8337 5.33464L11.167 10.0013Z" fill="#F44337"/>
 							</svg>
 						</span>
@@ -55,7 +55,7 @@ use TutorPro\Subscription\Utils;
 					</li>
 					<li class="tutor-d-flex tutor-gap-12px tutor-text-left">
 						<span class="tutor-pt-4">
-							<svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+							<svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
 								<path d="M11.167 10.0013L15.8337 14.668L14.667 15.8346L10.0003 11.168L5.33366 15.8346L4.16699 14.668L8.83366 10.0013L4.16699 5.33464L5.33366 4.16797L10.0003 8.83464L14.667 4.16797L15.8337 5.33464L11.167 10.0013Z" fill="#F44337"/>
 							</svg>
 						</span>

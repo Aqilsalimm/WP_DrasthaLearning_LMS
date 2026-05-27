@@ -26,7 +26,7 @@ $can_publish_course = (bool) tutor_utils()->get_option( 'instructor_can_publish_
 				<div class="tutor-dashboard-builder-header-right tutor-d-flex tutor-align-center tutor-justify-end">
 					<?php if ( 'draft' === $post->post_status || 'auto-draft' === $post->post_status ) : ?>
 						<a href="#" id="tutor-course-save-draft" class="tutor-btn tutor-btn-ghost tutor-btn-md tutor-mr-20" name="course_submit_btn" value="save_course_as_draft">
-							<i class="tutor-icon-save-line tutor-mr-8" area-hidden="true"></i>
+							<i class="tutor-icon-save-line tutor-mr-8" aria-hidden="true"></i>
 							<?php esc_html_e( 'Save as Draft', 'tutor-pro' ); ?>
 						</a>
 					<?php endif; ?>
@@ -45,7 +45,7 @@ $can_publish_course = (bool) tutor_utils()->get_option( 'instructor_can_publish_
 						</button>
 					<?php endif; ?>
 
-					<a href="<?php echo esc_url( tutor_utils()->tutor_dashboard_url() ); ?>" class="tutor-iconic-btn tutor-iconic-btn-md tutor-ml-12" title="<?php esc_html_e( 'Exit', 'tutor-pro' ); ?>"><i class="tutor-icon-times" area-hidden="true"></i></a>
+					<a href="<?php echo esc_url( tutor_utils()->tutor_dashboard_url() ); ?>" class="tutor-iconic-btn tutor-iconic-btn-md tutor-ml-12" title="<?php esc_html_e( 'Exit', 'tutor-pro' ); ?>"><i class="tutor-icon-times" aria-hidden="true"></i></a>
 				</div>
 			</div>
 		</div>

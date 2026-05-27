@@ -175,7 +175,7 @@ $plugin_data = GoogleMeet::meta_data();
 												<?php esc_html_e( 'Edit', 'tutor-pro' ); ?>
 											</a>
 											<a href="#" class="tutor-iconic-btn tutor-google-meet-list-delete" data-event-id="<?php echo esc_attr( $event_details->id ); ?>" data-meeting-post-id="<?php echo esc_attr( $meeting->ID ); ?>" data-item-reference="tutor-google-meet-list-item-<?php echo esc_attr( $meeting->ID ); ?>" data-tutor-modal-target="tutor-common-confirmation-modal">
-												<i class="tutor-icon-trash-can-line" area-hidden="true"></i>
+												<i class="tutor-icon-trash-can-line" aria-hidden="true"></i>
 											</a>
 										</div>
 									</div>

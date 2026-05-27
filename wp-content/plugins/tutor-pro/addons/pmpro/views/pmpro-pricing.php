@@ -41,7 +41,7 @@
 		<label for="<?php echo esc_attr( $level_id ); ?>" class="<?php echo $highlight ? 'tutor-pmpro-level-highlight' : ''; ?>">
 			<div class="tutor-pmpro-level-header tutor-d-flex tutor-align-center tutor-justify-between">
 				<div class="tutor-d-flex tutor-align-center">
-					<span class="tutor-form-check-input tutor-form-check-input-radio" area-hidden="true"></span>
+					<span class="tutor-form-check-input tutor-form-check-input-radio" aria-hidden="true"></span>
 					<span class="tutor-fs-5 tutor-fw-medium tutor-ml-12"><?php echo esc_html( $level->name ); ?></span>
 				</div>
 

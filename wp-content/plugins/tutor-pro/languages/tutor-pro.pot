@@ -2,36 +2,41 @@
 # This file is distributed under the same license as the Tutor LMS Pro plugin.
 msgid ""
 msgstr ""
-"Project-Id-Version: Tutor LMS Pro 3.9.7\n"
+"Project-Id-Version: Tutor LMS Pro 3.9.10\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/tutor-pro\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2026-02-25T08:45:11+00:00\n"
+"POT-Creation-Date: 2026-04-29T10:56:44+00:00\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"X-Generator: WP-CLI 2.7.1\n"
+"X-Generator: WP-CLI 2.12.0\n"
 "X-Domain: tutor-pro\n"
 
 #. Plugin Name of the plugin
+#: tutor-pro.php
 #: classes/Admin.php:65
 msgid "Tutor LMS Pro"
 msgstr ""
 
 #. Plugin URI of the plugin
+#: tutor-pro.php
 msgid "https://tutorlms.com"
 msgstr ""
 
 #. Description of the plugin
+#: tutor-pro.php
 msgid "Power up Tutor LMS plugins by Tutor Pro"
 msgstr ""
 
 #. Author of the plugin
+#: tutor-pro.php
 msgid "Themeum"
 msgstr ""
 
 #. Author URI of the plugin
+#: tutor-pro.php
 msgid "http://themeum.com"
 msgstr ""
 
@@ -68,9 +73,9 @@ msgstr ""
 #: addons/content-bank/assets/js/manage-contents/index.js:3063
 #: addons/content-bank/assets/js/manage-contents/index.js:3069
 #: addons/content-bank/assets/js/manage-contents/index.js:30185
-#: addons/course-bundle/assets/js/bundle-builder/index.js:14578
-#: addons/course-bundle/assets/js/bundle-builder/index.js:26030
-#: addons/course-bundle/assets/js/bundle-builder/index.js:26036
+#: addons/course-bundle/assets/js/bundle-builder/index.js:14646
+#: addons/course-bundle/assets/js/bundle-builder/index.js:26098
+#: addons/course-bundle/assets/js/bundle-builder/index.js:26104
 #: addons/enrollments/assets/js/create-enrollment/index.js:3054
 #: addons/enrollments/assets/js/create-enrollment/index.js:3060
 #: addons/enrollments/assets/js/create-enrollment/index.js:21240
@@ -216,6 +221,7 @@ msgstr ""
 
 #. translators: %s is the site name.
 #: addons/auth/classes/Utils.php:68
+#, php-format
 msgid "%s - Login OTP"
 msgstr ""
 
@@ -285,7 +291,7 @@ msgstr ""
 #: addons/content-bank/assets/js/manage-contents/index.js:31456
 #: addons/course-bundle/assets/js/bundle-builder/index.js:2021
 #: addons/course-bundle/assets/js/bundle-builder/index.js:2026
-#: addons/course-bundle/assets/js/bundle-builder/index.js:11908
+#: addons/course-bundle/assets/js/bundle-builder/index.js:11976
 #: addons/enrollments/assets/js/create-enrollment/index.js:19863
 msgid "Update"
 msgstr ""
@@ -296,6 +302,44 @@ msgstr ""
 
 #: addons/auth/views/change-email-modal.php:36
 msgid "Update Email"
+msgstr ""
+
+#: addons/auth/views/change-email-modal.php:38
+#: addons/enrollments/views/enrollment-success-modal.php:20
+#: addons/enrollments/views/extend-enrollment-modal.php:22
+#: addons/google-meet/views/modal/confirmation-modal.php:17
+#: addons/google-meet/views/modal/dynamic-modal-content.php:38
+#: addons/google-meet/views/modal/modal.php:30
+#: addons/gradebook/views/pages/gradebooks.php:168
+#: addons/gradebook/views/pages/gradebooks.php:250
+#: addons/h5p/views/analytics/subpage/activities.php:94
+#: addons/h5p/views/analytics/subpage/activities.php:110
+#: addons/h5p/views/analytics/subpage/activities.php:126
+#: addons/h5p/views/analytics/subpage/learners.php:119
+#: addons/h5p/views/analytics/subpage/learners.php:135
+#: addons/h5p/views/analytics/subpage/learners.php:151
+#: addons/h5p/views/analytics/subpage/lesson-report.php:247
+#: addons/h5p/views/analytics/subpage/quiz-report.php:246
+#: addons/h5p/views/analytics/subpage/verbs.php:98
+#: addons/h5p/views/analytics/subpage/verbs.php:114
+#: addons/h5p/views/analytics/subpage/verbs.php:130
+#: addons/subscription/templates/dashboard/subscription-details.php:408
+#: addons/subscription/templates/dashboard/subscription-details.php:438
+#: addons/subscription/templates/membership-only-mode-modal.php:17
+#: addons/subscription/templates/modals/payment-gateway-modal.php:24
+#: addons/subscription/views/pages/subscription-edit.php:466
+#: addons/tutor-email/views/pages/mailer.php:374
+#: addons/tutor-report/templates/student_details.php:170
+#: addons/tutor-zoom/views/template/meeting-editor.php:23
+#: classes/Instructor.php:72
+#: templates/dashboard/gift-course.php:122
+#: templates/frontend-course-builder.php:79
+#: templates/single/course/gift-this-course-modal.php:28
+#: updater/license-form.php:191
+#: views/modals/reset-progress-modal.php:17
+#: addons/course-bundle/assets/js/bundle-builder/index.js:3109
+#: addons/subscription/assets/js/membership-settings/index.js:5998
+msgid "Close"
 msgstr ""
 
 #: addons/auth/views/change-email-modal.php:49
@@ -366,15 +410,15 @@ msgstr ""
 #: addons/content-bank/assets/js/manage-contents/index.js:30291
 #: addons/content-bank/assets/js/manage-contents/index.js:30692
 #: addons/content-bank/assets/js/manage-contents/index.js:31448
-#: addons/course-bundle/assets/js/bundle-builder/index.js:7506
-#: addons/course-bundle/assets/js/bundle-builder/index.js:8211
-#: addons/course-bundle/assets/js/bundle-builder/index.js:11900
-#: addons/course-bundle/assets/js/bundle-builder/index.js:13177
-#: addons/course-bundle/assets/js/bundle-builder/index.js:13574
-#: addons/course-bundle/assets/js/bundle-builder/index.js:13770
-#: addons/course-bundle/assets/js/bundle-builder/index.js:14691
-#: addons/course-bundle/assets/js/bundle-builder/index.js:14938
-#: addons/course-bundle/assets/js/bundle-builder/index.js:23166
+#: addons/course-bundle/assets/js/bundle-builder/index.js:7574
+#: addons/course-bundle/assets/js/bundle-builder/index.js:8279
+#: addons/course-bundle/assets/js/bundle-builder/index.js:11968
+#: addons/course-bundle/assets/js/bundle-builder/index.js:13245
+#: addons/course-bundle/assets/js/bundle-builder/index.js:13642
+#: addons/course-bundle/assets/js/bundle-builder/index.js:13838
+#: addons/course-bundle/assets/js/bundle-builder/index.js:14759
+#: addons/course-bundle/assets/js/bundle-builder/index.js:15006
+#: addons/course-bundle/assets/js/bundle-builder/index.js:23234
 #: addons/enrollments/assets/js/create-enrollment/index.js:9717
 #: addons/enrollments/assets/js/create-enrollment/index.js:18022
 #: addons/enrollments/assets/js/create-enrollment/index.js:19855
@@ -400,6 +444,7 @@ msgstr ""
 
 #. translators: %s: email address
 #: addons/auth/views/login-otp.php:32
+#, php-format
 msgid "We have sent an e-mail to your registered e-mail address (%s) with an OTP code."
 msgstr ""
 
@@ -463,8 +508,8 @@ msgstr ""
 #: templates/invoice.php:191
 #: tools/Exporter.php:249
 #: addons/content-bank/assets/js/manage-contents/index.js:19764
-#: addons/course-bundle/assets/js/bundle-builder/index.js:14749
-#: addons/course-bundle/assets/js/bundle-builder/index.js:15094
+#: addons/course-bundle/assets/js/bundle-builder/index.js:14817
+#: addons/course-bundle/assets/js/bundle-builder/index.js:15162
 #: addons/subscription/assets/js/membership-settings/index.js:5431
 #: addons/subscription/assets/js/membership-settings/index.js:5541
 msgid "Courses"
@@ -472,36 +517,43 @@ msgstr ""
 
 #. Translators: %s course url.
 #: addons/buddypress/classes/BuddyPressGroups.php:326
+#, php-format
 msgid "I just completed learning %s. It was super insightful!"
 msgstr ""
 
 #. Translators: %s course url.
 #: addons/buddypress/classes/BuddyPressGroups.php:373
+#, php-format
 msgid "Just got enrolled in %s, looks very promising! You should check it out as well. "
 msgstr ""
 
 #. Translators: %s course url.
 #: addons/buddypress/classes/BuddyPressGroups.php:423
+#, php-format
 msgid "Starting with %s from today. Wish me luck! "
 msgstr ""
 
 #. Translators: %1$s lesson url %2$s course url.
 #: addons/buddypress/classes/BuddyPressGroups.php:476
+#, php-format
 msgid "I have created a new lesson %1$s for my course %2$s. Go check it out!"
 msgstr ""
 
 #. Translators: %s lesson url.
 #: addons/buddypress/classes/BuddyPressGroups.php:531
+#, php-format
 msgid "I updated my lesson on %s to add more relevant content. See what’s new!"
 msgstr ""
 
 #. Translators: %s lesson url.
 #: addons/buddypress/classes/BuddyPressGroups.php:583
+#, php-format
 msgid "I just started taking the quiz %s, come and take it with me."
 msgstr ""
 
 #. Translators: %s lesson url.
 #: addons/buddypress/classes/BuddyPressGroups.php:665
+#, php-format
 msgid "Done with %s, it was a challenging quiz."
 msgstr ""
 
@@ -563,7 +615,7 @@ msgstr ""
 #: addons/subscription/src/Models/PlanModel.php:76
 #: addons/tutor-assignments/classes/Assignments.php:1407
 #: addons/tutor-assignments/templates/content.php:129
-#: addons/course-bundle/assets/js/bundle-builder/index.js:12274
+#: addons/course-bundle/assets/js/bundle-builder/index.js:12342
 #: addons/enrollments/assets/js/create-enrollment/index.js:19973
 #: addons/subscription/assets/js/membership-settings/index.js:6497
 msgid "Day"
@@ -576,7 +628,7 @@ msgstr[1] ""
 #: addons/subscription/src/Models/PlanModel.php:75
 #: addons/tutor-assignments/classes/Assignments.php:1407
 #: addons/tutor-assignments/templates/content.php:130
-#: addons/course-bundle/assets/js/bundle-builder/index.js:12272
+#: addons/course-bundle/assets/js/bundle-builder/index.js:12340
 #: addons/enrollments/assets/js/create-enrollment/index.js:19971
 msgid "Hour"
 msgid_plural "Hours"
@@ -586,7 +638,7 @@ msgstr[1] ""
 #: addons/calendar/classes/Tutor_Calendar.php:168
 #: addons/subscription/src/Models/PlanModel.php:77
 #: addons/tutor-assignments/templates/content.php:131
-#: addons/course-bundle/assets/js/bundle-builder/index.js:12276
+#: addons/course-bundle/assets/js/bundle-builder/index.js:12344
 #: addons/enrollments/assets/js/create-enrollment/index.js:19975
 msgid "Week"
 msgid_plural "Weeks"
@@ -596,6 +648,7 @@ msgstr[1] ""
 #. translators: %1$s is the number value (e.g., 3), %2$s is the time unit (e.g., days).
 #: addons/calendar/classes/Tutor_Calendar.php:184
 #: addons/tutor-assignments/templates/content.php:141
+#, php-format
 msgid "%1$s %2$s after you start the assignment"
 msgstr ""
 
@@ -621,7 +674,7 @@ msgstr ""
 #: addons/calendar/classes/Tutor_Calendar.php:234
 #: addons/tutor-assignments/views/modal/assignments.php:58
 #: addons/content-bank/assets/js/manage-contents/index.js:20869
-#: addons/course-bundle/assets/js/bundle-builder/index.js:12276
+#: addons/course-bundle/assets/js/bundle-builder/index.js:12344
 #: addons/enrollments/assets/js/create-enrollment/index.js:19975
 msgid "Weeks"
 msgstr ""
@@ -631,7 +684,7 @@ msgstr ""
 #: addons/tutor-assignments/views/modal/assignments.php:59
 #: addons/tutor-email/views/pages/email-edit.php:120
 #: addons/content-bank/assets/js/manage-contents/index.js:20873
-#: addons/course-bundle/assets/js/bundle-builder/index.js:12274
+#: addons/course-bundle/assets/js/bundle-builder/index.js:12342
 #: addons/enrollments/assets/js/create-enrollment/index.js:19973
 #: addons/subscription/assets/js/membership-settings/index.js:6497
 #: addons/tutor-zoom/assets/js/frontend.js:43
@@ -642,7 +695,7 @@ msgstr ""
 #: addons/tutor-assignments/views/modal/assignments.php:60
 #: addons/tutor-zoom/views/template/meeting-editor.php:74
 #: addons/content-bank/assets/js/manage-contents/index.js:20877
-#: addons/course-bundle/assets/js/bundle-builder/index.js:12272
+#: addons/course-bundle/assets/js/bundle-builder/index.js:12340
 #: addons/enrollments/assets/js/create-enrollment/index.js:19971
 #: addons/tutor-zoom/assets/js/frontend.js:43
 msgid "Hours"
@@ -698,6 +751,7 @@ msgstr ""
 
 #. translators:%d:course id.
 #: addons/content-bank/src/Controllers/ContentController.php:102
+#, php-format
 msgid "Invalid course : %d"
 msgstr ""
 
@@ -816,6 +870,7 @@ msgstr ""
 
 #. translators: %d is the number of courses linked to the content
 #: addons/content-bank/src/Models/ContentModel.php:368
+#, php-format
 msgid "+%d More"
 msgstr ""
 
@@ -826,7 +881,7 @@ msgstr ""
 #: addons/content-bank/src/PostType.php:43
 #: addons/tutor-assignments/templates/details.php:21
 #: addons/tutor-certificate/classes/init.php:232
-#: addons/course-bundle/assets/js/bundle-builder/index.js:15717
+#: addons/course-bundle/assets/js/bundle-builder/index.js:15785
 msgid "Description"
 msgstr ""
 
@@ -910,32 +965,38 @@ msgstr ""
 
 #. Translators: %1s post type %2s unlock date.
 #: addons/content-drip/classes/ContentDrip.php:263
+#, php-format
 msgid "This %1$s will be available from %2$s"
 msgstr ""
 
 #. Translators: %1s post type %2s unlock date.
 #: addons/content-drip/classes/ContentDrip.php:280
+#, php-format
 msgid "This %1$s will be available for you from %2$s"
 msgstr ""
 
 #. Translators: %s name.
 #: addons/content-drip/classes/ContentDrip.php:302
 #: addons/content-drip/classes/ContentDrip.php:327
+#, php-format
 msgid "Please complete previous %s first"
 msgstr ""
 
 #. Translators: %s name.
 #: addons/content-drip/classes/ContentDrip.php:312
+#, php-format
 msgid "Please submit previous %s first"
 msgstr ""
 
 #. Translators: %s name.
 #: addons/content-drip/classes/ContentDrip.php:341
+#, php-format
 msgid "To access this %s you have to pass the quiz"
 msgstr ""
 
 #. Translators: %s post type.
 #: addons/content-drip/classes/ContentDrip.php:395
+#, php-format
 msgid "You can take this %s after finishing the following prerequisites:"
 msgstr ""
 
@@ -1046,6 +1107,7 @@ msgstr ""
 
 #. Translators: %s content type.
 #: addons/content-drip/views/restrict-sequence.php:44
+#, php-format
 msgid "Back to %s"
 msgstr ""
 
@@ -1298,6 +1360,7 @@ msgstr ""
 
 #. translators: %s: discount value
 #: addons/course-bundle/src/Frontend/BundleDetails.php:251
+#, php-format
 msgid "%s off"
 msgstr ""
 
@@ -1307,6 +1370,7 @@ msgstr ""
 
 #. translators: %s: Total courses.
 #: addons/course-bundle/src/Frontend/BundleDetails.php:323
+#, php-format
 msgid "%s Total Courses"
 msgstr ""
 
@@ -1318,6 +1382,7 @@ msgstr ""
 
 #. translators: %s: Total enrolled.
 #: addons/course-bundle/src/Frontend/BundleDetails.php:329
+#, php-format
 msgid "%s Total Enrolled"
 msgstr ""
 
@@ -1328,36 +1393,40 @@ msgstr ""
 
 #. translators: %s: Total duration.
 #: addons/course-bundle/src/Frontend/BundleDetails.php:335
+#, php-format
 msgid "%s Duration"
 msgstr ""
 
 #: addons/course-bundle/src/Frontend/BundleDetails.php:339
-#: addons/course-bundle/assets/js/bundle-builder/index.js:13892
+#: addons/course-bundle/assets/js/bundle-builder/index.js:13960
 msgid "Lesson Content"
 msgstr ""
 
 #. translators: %s: Total lesson content.
 #: addons/course-bundle/src/Frontend/BundleDetails.php:341
+#, php-format
 msgid "%s Lesson Content"
 msgstr ""
 
 #: addons/course-bundle/src/Frontend/BundleDetails.php:345
-#: addons/course-bundle/assets/js/bundle-builder/index.js:13893
+#: addons/course-bundle/assets/js/bundle-builder/index.js:13961
 msgid "Downloadable Resources"
 msgstr ""
 
 #. translators: %s: Total downloadable resources.
 #: addons/course-bundle/src/Frontend/BundleDetails.php:347
+#, php-format
 msgid "%s Downloadable Resources"
 msgstr ""
 
 #: addons/course-bundle/src/Frontend/BundleDetails.php:351
-#: addons/course-bundle/assets/js/bundle-builder/index.js:13891
+#: addons/course-bundle/assets/js/bundle-builder/index.js:13959
 msgid "Quiz Papers"
 msgstr ""
 
 #. translators: %s: Total quiz papers.
 #: addons/course-bundle/src/Frontend/BundleDetails.php:353
+#, php-format
 msgid "%s Quiz Papers"
 msgstr ""
 
@@ -1367,6 +1436,7 @@ msgstr ""
 
 #. translators: %d: Number of courses in the cart.
 #: addons/course-bundle/src/Frontend/BundleDetails.php:413
+#, php-format
 msgid "%d Course bundle"
 msgstr ""
 
@@ -1423,18 +1493,18 @@ msgid "Choose WooCommerce/Native Payment from the eCommerce engine option in the
 msgstr ""
 
 #: addons/course-bundle/src/Models/BundleModel.php:630
-#: addons/course-bundle/assets/js/bundle-builder/index.js:13288
+#: addons/course-bundle/assets/js/bundle-builder/index.js:13356
 msgid "Show Discount % Off"
 msgstr ""
 
 #. translators: %s: Currency symbol.
 #: addons/course-bundle/src/Models/BundleModel.php:632
+#, php-format
 msgid "Show Discounted Amount (%s)"
 msgstr ""
 
-#. translators: %s: Currency symbol.
 #: addons/course-bundle/src/Models/BundleModel.php:633
-#: addons/course-bundle/assets/js/bundle-builder/index.js:13297
+#: addons/course-bundle/assets/js/bundle-builder/index.js:13365
 msgid "Show None"
 msgstr ""
 
@@ -1457,7 +1527,7 @@ msgstr ""
 #: addons/course-bundle/templates/single/bundle-authors.php:19
 #: addons/tutor-report/views/pages/courses/course-single.php:244
 #: addons/tutor-report/views/pages/overview.php:101
-#: addons/course-bundle/assets/js/bundle-builder/index.js:13410
+#: addons/course-bundle/assets/js/bundle-builder/index.js:13478
 msgid "Instructors"
 msgstr ""
 
@@ -1467,6 +1537,7 @@ msgstr ""
 
 #. translators: %s: count total courses
 #: addons/course-bundle/templates/single/bundle-courses.php:23
+#, php-format
 msgid "Courses in the Bundle (%s)"
 msgstr ""
 
@@ -1553,16 +1624,19 @@ msgstr ""
 
 #. translators: %s: from date
 #: addons/enrollments/classes/Enrollments.php:775
+#, php-format
 msgid "Enrollment opens on %1$s"
 msgstr ""
 
 #. translators: %s: from date %s: to date
 #: addons/enrollments/classes/Enrollments.php:793
+#, php-format
 msgid "Enrollment Period %1$s - %2$s"
 msgstr ""
 
 #. translators: %s: from date
 #: addons/enrollments/classes/Enrollments.php:811
+#, php-format
 msgid "Enrollment closes on %1$s"
 msgstr ""
 
@@ -1625,82 +1699,84 @@ msgstr ""
 msgid "Enrollment successfully deleted"
 msgstr ""
 
-#: addons/enrollments/classes/Enrollment_Expiry.php:91
+#: addons/enrollments/classes/Enrollment_Expiry.php:92
 msgid "Enrollment Expiration"
 msgstr ""
 
-#: addons/enrollments/classes/Enrollment_Expiry.php:94
+#: addons/enrollments/classes/Enrollment_Expiry.php:95
 msgid "Enable to allow enrollment expiration feature in all courses"
 msgstr ""
 
-#: addons/enrollments/classes/Enrollment_Expiry.php:204
-#: addons/enrollments/classes/Enrollment_Expiry.php:234
+#: addons/enrollments/classes/Enrollment_Expiry.php:207
+#: addons/enrollments/classes/Enrollment_Expiry.php:237
 msgid "days"
 msgstr ""
 
-#: addons/enrollments/classes/Enrollment_Expiry.php:204
-#: addons/enrollments/classes/Enrollment_Expiry.php:234
+#: addons/enrollments/classes/Enrollment_Expiry.php:207
+#: addons/enrollments/classes/Enrollment_Expiry.php:237
 #: addons/content-bank/assets/js/manage-contents/index.js:3183
-#: addons/course-bundle/assets/js/bundle-builder/index.js:26150
+#: addons/course-bundle/assets/js/bundle-builder/index.js:26218
 #: addons/enrollments/assets/js/create-enrollment/index.js:3174
 #: addons/subscription/assets/js/membership-settings/index.js:16393
 msgid "day"
 msgstr ""
 
-#: addons/enrollments/classes/Enrollment_Expiry.php:204
-#: addons/enrollments/classes/Enrollment_Expiry.php:234
-#: addons/enrollments/classes/Enrollment_Expiry.php:271
+#: addons/enrollments/classes/Enrollment_Expiry.php:207
+#: addons/enrollments/classes/Enrollment_Expiry.php:237
+#: addons/enrollments/classes/Enrollment_Expiry.php:274
 #: addons/pmpro/classes/PaidMembershipsPro.php:741
 #: addons/subscription/src/Controllers/FrontendController.php:427
-#: addons/course-bundle/assets/js/bundle-builder/index.js:12333
+#: addons/course-bundle/assets/js/bundle-builder/index.js:12401
 #: addons/enrollments/assets/js/create-enrollment/index.js:20032
 msgid "Lifetime"
 msgstr ""
 
-#: addons/enrollments/classes/Enrollment_Expiry.php:208
-#: addons/enrollments/classes/Enrollment_Expiry.php:239
+#: addons/enrollments/classes/Enrollment_Expiry.php:211
+#: addons/enrollments/classes/Enrollment_Expiry.php:242
 msgid "Enrollment validity"
 msgstr ""
 
 #. translators: %s: validity
-#: addons/enrollments/classes/Enrollment_Expiry.php:241
+#: addons/enrollments/classes/Enrollment_Expiry.php:244
+#, php-format
 msgid "Enrollment validity: %s"
 msgstr ""
 
-#: addons/enrollments/classes/Enrollment_Expiry.php:276
+#: addons/enrollments/classes/Enrollment_Expiry.php:279
 msgid "Enrollment validity:"
 msgstr ""
 
 #. translators: %s: validity
-#: addons/enrollments/classes/Enrollment_Expiry.php:293
+#: addons/enrollments/classes/Enrollment_Expiry.php:296
+#, php-format
 msgid "Enrollment valid until %s"
 msgstr ""
 
-#: addons/enrollments/classes/Enrollment_Expiry.php:318
+#: addons/enrollments/classes/Enrollment_Expiry.php:321
 msgid "Invalid extend date"
 msgstr ""
 
-#: addons/enrollments/classes/Enrollment_Expiry.php:322
+#: addons/enrollments/classes/Enrollment_Expiry.php:325
 msgid "Invalid enrollment ID"
 msgstr ""
 
-#: addons/enrollments/classes/Enrollment_Expiry.php:327
+#: addons/enrollments/classes/Enrollment_Expiry.php:330
 msgid "Enrollment not found"
 msgstr ""
 
-#: addons/enrollments/classes/Enrollment_Expiry.php:333
+#: addons/enrollments/classes/Enrollment_Expiry.php:336
 msgid "Invalid student or course ID"
 msgstr ""
 
-#: addons/enrollments/classes/Enrollment_Expiry.php:343
+#: addons/enrollments/classes/Enrollment_Expiry.php:346
 msgid "Enrollment date extended successfully!"
 msgstr ""
 
-#: addons/enrollments/classes/Enrollment_Expiry.php:345
+#: addons/enrollments/classes/Enrollment_Expiry.php:348
 msgid "There was an error or the date is same as previous date."
 msgstr ""
 
-#: addons/enrollments/classes/Enrollment_Expiry.php:417
+#: addons/enrollments/classes/Enrollment_Expiry.php:420
 #: addons/google-meet/includes/Utilities/Utilities.php:170
 #: addons/subscription/src/Controllers/SubscriptionListController.php:193
 #: addons/subscription/src/Models/SubscriptionModel.php:143
@@ -1712,12 +1788,16 @@ msgstr ""
 msgid "Expired"
 msgstr ""
 
-#: addons/enrollments/classes/Enrollment_Expiry.php:449
+#: addons/enrollments/classes/Enrollment_Expiry.php:452
 msgid "Invalid enrollment argument passed"
 msgstr ""
 
 #: addons/enrollments/enrollments.php:34
 msgid "Enable to manually enroll students in your courses."
+msgstr ""
+
+#: addons/enrollments/views/enrollment-success-modal.php:26
+msgid "Enrollment completed illustration"
 msgstr ""
 
 #: addons/enrollments/views/enrollment-success-modal.php:30
@@ -1726,6 +1806,7 @@ msgstr ""
 
 #. Translators: %s: course title
 #: addons/enrollments/views/enrollment-success-modal.php:36
+#, php-format
 msgid "Manual student enrollment for %s has been initiated."
 msgstr ""
 
@@ -1799,7 +1880,7 @@ msgstr ""
 #: addons/content-bank/assets/js/manage-contents/index.js:24194
 #: addons/content-bank/assets/js/manage-contents/index.js:30126
 #: addons/content-bank/assets/js/manage-contents/index.js:31434
-#: addons/course-bundle/assets/js/bundle-builder/index.js:14502
+#: addons/course-bundle/assets/js/bundle-builder/index.js:14570
 #: addons/enrollments/assets/js/create-enrollment/index.js:21141
 #: addons/enrollments/assets/js/create-enrollment/index.js:22878
 msgid "Name"
@@ -1925,8 +2006,8 @@ msgstr ""
 #: addons/google-classroom/views/components/class-list.php:48
 #: addons/tutor-report/templates/students.php:63
 #: addons/tutor-zoom/views/template/meeting-list-loader.php:102
-#: addons/course-bundle/assets/js/bundle-builder/index.js:7869
-#: addons/course-bundle/assets/js/bundle-builder/index.js:8103
+#: addons/course-bundle/assets/js/bundle-builder/index.js:7937
+#: addons/course-bundle/assets/js/bundle-builder/index.js:8171
 msgid "Search"
 msgstr ""
 
@@ -1969,7 +2050,7 @@ msgstr ""
 #: addons/content-bank/assets/js/manage-contents/index.js:27066
 #: addons/content-bank/assets/js/manage-contents/index.js:27798
 #: addons/content-bank/assets/js/manage-contents/index.js:29737
-#: addons/course-bundle/assets/js/bundle-builder/index.js:12537
+#: addons/course-bundle/assets/js/bundle-builder/index.js:12605
 #: addons/enrollments/assets/js/create-enrollment/index.js:20236
 #: addons/subscription/assets/js/membership-settings/index.js:22240
 msgid "Edit"
@@ -2029,6 +2110,7 @@ msgstr ""
 
 #. translators: 1: opening anchor tag to Google Console, 2: closing anchor tag, 3: redirect URI.
 #: addons/google-classroom/views/components/import-credential.php:4
+#, php-format
 msgid "Create OAuth access data and upload Credentials JSON from %1$s Google Console %2$s. As a redirect URI set %3$s"
 msgstr ""
 
@@ -2059,7 +2141,7 @@ msgstr ""
 #: addons/tutor-zoom/views/template/meeting-list.php:155
 #: templates/single-zoom-meeting.php:109
 #: templates/single/course/zoom-meetings.php:63
-#: addons/course-bundle/assets/js/bundle-builder/index.js:13355
+#: addons/course-bundle/assets/js/bundle-builder/index.js:13423
 msgid "Password"
 msgstr ""
 
@@ -2386,7 +2468,7 @@ msgstr ""
 #: addons/content-bank/assets/js/manage-contents/index.js:21805
 #: addons/course-bundle/assets/js/bundle-builder/index.js:3282
 #: addons/course-bundle/assets/js/bundle-builder/index.js:3657
-#: addons/course-bundle/assets/js/bundle-builder/index.js:8963
+#: addons/course-bundle/assets/js/bundle-builder/index.js:9031
 msgid "None"
 msgstr ""
 
@@ -2420,7 +2502,7 @@ msgstr ""
 
 #: addons/google-meet/includes/Settings/Settings.php:181
 #: addons/content-bank/assets/js/manage-contents/index.js:1940
-#: addons/course-bundle/assets/js/bundle-builder/index.js:23629
+#: addons/course-bundle/assets/js/bundle-builder/index.js:23697
 #: addons/enrollments/assets/js/create-enrollment/index.js:1934
 #: addons/subscription/assets/js/membership-settings/index.js:13872
 msgid "Public"
@@ -2428,7 +2510,7 @@ msgstr ""
 
 #: addons/google-meet/includes/Settings/Settings.php:185
 #: addons/content-bank/assets/js/manage-contents/index.js:1948
-#: addons/course-bundle/assets/js/bundle-builder/index.js:23637
+#: addons/course-bundle/assets/js/bundle-builder/index.js:23705
 #: addons/enrollments/assets/js/create-enrollment/index.js:1942
 #: addons/subscription/assets/js/membership-settings/index.js:13880
 msgid "Private"
@@ -2565,6 +2647,10 @@ msgstr ""
 #: templates/single-zoom-meeting.php:113
 #: templates/single/course/zoom-meetings.php:86
 msgid "Host Email"
+msgstr ""
+
+#: addons/google-meet/views/modal/confirmation-modal.php:23
+msgid "Delete This?"
 msgstr ""
 
 #: addons/google-meet/views/modal/confirmation-modal.php:27
@@ -2738,8 +2824,8 @@ msgstr ""
 #: addons/content-bank/assets/js/manage-contents/index.js:29349
 #: addons/content-bank/assets/js/manage-contents/index.js:29790
 #: addons/content-bank/assets/js/manage-contents/index.js:31728
-#: addons/course-bundle/assets/js/bundle-builder/index.js:12558
-#: addons/course-bundle/assets/js/bundle-builder/index.js:23181
+#: addons/course-bundle/assets/js/bundle-builder/index.js:12626
+#: addons/course-bundle/assets/js/bundle-builder/index.js:23249
 #: addons/enrollments/assets/js/create-enrollment/index.js:9732
 #: addons/enrollments/assets/js/create-enrollment/index.js:20257
 #: addons/subscription/assets/js/membership-settings/index.js:21707
@@ -2825,6 +2911,7 @@ msgstr ""
 
 #. translators: %s: count and event title
 #: addons/google-meet/views/topic/content.php:28
+#, php-format
 msgid "Google Meet %1$s: %2$s"
 msgstr ""
 
@@ -2877,6 +2964,7 @@ msgstr ""
 
 #. translators: %1$s: Received marks, %2$s: Total marks.
 #: addons/gradebook/classes/GradeBook.php:524
+#, php-format
 msgid "You received %1$s points out of %2$s"
 msgstr ""
 
@@ -3025,8 +3113,8 @@ msgstr ""
 #: addons/content-bank/assets/js/manage-contents/index.js:23898
 #: addons/content-bank/assets/js/manage-contents/index.js:29475
 #: addons/content-bank/assets/js/manage-contents/index.js:30343
-#: addons/course-bundle/assets/js/bundle-builder/index.js:6150
-#: addons/course-bundle/assets/js/bundle-builder/index.js:15687
+#: addons/course-bundle/assets/js/bundle-builder/index.js:6218
+#: addons/course-bundle/assets/js/bundle-builder/index.js:15755
 #: addons/enrollments/assets/js/create-enrollment/index.js:16410
 #: addons/subscription/assets/js/membership-settings/index.js:2595
 #: addons/subscription/assets/js/membership-settings/index.js:6243
@@ -3159,16 +3247,16 @@ msgstr ""
 #: addons/h5p/views/analytics/modals/verbs-modal.php:24
 #: addons/h5p/views/analytics/subpage/activities.php:52
 #: addons/h5p/views/analytics/subpage/activities.php:92
-#: addons/h5p/views/analytics/subpage/learners.php:78
-#: addons/h5p/views/analytics/subpage/learners.php:118
+#: addons/h5p/views/analytics/subpage/learners.php:77
+#: addons/h5p/views/analytics/subpage/learners.php:117
 #: addons/h5p/views/analytics/subpage/overview.php:60
 #: addons/h5p/views/analytics/subpage/verbs.php:36
 msgid "Verbs"
 msgstr ""
 
 #: addons/h5p/src/H5P.php:206
-#: addons/h5p/views/analytics/subpage/learners.php:81
-#: addons/h5p/views/analytics/subpage/learners.php:134
+#: addons/h5p/views/analytics/subpage/learners.php:80
+#: addons/h5p/views/analytics/subpage/learners.php:133
 #: addons/h5p/views/analytics/subpage/overview.php:74
 #: addons/h5p/views/analytics/subpage/verbs.php:56
 #: addons/h5p/views/analytics/subpage/verbs.php:96
@@ -3276,8 +3364,8 @@ msgstr ""
 
 #: addons/h5p/views/analytics/subpage/activities.php:58
 #: addons/h5p/views/analytics/subpage/activities.php:124
-#: addons/h5p/views/analytics/subpage/learners.php:84
-#: addons/h5p/views/analytics/subpage/learners.php:150
+#: addons/h5p/views/analytics/subpage/learners.php:83
+#: addons/h5p/views/analytics/subpage/learners.php:149
 #: addons/h5p/views/analytics/subpage/verbs.php:62
 #: addons/h5p/views/analytics/subpage/verbs.php:128
 msgid "Last 10 statements"
@@ -3340,11 +3428,13 @@ msgstr ""
 #: addons/subscription/views/pages/report.php:212
 #: addons/tutor-report/views/pages/courses/course-single.php:180
 #: addons/tutor-report/views/pages/overview.php:164
+#, php-format
 msgid "for %s"
 msgstr ""
 
 #. translators: %s: content title
 #: addons/h5p/views/analytics/subpage/overview.php:120
+#, php-format
 msgid "Statements Chart %s"
 msgstr ""
 
@@ -3383,8 +3473,8 @@ msgstr ""
 
 #: addons/pmpro/classes/PaidMembershipsPro.php:436
 #: templates/frontend-course-builder.php:196
-#: addons/course-bundle/assets/js/bundle-builder/index.js:13711
-#: addons/course-bundle/assets/js/bundle-builder/index.js:14556
+#: addons/course-bundle/assets/js/bundle-builder/index.js:13779
+#: addons/course-bundle/assets/js/bundle-builder/index.js:14624
 #: addons/enrollments/assets/js/create-enrollment/index.js:20460
 #: addons/enrollments/assets/js/create-enrollment/index.js:21207
 msgid "Free"
@@ -3461,6 +3551,7 @@ msgstr ""
 
 #. translators: %d: Number of days.
 #: addons/pmpro/views/pmpro-pricing.php:79
+#, php-format
 msgid "%d-day money-back guarantee"
 msgstr ""
 
@@ -3571,10 +3662,10 @@ msgstr ""
 #: addons/social-login/includes/Settings/Settings.php:100
 #: addons/social-login/includes/Settings/Settings.php:128
 #: addons/social-login/includes/Settings/Settings.php:140
+#, php-format
 msgid "Enter your %s here."
 msgstr ""
 
-#. Translators: %s documentation link.
 #: addons/social-login/includes/Settings/Settings.php:73
 msgid "Google Client ID"
 msgstr ""
@@ -3596,7 +3687,6 @@ msgstr ""
 msgid "App ID"
 msgstr ""
 
-#. Translators: %s documentation link.
 #: addons/social-login/includes/Settings/Settings.php:101
 msgid "Facebook App ID"
 msgstr ""
@@ -3618,7 +3708,6 @@ msgstr ""
 msgid "App Key"
 msgstr ""
 
-#. Translators: %s documentation link.
 #: addons/social-login/includes/Settings/Settings.php:129
 msgid "Twitter App Key"
 msgstr ""
@@ -3631,7 +3720,6 @@ msgstr ""
 msgid "App Key Secret"
 msgstr ""
 
-#. Translators: %s documentation link.
 #: addons/social-login/includes/Settings/Settings.php:141
 msgid "Twitter App Key Secret"
 msgstr ""
@@ -3657,7 +3745,7 @@ msgstr ""
 #: addons/subscription/templates/single/subscription-plans.php:80
 #: addons/subscription/templates/single/subscription-plans.php:153
 #: addons/subscription/views/pages/subscription-list.php:40
-#: addons/course-bundle/assets/js/bundle-builder/index.js:12711
+#: addons/course-bundle/assets/js/bundle-builder/index.js:12779
 msgid "Subscriptions"
 msgstr ""
 
@@ -3667,7 +3755,7 @@ msgstr ""
 
 #: addons/subscription/src/Controllers/EmailController.php:109
 #: addons/subscription/templates/dashboard/subscriptions.php:72
-#: addons/course-bundle/assets/js/bundle-builder/index.js:11688
+#: addons/course-bundle/assets/js/bundle-builder/index.js:11756
 #: addons/enrollments/assets/js/create-enrollment/index.js:19643
 #: addons/enrollments/assets/js/create-enrollment/index.js:22255
 msgid "Plan Name"
@@ -3793,12 +3881,14 @@ msgstr ""
 
 #. translators: %1$s: opening tag, %2$s: date, %3$s: closing tag
 #: addons/subscription/src/Controllers/FrontendController.php:439
+#, php-format
 msgid "Subscription validity: %1$s%2$s%3$s"
 msgstr ""
 
 #. translators: %1$d: trial value, %2$s: trial interval, %3$s: free or not
 #: addons/subscription/src/Controllers/InvoiceController.php:59
 #: addons/subscription/templates/checkout/plan-checkout.php:143
+#, php-format
 msgid "%1$d-%2$s %3$sTrial"
 msgstr ""
 
@@ -3856,6 +3946,7 @@ msgstr ""
 
 #. translators: %d: trial value, %s: trial interval
 #: addons/subscription/src/Controllers/PlanCheckoutController.php:291
+#, php-format
 msgid "Start %1$d-%2$s Trial"
 msgstr ""
 
@@ -3961,6 +4052,7 @@ msgstr ""
 
 #. translators: %d: number of renewal allowed
 #: addons/subscription/src/Controllers/SubscriptionController.php:645
+#, php-format
 msgid "This subscription plan not allowed more than %d renewal."
 msgstr ""
 
@@ -4055,13 +4147,13 @@ msgid "Specific Membership Plans"
 msgstr ""
 
 #: addons/subscription/src/Models/PlanModel.php:78
-#: addons/course-bundle/assets/js/bundle-builder/index.js:12278
+#: addons/course-bundle/assets/js/bundle-builder/index.js:12346
 #: addons/enrollments/assets/js/create-enrollment/index.js:19977
 msgid "Month"
 msgstr ""
 
 #: addons/subscription/src/Models/PlanModel.php:79
-#: addons/course-bundle/assets/js/bundle-builder/index.js:12280
+#: addons/course-bundle/assets/js/bundle-builder/index.js:12348
 #: addons/enrollments/assets/js/create-enrollment/index.js:19979
 msgid "Year"
 msgstr ""
@@ -4092,6 +4184,7 @@ msgstr ""
 
 #. translators: %s: renew time
 #: addons/subscription/src/Models/PlanModel.php:277
+#, php-format
 msgid "Billed every %s until canceled"
 msgstr ""
 
@@ -4101,16 +4194,19 @@ msgstr ""
 
 #. translators: %s: renew time, %s: recurring limit, %s: interval
 #: addons/subscription/src/Models/PlanModel.php:282
+#, php-format
 msgid "Billed every %1$s for %2$s billing cycles"
 msgstr ""
 
 #. translators: %s: trial value, %s: interval
 #: addons/subscription/src/Models/PlanModel.php:287
+#, php-format
 msgid "%1$s %2$s trial"
 msgstr ""
 
 #. translators: %s: enrollment fee
 #: addons/subscription/src/Models/PlanModel.php:292
+#, php-format
 msgid "%s enrollment fee added at checkout"
 msgstr ""
 
@@ -4124,8 +4220,8 @@ msgid "No renewal"
 msgstr ""
 
 #: addons/subscription/src/Models/PlanModel.php:316
-#: addons/course-bundle/assets/js/bundle-builder/index.js:11350
-#: addons/course-bundle/assets/js/bundle-builder/index.js:11370
+#: addons/course-bundle/assets/js/bundle-builder/index.js:11418
+#: addons/course-bundle/assets/js/bundle-builder/index.js:11438
 #: addons/enrollments/assets/js/create-enrollment/index.js:19305
 #: addons/enrollments/assets/js/create-enrollment/index.js:19325
 #: addons/subscription/assets/js/membership-settings/index.js:6204
@@ -4134,6 +4230,7 @@ msgstr ""
 
 #. translators: %s: recurring limit
 #: addons/subscription/src/Models/PlanModel.php:319
+#, php-format
 msgid "%s Time"
 msgid_plural "%s Times"
 msgstr[0] ""
@@ -4141,16 +4238,19 @@ msgstr[1] ""
 
 #. translators: %s: price
 #: addons/subscription/src/Models/SubscriptionModel.php:689
+#, php-format
 msgid "%s/One Time"
 msgstr ""
 
 #. translators: %1$s: total price, %2$s: recurring count, %3$s: recurring interval
 #: addons/subscription/src/Models/SubscriptionModel.php:692
+#, php-format
 msgid "%1$s/%2$s %3$s"
 msgstr ""
 
 #. translators: %1$s: total price, %2$s: recurring interval
 #: addons/subscription/src/Models/SubscriptionModel.php:695
+#, php-format
 msgid "%1$s/%2$s"
 msgstr ""
 
@@ -4214,11 +4314,13 @@ msgstr ""
 #. translators: %1$s: recurring value, %2$s: recurring interval
 #: addons/subscription/templates/checkout/plan-checkout.php:103
 #: addons/subscription/templates/shortcode/pricing.php:69
+#, php-format
 msgid "/%1$s %2$s"
 msgstr ""
 
 #. translators: %s: recurring interval
 #: addons/subscription/templates/checkout/plan-checkout.php:110
+#, php-format
 msgid "/%1$s"
 msgstr ""
 
@@ -4228,16 +4330,19 @@ msgstr ""
 
 #. translators: %s: trial end date
 #: addons/subscription/templates/checkout/plan-checkout.php:157
+#, php-format
 msgid "Trial ends on %s"
 msgstr ""
 
 #. translators: %s: tag start, %s: plan price, %s: tag close
 #: addons/subscription/templates/checkout/plan-checkout.php:179
+#, php-format
 msgid "After trial, regular plan price %1$s%2$s%3$s will be charged."
 msgstr ""
 
 #. translators: %s: tag start, %s: enrollment fee, %s: tag close
 #: addons/subscription/templates/checkout/plan-checkout.php:198
+#, php-format
 msgid "An enrollment fee of %1$s%2$s%3$s will also be charged."
 msgstr ""
 
@@ -4281,6 +4386,7 @@ msgstr ""
 
 #. translators: %s: date time.
 #: addons/subscription/templates/dashboard/subscription-details.php:172
+#, php-format
 msgid "Your plan will be cancelled on %s. You'll have access until then and can resume anytime before that."
 msgstr ""
 
@@ -4433,6 +4539,7 @@ msgstr ""
 msgid "Incl. tax"
 msgstr ""
 
+#: addons/subscription/templates/membership-only-mode-modal.php:23
 #: addons/subscription/templates/membership-only-mode-modal.php:26
 msgid "Enable Membership-Only Mode?"
 msgstr ""
@@ -4492,6 +4599,7 @@ msgstr ""
 
 #. translators: %s: recurring interval
 #: addons/subscription/templates/shortcode/pricing.php:71
+#, php-format
 msgid "/%s"
 msgstr ""
 
@@ -4505,6 +4613,7 @@ msgstr ""
 
 #. translators: %s: saved amount
 #: addons/subscription/templates/shortcode/pricing.php:107
+#, php-format
 msgid "Save %s"
 msgstr ""
 
@@ -4514,11 +4623,13 @@ msgstr ""
 
 #. translators: %s: plan name
 #: addons/subscription/templates/single/entry-box-enrolled.php:25
+#, php-format
 msgid "Plan: %s"
 msgstr ""
 
 #. translators: %s: status
 #: addons/subscription/templates/single/entry-box-enrolled.php:30
+#, php-format
 msgid "Status: %s"
 msgstr ""
 
@@ -4537,11 +4648,13 @@ msgstr ""
 
 #. translators: %s: value, %s: name
 #: addons/subscription/templates/single/plan-list.php:70
+#, php-format
 msgid "/ %1$s %2$s"
 msgstr ""
 
 #. translators: %s: recurring interval
 #: addons/subscription/templates/single/plan-list.php:77
+#, php-format
 msgid "/ %1$s"
 msgstr ""
 
@@ -4572,8 +4685,8 @@ msgstr ""
 #: addons/subscription/views/pages/report.php:310
 #: addons/tutor-report/views/pages/sales/sales-page.php:42
 #: templates/invoice.php:167
-#: addons/course-bundle/assets/js/bundle-builder/index.js:11705
-#: addons/course-bundle/assets/js/bundle-builder/index.js:14547
+#: addons/course-bundle/assets/js/bundle-builder/index.js:11773
+#: addons/course-bundle/assets/js/bundle-builder/index.js:14615
 #: addons/enrollments/assets/js/create-enrollment/index.js:19660
 #: addons/enrollments/assets/js/create-enrollment/index.js:21187
 #: addons/enrollments/assets/js/create-enrollment/index.js:22286
@@ -4607,6 +4720,7 @@ msgstr ""
 
 #. translators: %s: status, %s:strong tag start, %s: plan name, %s: strong tag close
 #: addons/subscription/templates/subscription-exist-alert.php:25
+#, php-format
 msgid "You have a %1$s subscription of %2$s %3$s %4$s"
 msgstr ""
 
@@ -4656,6 +4770,7 @@ msgstr ""
 #: addons/subscription/views/pages/report.php:221
 #: addons/tutor-report/views/pages/courses/course-single.php:189
 #: addons/tutor-report/views/pages/overview.php:173
+#, php-format
 msgid "Earnings Chart %s"
 msgstr ""
 
@@ -4673,6 +4788,7 @@ msgstr ""
 #: addons/subscription/views/pages/report.php:230
 #: addons/tutor-report/views/pages/courses/course-single.php:198
 #: addons/tutor-report/views/pages/overview.php:182
+#, php-format
 msgid "Course Enrolled Chart %s"
 msgstr ""
 
@@ -4687,6 +4803,7 @@ msgstr ""
 #: addons/subscription/views/pages/report.php:239
 #: addons/tutor-report/views/pages/courses/course-single.php:207
 #: addons/tutor-report/views/pages/overview.php:191
+#, php-format
 msgid "Refund Chart %s"
 msgstr ""
 
@@ -4740,6 +4857,7 @@ msgstr ""
 
 #. translators: %s: trial end date, %s: next payment date
 #: addons/subscription/views/pages/subscription-edit.php:129
+#, php-format
 msgid "The trial period for this subscription ends on %1$s. The first payment will be charged on %2$s."
 msgstr ""
 
@@ -4777,7 +4895,7 @@ msgstr ""
 
 #: addons/subscription/views/pages/subscription-edit.php:297
 #: addons/content-bank/assets/js/manage-contents/index.js:20044
-#: addons/course-bundle/assets/js/bundle-builder/index.js:15374
+#: addons/course-bundle/assets/js/bundle-builder/index.js:15442
 msgid "Confirm"
 msgstr ""
 
@@ -4905,6 +5023,7 @@ msgstr ""
 
 #. translators: %d: Max file size allowed.
 #: addons/tutor-assignments/classes/Assignments.php:829
+#, php-format
 msgid "Maximum attachment upload size allowed is %d MB"
 msgstr ""
 
@@ -5019,7 +5138,7 @@ msgstr ""
 #: addons/tutor-assignments/templates/content.php:288
 #: addons/content-bank/assets/js/manage-contents/index.js:2941
 #: addons/content-bank/assets/js/manage-contents/index.js:21115
-#: addons/course-bundle/assets/js/bundle-builder/index.js:25908
+#: addons/course-bundle/assets/js/bundle-builder/index.js:25976
 #: addons/enrollments/assets/js/create-enrollment/index.js:2932
 #: addons/subscription/assets/js/membership-settings/index.js:16151
 msgid "MB"
@@ -5199,6 +5318,7 @@ msgstr ""
 
 #. Translators: %s: Maximum mark.
 #: addons/tutor-assignments/views/pages/submitted_assignment.php:120
+#, php-format
 msgid "Evaluate this assignment out of %s"
 msgstr ""
 
@@ -5233,6 +5353,7 @@ msgstr ""
 
 #. translators: %s: hour number
 #: addons/tutor-certificate/classes/Certificate.php:859
+#, php-format
 msgid "%s hour"
 msgid_plural "%s hours"
 msgstr[0] ""
@@ -5240,6 +5361,7 @@ msgstr[1] ""
 
 #. translators: %s: minute number
 #: addons/tutor-certificate/classes/Certificate.php:863
+#, php-format
 msgid "%s minute"
 msgid_plural "%s minutes"
 msgstr[0] ""
@@ -5520,7 +5642,7 @@ msgstr ""
 
 #: addons/tutor-course-attachments/classes/CourseAttachments.php:78
 #: addons/content-bank/assets/js/manage-contents/index.js:21620
-#: addons/course-bundle/assets/js/bundle-builder/index.js:8778
+#: addons/course-bundle/assets/js/bundle-builder/index.js:8846
 msgid "Download"
 msgstr ""
 
@@ -5552,7 +5674,7 @@ msgstr ""
 msgid "Offer free previews of specific lessons before enrollment."
 msgstr ""
 
-#: addons/tutor-email/classes/EmailCron.php:116
+#: addons/tutor-email/classes/EmailCron.php:117
 msgid "second"
 msgstr ""
 
@@ -6475,6 +6597,7 @@ msgstr ""
 
 #. translators: %s: Lesson, Quiz, Assignment.
 #: addons/tutor-email/classes/EmailNotification.php:3271
+#, php-format
 msgid "New %s Published"
 msgstr ""
 
@@ -6968,6 +7091,7 @@ msgstr ""
 
 #. translators: %s: number of receiver.
 #: addons/tutor-email/classes/ManualEmail.php:373
+#, php-format
 msgid "%s receiver"
 msgid_plural "%s receivers"
 msgstr[0] ""
@@ -6975,6 +7099,7 @@ msgstr[1] ""
 
 #. translators: %s: receiver placeholder.
 #: addons/tutor-email/classes/ManualEmail.php:375
+#, php-format
 msgid "%s found with selected criteria."
 msgstr ""
 
@@ -7130,6 +7255,11 @@ msgstr ""
 msgid "Get Started"
 msgstr ""
 
+#: addons/tutor-email/views/pages/mailer.php:60
+#: addons/tutor-email/views/pages/mailer.php:61
+msgid "Go back"
+msgstr ""
+
 #: addons/tutor-email/views/pages/mailer.php:69
 msgid "Compose & send email for custom event"
 msgstr ""
@@ -7160,8 +7290,8 @@ msgstr ""
 
 #: addons/tutor-email/views/pages/mailer.php:153
 #: addons/content-bank/assets/js/manage-contents/index.js:30632
-#: addons/course-bundle/assets/js/bundle-builder/index.js:14782
-#: addons/course-bundle/assets/js/bundle-builder/index.js:14798
+#: addons/course-bundle/assets/js/bundle-builder/index.js:14850
+#: addons/course-bundle/assets/js/bundle-builder/index.js:14866
 msgid "Select Courses"
 msgstr ""
 
@@ -7197,8 +7327,32 @@ msgstr ""
 msgid "Position"
 msgstr ""
 
+#: addons/tutor-email/views/pages/mailer.php:304
+msgid "Align left"
+msgstr ""
+
+#: addons/tutor-email/views/pages/mailer.php:307
+msgid "Align center"
+msgstr ""
+
+#: addons/tutor-email/views/pages/mailer.php:310
+msgid "Align right"
+msgstr ""
+
 #: addons/tutor-email/views/pages/mailer.php:327
 msgid "Template Preview"
+msgstr ""
+
+#: addons/tutor-email/views/pages/mailer.php:333
+msgid "Desktop preview"
+msgstr ""
+
+#: addons/tutor-email/views/pages/mailer.php:336
+msgid "Mobile preview"
+msgstr ""
+
+#: addons/tutor-email/views/pages/mailer.php:380
+msgid "Send Email?"
 msgstr ""
 
 #: addons/tutor-email/views/pages/mailer.php:384
@@ -7408,6 +7562,7 @@ msgstr ""
 
 #. translators: %1$s: Quiz title, %2$s: Course title.
 #: addons/tutor-notifications/classes/Notifications.php:356
+#, php-format
 msgctxt "quiz-attempt-text"
 msgid "<span class=\"tutor-color-secondary\">Your quiz result for</span> %1$s <span class=\"tutor-color-secondary\">of</span> %2$s <span class=\"tutor-color-secondary\">has been published.</span>"
 msgstr ""
@@ -7434,6 +7589,7 @@ msgstr ""
 
 #. translators: %1$s: user name, %2$s: course title.
 #: addons/tutor-notifications/classes/Notifications.php:461
+#, php-format
 msgctxt "enrollment-cancelled-text"
 msgid "%1$s, <span class=\"tutor-color-secondary\">your enrollment request for</span> %2$s <span class=\"tutor-color-secondary\">has been declined.</span>"
 msgstr ""
@@ -7450,6 +7606,7 @@ msgstr ""
 
 #. translators: name
 #: addons/tutor-notifications/classes/Pusher.php:153
+#, php-format
 msgid "Congratulations %s! You are now an instructor."
 msgstr ""
 
@@ -7459,6 +7616,7 @@ msgstr ""
 
 #. translators: name.
 #: addons/tutor-notifications/classes/Pusher.php:174
+#, php-format
 msgid "Hello %s, your instructorship has been rejected."
 msgstr ""
 
@@ -7468,6 +7626,7 @@ msgstr ""
 
 #. translators: instructor name.
 #: addons/tutor-notifications/classes/Pusher.php:197
+#, php-format
 msgid "%s wants to become an instructor."
 msgstr ""
 
@@ -7505,6 +7664,7 @@ msgstr ""
 
 #. translators: assignment name.
 #: addons/tutor-notifications/classes/Pusher.php:373
+#, php-format
 msgid "Your Grades for %s Were Just Submitted."
 msgstr ""
 
@@ -7697,6 +7857,7 @@ msgstr ""
 
 #. translators: The placeholder is a human_time_diff
 #: addons/tutor-notifications/classes/Utils.php:80
+#, php-format
 msgid "%s ago"
 msgstr ""
 
@@ -7795,7 +7956,7 @@ msgstr ""
 #: addons/content-bank/assets/js/manage-contents/index.js:29600
 #: addons/content-bank/assets/js/manage-contents/index.js:29946
 #: addons/content-bank/assets/js/manage-contents/index.js:31930
-#: addons/course-bundle/assets/js/bundle-builder/index.js:13971
+#: addons/course-bundle/assets/js/bundle-builder/index.js:14039
 #: addons/enrollments/assets/js/create-enrollment/index.js:21084
 #: addons/enrollments/assets/js/create-enrollment/index.js:22209
 #: addons/enrollments/assets/js/create-enrollment/index.js:22777
@@ -7840,6 +8001,7 @@ msgstr ""
 
 #. translators: %s is total ratings count.
 #: addons/tutor-report/templates/course_details.php:112
+#, php-format
 msgid "%s Reviews "
 msgstr ""
 
@@ -7869,6 +8031,7 @@ msgstr ""
 #: addons/tutor-report/templates/course_details.php:189
 #: addons/tutor-report/templates/earnings.php:150
 #: addons/tutor-report/templates/overview.php:123
+#, php-format
 msgid "for today (%s)"
 msgstr ""
 
@@ -7876,6 +8039,7 @@ msgstr ""
 #: addons/tutor-report/templates/course_details.php:197
 #: addons/tutor-report/templates/earnings.php:154
 #: addons/tutor-report/templates/overview.php:127
+#, php-format
 msgid "for this month (%s)"
 msgstr ""
 
@@ -7883,23 +8047,27 @@ msgstr ""
 #: addons/tutor-report/templates/course_details.php:205
 #: addons/tutor-report/templates/earnings.php:158
 #: addons/tutor-report/templates/overview.php:131
+#, php-format
 msgid "for this year (%s)"
 msgstr ""
 
 #. translators: %s is a placeholder for content title.
 #: addons/tutor-report/templates/course_details.php:218
+#, php-format
 msgid " Earning chart %s"
 msgstr ""
 
 #. translators: %s: content title.
 #: addons/tutor-report/templates/course_details.php:230
 #: addons/tutor-report/templates/overview.php:169
+#, php-format
 msgid "Discount chart %s"
 msgstr ""
 
 #. translators: %s: content title.
 #: addons/tutor-report/templates/course_details.php:242
 #: addons/tutor-report/templates/overview.php:160
+#, php-format
 msgid "Refund chart %s"
 msgstr ""
 
@@ -7929,16 +8097,19 @@ msgstr ""
 
 #. translators: %s: content title
 #: addons/tutor-report/templates/earnings.php:168
+#, php-format
 msgid "Earning chart %s"
 msgstr ""
 
 #. translators: %s: content title
 #: addons/tutor-report/templates/earnings.php:177
+#, php-format
 msgid "Sales chart %s"
 msgstr ""
 
 #. translators: %s: content title
 #: addons/tutor-report/templates/earnings.php:186
+#, php-format
 msgid "Commission & fess chart %s"
 msgstr ""
 
@@ -7981,11 +8152,13 @@ msgstr ""
 
 #. translators: %s: content title.
 #: addons/tutor-report/templates/overview.php:142
+#, php-format
 msgid "Earnings chart %s"
 msgstr ""
 
 #. translators: %s: content title.
 #: addons/tutor-report/templates/overview.php:151
+#, php-format
 msgid "Course enrolled Chart %s"
 msgstr ""
 
@@ -8067,6 +8240,7 @@ msgstr ""
 
 #. translators: 1: rate 2: rate type
 #: addons/tutor-report/templates/statements.php:215
+#, php-format
 msgid "As per %1$d%2$s"
 msgstr ""
 
@@ -8115,6 +8289,7 @@ msgstr ""
 msgid "View Progress"
 msgstr ""
 
+#: addons/tutor-report/templates/student_details.php:176
 #: addons/tutor-report/templates/student_details.php:179
 msgid "Delete This Question?"
 msgstr ""
@@ -8155,6 +8330,7 @@ msgstr ""
 
 #. translators: %1$s: rating count, %2$s: rating text.
 #: addons/tutor-report/views/pages/courses/course-single.php:143
+#, php-format
 msgctxt "course rating"
 msgid "%1$s %2$s"
 msgstr ""
@@ -8162,6 +8338,7 @@ msgstr ""
 #. translators: %s: content title
 #: addons/tutor-report/views/pages/courses/course-single.php:216
 #: addons/tutor-report/views/pages/overview.php:200
+#, php-format
 msgid "Discount Chart %s"
 msgstr ""
 
@@ -8635,6 +8812,7 @@ msgstr ""
 
 #. translators: %s: plugin name.
 #: classes/Admin.php:212
+#, php-format
 msgid "Installing Plugin: %s"
 msgstr ""
 
@@ -8648,6 +8826,7 @@ msgstr ""
 
 #. translators: %s: site name
 #: classes/ChangeEmail.php:194
+#, php-format
 msgid "[%s] Confirm your new email address"
 msgstr ""
 
@@ -8744,7 +8923,7 @@ msgstr ""
 #: addons/content-bank/assets/js/manage-contents/index.js:27815
 #: addons/content-bank/assets/js/manage-contents/index.js:29753
 #: addons/content-bank/assets/js/manage-contents/index.js:31712
-#: addons/course-bundle/assets/js/bundle-builder/index.js:12549
+#: addons/course-bundle/assets/js/bundle-builder/index.js:12617
 #: addons/enrollments/assets/js/create-enrollment/index.js:20248
 #: addons/subscription/assets/js/membership-settings/index.js:22275
 msgid "Duplicate"
@@ -9035,6 +9214,7 @@ msgstr ""
 
 #. translators: %s: site name.
 #: classes/GuestEmail.php:41
+#, php-format
 msgid "Password Reset for %s"
 msgstr ""
 
@@ -9130,9 +9310,9 @@ msgstr ""
 #: addons/content-bank/assets/js/manage-contents/index.js:20983
 #: addons/content-bank/assets/js/manage-contents/index.js:24173
 #: addons/content-bank/assets/js/manage-contents/index.js:28882
-#: addons/course-bundle/assets/js/bundle-builder/index.js:7512
-#: addons/course-bundle/assets/js/bundle-builder/index.js:11908
-#: addons/course-bundle/assets/js/bundle-builder/index.js:14928
+#: addons/course-bundle/assets/js/bundle-builder/index.js:7580
+#: addons/course-bundle/assets/js/bundle-builder/index.js:11976
+#: addons/course-bundle/assets/js/bundle-builder/index.js:14996
 #: addons/enrollments/assets/js/create-enrollment/index.js:18028
 #: addons/enrollments/assets/js/create-enrollment/index.js:19863
 #: addons/subscription/assets/js/membership-settings/index.js:3837
@@ -9348,7 +9528,7 @@ msgstr ""
 
 #: classes/VisibilityFieldControl.php:114
 #: addons/content-bank/assets/js/manage-contents/index.js:24262
-#: addons/course-bundle/assets/js/bundle-builder/index.js:13368
+#: addons/course-bundle/assets/js/bundle-builder/index.js:13436
 msgid "Featured Image"
 msgstr ""
 
@@ -9365,7 +9545,7 @@ msgid "Pricing Options"
 msgstr ""
 
 #: classes/VisibilityFieldControl.php:134
-#: addons/course-bundle/assets/js/bundle-builder/index.js:13398
+#: addons/course-bundle/assets/js/bundle-builder/index.js:13466
 msgid "Categories"
 msgstr ""
 
@@ -9470,11 +9650,6 @@ msgid "The course is not in the cart."
 msgstr ""
 
 #: ecommerce/GuestCheckout/GuestCheckout.php:84
-#: tests/PHPUnit/GuestCheckoutTest.php:32
-#: tests/PHPUnit/GuestCheckoutTest.php:44
-#: tests/PHPUnit/GuestCheckoutTest.php:57
-#: tests/PHPUnit/GuestCheckoutTest.php:70
-#: tests/PHPUnit/GuestCheckoutTest.php:78
 msgid "Thank you for your order. A password reset email has been sent to your billing email. Please reset your password to access your account."
 msgstr ""
 
@@ -10299,6 +10474,7 @@ msgstr ""
 
 #. translators: %s is a placeholder for the number of courses.
 #: templates/buddypress/message_thread_recipients.php:87
+#, php-format
 msgid "Enrolled in total %s courses by you"
 msgstr ""
 
@@ -10478,11 +10654,13 @@ msgstr ""
 
 #. translators: %s: username.
 #: templates/email/to_guest_password_reset.php:33
+#, php-format
 msgid "Hi %s,"
 msgstr ""
 
 #. translators: %s for the site name.
 #: templates/email/to_guest_password_reset.php:44
+#, php-format
 msgid "As part of your enrollment, we've created an account for you on %s. Please set your password to get started."
 msgstr ""
 
@@ -10683,6 +10861,7 @@ msgstr ""
 msgid "Thank you for sending a gift."
 msgstr ""
 
+#: templates/frontend-course-builder.php:85
 #: templates/frontend-course-builder.php:87
 msgid "Thank You!"
 msgstr ""
@@ -10697,7 +10876,7 @@ msgid "255"
 msgstr ""
 
 #: templates/frontend-course-builder.php:129
-#: addons/course-bundle/assets/js/bundle-builder/index.js:15688
+#: addons/course-bundle/assets/js/bundle-builder/index.js:15756
 msgid "ex. Learn Photoshop CS6 from scratch"
 msgstr ""
 
@@ -10731,7 +10910,7 @@ msgid "Paid"
 msgstr ""
 
 #: templates/frontend-course-builder.php:210
-#: addons/course-bundle/assets/js/bundle-builder/index.js:12912
+#: addons/course-bundle/assets/js/bundle-builder/index.js:12980
 msgid "Regular Price"
 msgstr ""
 
@@ -10817,6 +10996,7 @@ msgstr ""
 
 #. translators: %1$s: number of courses, %2$s: term text.
 #: templates/invoice.php:196
+#, php-format
 msgid "%1$s %2$s"
 msgstr ""
 
@@ -10858,6 +11038,7 @@ msgstr ""
 
 #. translators: %d is the number of notes taken.
 #: templates/lesson-notes/note-list.php:34
+#, php-format
 msgid "%d Note taken"
 msgid_plural "%d Notes taken"
 msgstr[0] ""
@@ -10959,36 +11140,43 @@ msgstr ""
 
 #. translators: %s: file path
 #: tools/FileSystemHelper.php:53
+#, php-format
 msgid "Unable to open zip file for writing: %s"
 msgstr ""
 
 #. translators: %s: file path
 #: tools/FileSystemHelper.php:78
+#, php-format
 msgid "Failed adding file to zip: %s"
 msgstr ""
 
 #. translators: %s Zip Path
 #: tools/FileSystemHelper.php:85
+#, php-format
 msgid "Failed to finalize zip: %s"
 msgstr ""
 
 #. translators: %s Path
 #: tools/FileSystemHelper.php:109
+#, php-format
 msgid "Path does not exist: %s"
 msgstr ""
 
 #. translators: %s Directory Path
 #: tools/FileSystemHelper.php:129
+#, php-format
 msgid "\"Not a directory: %s"
 msgstr ""
 
 #. translators: %s Directory Path
 #: tools/FileSystemHelper.php:155
+#, php-format
 msgid "Failed to create directory: %s"
 msgstr ""
 
 #. translators: %s target file
 #: tools/FileSystemHelper.php:160
+#, php-format
 msgid "Directory not writable: %s"
 msgstr ""
 
@@ -11088,6 +11276,7 @@ msgstr ""
 
 #. translators: %d : number of course imported/exported successfully.
 #: tools/handlers/AjaxHandler.php:1890
+#, php-format
 msgid " Course (%d)"
 msgid_plural " Courses (%d)"
 msgstr[0] ""
@@ -11095,6 +11284,7 @@ msgstr[1] ""
 
 #. translators: %d : number of course imported/exported successfully.
 #: tools/handlers/AjaxHandler.php:1892
+#, php-format
 msgid " Course ID (%d)"
 msgid_plural " Course IDs (%d)"
 msgstr[0] ""
@@ -11102,6 +11292,7 @@ msgstr[1] ""
 
 #. translators: %d : number of course imported/exported successfully.
 #: tools/handlers/AjaxHandler.php:1895
+#, php-format
 msgid " %d Course"
 msgid_plural " %d Courses"
 msgstr[0] ""
@@ -11109,6 +11300,7 @@ msgstr[1] ""
 
 #. translators: %d : number of bundles imported/exported successfully.
 #: tools/handlers/AjaxHandler.php:1899
+#, php-format
 msgid " Bundle (%d)"
 msgid_plural " Bundles (%d)"
 msgstr[0] ""
@@ -11116,6 +11308,7 @@ msgstr[1] ""
 
 #. translators: %d : number of bundles imported/exported successfully.
 #: tools/handlers/AjaxHandler.php:1901
+#, php-format
 msgid " Bundle ID (%d)"
 msgid_plural " Bundle IDs (%d)"
 msgstr[0] ""
@@ -11123,6 +11316,7 @@ msgstr[1] ""
 
 #. translators: %d : number of bundles imported/exported successfully.
 #: tools/handlers/AjaxHandler.php:1904
+#, php-format
 msgid " %d Bundle"
 msgid_plural " %d Bundles"
 msgstr[0] ""
@@ -11130,6 +11324,7 @@ msgstr[1] ""
 
 #. translators: %d : number of collections imported/exported successfully.
 #: tools/handlers/AjaxHandler.php:1908
+#, php-format
 msgid " Collection (%d)"
 msgid_plural " Collections (%d)"
 msgstr[0] ""
@@ -11137,6 +11332,7 @@ msgstr[1] ""
 
 #. translators: %d : number of collections imported/exported successfully.
 #: tools/handlers/AjaxHandler.php:1910
+#, php-format
 msgid " Collection ID (%d)"
 msgid_plural " Collection IDs (%d)"
 msgstr[0] ""
@@ -11144,6 +11340,7 @@ msgstr[1] ""
 
 #. translators: %d : number of collections imported/exported successfully.
 #: tools/handlers/AjaxHandler.php:1913
+#, php-format
 msgid " %d Collection"
 msgid_plural " %d Collections"
 msgstr[0] ""
@@ -11151,6 +11348,7 @@ msgstr[1] ""
 
 #. translators: %d : number of plans imported/exported successfully.
 #: tools/handlers/AjaxHandler.php:1917
+#, php-format
 msgid " Membership Plan (%d)"
 msgid_plural " Membership Plans (%d)"
 msgstr[0] ""
@@ -11158,6 +11356,7 @@ msgstr[1] ""
 
 #. translators: %d : number of plans imported/exported successfully.
 #: tools/handlers/AjaxHandler.php:1919
+#, php-format
 msgid " Membership Plan ID (%d)"
 msgid_plural " Membership Plan IDs (%d)"
 msgstr[0] ""
@@ -11165,6 +11364,7 @@ msgstr[1] ""
 
 #. translators: %d : number of plans imported/exported successfully.
 #: tools/handlers/AjaxHandler.php:1922
+#, php-format
 msgid " %d Membership Plan"
 msgid_plural " %d Membership Plans"
 msgstr[0] ""
@@ -11172,6 +11372,7 @@ msgstr[1] ""
 
 #. translators: %d : number of enrollments imported/exported successfully.
 #: tools/handlers/AjaxHandler.php:1926
+#, php-format
 msgid "Enrollment ID (%d)"
 msgid_plural "Enrollment IDs (%d)"
 msgstr[0] ""
@@ -11179,6 +11380,7 @@ msgstr[1] ""
 
 #. translators: %d : number of reviews imported/exported successfully.
 #: tools/handlers/AjaxHandler.php:1932
+#, php-format
 msgid "Review ID (%d)"
 msgid_plural "Review IDs (%d)"
 msgstr[0] ""
@@ -11186,6 +11388,7 @@ msgstr[1] ""
 
 #. translators: %d : number of orders imported/exported successfully.
 #: tools/handlers/AjaxHandler.php:1938
+#, php-format
 msgid "Order ID (%d)"
 msgid_plural "Order IDs (%d)"
 msgstr[0] ""
@@ -11193,6 +11396,7 @@ msgstr[1] ""
 
 #. translators: %d : number of subscription plans imported/exported successfully.
 #: tools/handlers/AjaxHandler.php:1944
+#, php-format
 msgid "Subscription Plan ID (%d)"
 msgid_plural "Subscription Plan IDs (%d)"
 msgstr[0] ""
@@ -11278,7 +11482,7 @@ msgstr ""
 #: tools/importers/OrderImporter.php:159
 #: tools/importers/OrderImporter.php:193
 #: addons/content-bank/assets/js/manage-contents/index.js:19822
-#: addons/course-bundle/assets/js/bundle-builder/index.js:15152
+#: addons/course-bundle/assets/js/bundle-builder/index.js:15220
 msgid "Order"
 msgstr ""
 
@@ -11296,7 +11500,7 @@ msgid "Order Item Meta"
 msgstr ""
 
 #: tools/importers/OrderImporter.php:352
-#: addons/course-bundle/assets/js/bundle-builder/index.js:11889
+#: addons/course-bundle/assets/js/bundle-builder/index.js:11957
 #: addons/enrollments/assets/js/create-enrollment/index.js:19844
 msgid "Subscription Plan"
 msgstr ""
@@ -11393,10 +11597,10 @@ msgstr ""
 #: addons/content-bank/assets/js/manage-contents/index.js:19313
 #: addons/content-bank/assets/js/manage-contents/index.js:20122
 #: addons/content-bank/assets/js/manage-contents/index.js:22849
-#: addons/course-bundle/assets/js/bundle-builder/index.js:6974
-#: addons/course-bundle/assets/js/bundle-builder/index.js:7619
-#: addons/course-bundle/assets/js/bundle-builder/index.js:10130
-#: addons/course-bundle/assets/js/bundle-builder/index.js:15452
+#: addons/course-bundle/assets/js/bundle-builder/index.js:7042
+#: addons/course-bundle/assets/js/bundle-builder/index.js:7687
+#: addons/course-bundle/assets/js/bundle-builder/index.js:10198
+#: addons/course-bundle/assets/js/bundle-builder/index.js:15520
 #: addons/enrollments/assets/js/create-enrollment/index.js:17591
 #: addons/enrollments/assets/js/create-enrollment/index.js:18135
 #: addons/subscription/assets/js/membership-settings/index.js:3441
@@ -11452,10 +11656,10 @@ msgstr ""
 
 #. Translators: %s will be replaced with a link to get the license key.
 #: updater/license-form.php:68
+#, php-format
 msgid "If you've already purchased a Tutor LMS Pro license, please paste your code here. %s"
 msgstr ""
 
-#. Translators: %s will be replaced with a link to get the license key.
 #: updater/license-form.php:69
 #: updater/license-form.php:176
 msgid "Get the license key"
@@ -11483,14 +11687,15 @@ msgstr ""
 
 #: updater/license-form.php:142
 #: addons/content-bank/assets/js/manage-contents/index.js:21276
-#: addons/course-bundle/assets/js/bundle-builder/index.js:8434
-#: addons/course-bundle/assets/js/bundle-builder/index.js:13765
+#: addons/course-bundle/assets/js/bundle-builder/index.js:8502
+#: addons/course-bundle/assets/js/bundle-builder/index.js:13833
 #: addons/enrollments/assets/js/create-enrollment/index.js:24000
 msgid "Remove"
 msgstr ""
 
 #. Translators: %s will be replaced with a link to get the license key.
 #: updater/license-form.php:175
+#, php-format
 msgid "If you have already purchased a Tutor Pro license, please paste your code here. %s"
 msgstr ""
 
@@ -11554,14 +11759,17 @@ msgstr ""
 
 #. translators: text.
 #: views/install-tutor.php:26
+#, php-format
 msgid "You must have %1$sTutor LMS%2$s Free version installed and activated on this website in order to use Tutor LMS Pro. You %3$s can activate Tutor LMS%4$s."
 msgstr ""
 
 #. translators: text.
 #: views/install-tutor.php:44
+#, php-format
 msgid "You must have %1$sTutor LMS%2$s Free version installed and activated on this website in order to use Tutor LMS Pro. You can %3$sInstall Tutor LMS Now%4$s"
 msgstr ""
 
+#: views/modals/reset-progress-modal.php:23
 #: views/modals/reset-progress-modal.php:26
 msgid "Reset Course Progress?"
 msgstr ""
@@ -11704,7 +11912,7 @@ msgid "Unlock Date: "
 msgstr ""
 
 #: addons/content-bank/assets/js/manage-contents/index.js:1607
-#: addons/course-bundle/assets/js/bundle-builder/index.js:22241
+#: addons/course-bundle/assets/js/bundle-builder/index.js:22309
 #: addons/enrollments/assets/js/create-enrollment/index.js:1607
 #: addons/google-meet/assets/js/scripts.js:186
 #: addons/google-meet/assets/js/scripts.js:391
@@ -11724,142 +11932,142 @@ msgid "Error"
 msgstr ""
 
 #: addons/content-bank/assets/js/manage-contents/index.js:1611
-#: addons/course-bundle/assets/js/bundle-builder/index.js:22245
+#: addons/course-bundle/assets/js/bundle-builder/index.js:22313
 #: addons/enrollments/assets/js/create-enrollment/index.js:1611
 #: addons/subscription/assets/js/membership-settings/index.js:12606
 msgid "Oops! Something went wrong"
 msgstr ""
 
 #: addons/content-bank/assets/js/manage-contents/index.js:1617
-#: addons/course-bundle/assets/js/bundle-builder/index.js:22251
+#: addons/course-bundle/assets/js/bundle-builder/index.js:22319
 #: addons/enrollments/assets/js/create-enrollment/index.js:1617
 #: addons/subscription/assets/js/membership-settings/index.js:12612
 msgid "Try the following steps to resolve the issue:"
 msgstr ""
 
 #: addons/content-bank/assets/js/manage-contents/index.js:1622
-#: addons/course-bundle/assets/js/bundle-builder/index.js:22256
+#: addons/course-bundle/assets/js/bundle-builder/index.js:22324
 #: addons/enrollments/assets/js/create-enrollment/index.js:1622
 #: addons/subscription/assets/js/membership-settings/index.js:12617
 msgid "Refresh the page."
 msgstr ""
 
 #: addons/content-bank/assets/js/manage-contents/index.js:1625
-#: addons/course-bundle/assets/js/bundle-builder/index.js:22259
+#: addons/course-bundle/assets/js/bundle-builder/index.js:22327
 #: addons/enrollments/assets/js/create-enrollment/index.js:1625
 #: addons/subscription/assets/js/membership-settings/index.js:12620
 msgid "Clear your browser cache."
 msgstr ""
 
 #: addons/content-bank/assets/js/manage-contents/index.js:1630
-#: addons/course-bundle/assets/js/bundle-builder/index.js:22264
+#: addons/course-bundle/assets/js/bundle-builder/index.js:22332
 #: addons/enrollments/assets/js/create-enrollment/index.js:1630
 #: addons/subscription/assets/js/membership-settings/index.js:12625
 msgid "Ensure the Free and Pro plugins are on the same version."
 msgstr ""
 
 #: addons/content-bank/assets/js/manage-contents/index.js:1651
-#: addons/course-bundle/assets/js/bundle-builder/index.js:22285
+#: addons/course-bundle/assets/js/bundle-builder/index.js:22353
 #: addons/enrollments/assets/js/create-enrollment/index.js:1651
 #: addons/subscription/assets/js/membership-settings/index.js:12646
 msgid "Reload"
 msgstr ""
 
 #: addons/content-bank/assets/js/manage-contents/index.js:1658
-#: addons/course-bundle/assets/js/bundle-builder/index.js:22292
+#: addons/course-bundle/assets/js/bundle-builder/index.js:22360
 #: addons/enrollments/assets/js/create-enrollment/index.js:1658
 #: addons/subscription/assets/js/membership-settings/index.js:12653
 msgid "Still having trouble?"
 msgstr ""
 
 #: addons/content-bank/assets/js/manage-contents/index.js:1661
-#: addons/course-bundle/assets/js/bundle-builder/index.js:22295
+#: addons/course-bundle/assets/js/bundle-builder/index.js:22363
 #: addons/enrollments/assets/js/create-enrollment/index.js:1661
 #: addons/subscription/assets/js/membership-settings/index.js:12656
 msgid "Contact"
 msgstr ""
 
 #: addons/content-bank/assets/js/manage-contents/index.js:1665
-#: addons/course-bundle/assets/js/bundle-builder/index.js:22299
+#: addons/course-bundle/assets/js/bundle-builder/index.js:22367
 #: addons/enrollments/assets/js/create-enrollment/index.js:1665
 #: addons/subscription/assets/js/membership-settings/index.js:12660
 msgid "Support"
 msgstr ""
 
 #: addons/content-bank/assets/js/manage-contents/index.js:1668
-#: addons/course-bundle/assets/js/bundle-builder/index.js:22302
+#: addons/course-bundle/assets/js/bundle-builder/index.js:22370
 #: addons/enrollments/assets/js/create-enrollment/index.js:1668
 #: addons/subscription/assets/js/membership-settings/index.js:12663
 msgid "for assistance."
 msgstr ""
 
 #: addons/content-bank/assets/js/manage-contents/index.js:1944
-#: addons/course-bundle/assets/js/bundle-builder/index.js:23633
+#: addons/course-bundle/assets/js/bundle-builder/index.js:23701
 #: addons/enrollments/assets/js/create-enrollment/index.js:1938
 #: addons/subscription/assets/js/membership-settings/index.js:13876
 msgid "Password Protected"
 msgstr ""
 
 #: addons/content-bank/assets/js/manage-contents/index.js:2939
-#: addons/course-bundle/assets/js/bundle-builder/index.js:25906
+#: addons/course-bundle/assets/js/bundle-builder/index.js:25974
 #: addons/enrollments/assets/js/create-enrollment/index.js:2930
 #: addons/subscription/assets/js/membership-settings/index.js:16149
 msgid "Bytes"
 msgstr ""
 
 #: addons/content-bank/assets/js/manage-contents/index.js:2940
-#: addons/course-bundle/assets/js/bundle-builder/index.js:25907
+#: addons/course-bundle/assets/js/bundle-builder/index.js:25975
 #: addons/enrollments/assets/js/create-enrollment/index.js:2931
 #: addons/subscription/assets/js/membership-settings/index.js:16150
 msgid "KB"
 msgstr ""
 
 #: addons/content-bank/assets/js/manage-contents/index.js:2942
-#: addons/course-bundle/assets/js/bundle-builder/index.js:25909
+#: addons/course-bundle/assets/js/bundle-builder/index.js:25977
 #: addons/enrollments/assets/js/create-enrollment/index.js:2933
 #: addons/subscription/assets/js/membership-settings/index.js:16152
 msgid "GB"
 msgstr ""
 
 #: addons/content-bank/assets/js/manage-contents/index.js:2943
-#: addons/course-bundle/assets/js/bundle-builder/index.js:25910
+#: addons/course-bundle/assets/js/bundle-builder/index.js:25978
 #: addons/enrollments/assets/js/create-enrollment/index.js:2934
 #: addons/subscription/assets/js/membership-settings/index.js:16153
 msgid "TB"
 msgstr ""
 
 #: addons/content-bank/assets/js/manage-contents/index.js:2944
-#: addons/course-bundle/assets/js/bundle-builder/index.js:25911
+#: addons/course-bundle/assets/js/bundle-builder/index.js:25979
 #: addons/enrollments/assets/js/create-enrollment/index.js:2935
 #: addons/subscription/assets/js/membership-settings/index.js:16154
 msgid "PB"
 msgstr ""
 
 #: addons/content-bank/assets/js/manage-contents/index.js:2945
-#: addons/course-bundle/assets/js/bundle-builder/index.js:25912
+#: addons/course-bundle/assets/js/bundle-builder/index.js:25980
 #: addons/enrollments/assets/js/create-enrollment/index.js:2936
 #: addons/subscription/assets/js/membership-settings/index.js:16155
 msgid "EB"
 msgstr ""
 
 #: addons/content-bank/assets/js/manage-contents/index.js:2946
-#: addons/course-bundle/assets/js/bundle-builder/index.js:25913
+#: addons/course-bundle/assets/js/bundle-builder/index.js:25981
 #: addons/enrollments/assets/js/create-enrollment/index.js:2937
 #: addons/subscription/assets/js/membership-settings/index.js:16156
 msgid "ZB"
 msgstr ""
 
 #: addons/content-bank/assets/js/manage-contents/index.js:2947
-#: addons/course-bundle/assets/js/bundle-builder/index.js:25914
+#: addons/course-bundle/assets/js/bundle-builder/index.js:25982
 #: addons/enrollments/assets/js/create-enrollment/index.js:2938
 #: addons/subscription/assets/js/membership-settings/index.js:16157
 msgid "YB"
 msgstr ""
 
 #: addons/content-bank/assets/js/manage-contents/index.js:3165
-#: addons/course-bundle/assets/js/bundle-builder/index.js:12282
-#: addons/course-bundle/assets/js/bundle-builder/index.js:12310
-#: addons/course-bundle/assets/js/bundle-builder/index.js:26132
+#: addons/course-bundle/assets/js/bundle-builder/index.js:12350
+#: addons/course-bundle/assets/js/bundle-builder/index.js:12378
+#: addons/course-bundle/assets/js/bundle-builder/index.js:26200
 #: addons/enrollments/assets/js/create-enrollment/index.js:3156
 #: addons/enrollments/assets/js/create-enrollment/index.js:19981
 #: addons/enrollments/assets/js/create-enrollment/index.js:20009
@@ -11870,22 +12078,24 @@ msgstr ""
 
 #. translators: %d is the number of hours
 #: addons/content-bank/assets/js/manage-contents/index.js:3171
-#: addons/course-bundle/assets/js/bundle-builder/index.js:26138
+#: addons/course-bundle/assets/js/bundle-builder/index.js:26206
 #: addons/enrollments/assets/js/create-enrollment/index.js:3162
 #: addons/subscription/assets/js/membership-settings/index.js:16381
+#, js-format
 msgid "%d hours"
 msgstr ""
 
 #. translators: %d is the number of hours
 #: addons/content-bank/assets/js/manage-contents/index.js:3173
-#: addons/course-bundle/assets/js/bundle-builder/index.js:26140
+#: addons/course-bundle/assets/js/bundle-builder/index.js:26208
 #: addons/enrollments/assets/js/create-enrollment/index.js:3164
 #: addons/subscription/assets/js/membership-settings/index.js:16383
+#, js-format
 msgid "%d hour"
 msgstr ""
 
 #: addons/content-bank/assets/js/manage-contents/index.js:3174
-#: addons/course-bundle/assets/js/bundle-builder/index.js:26141
+#: addons/course-bundle/assets/js/bundle-builder/index.js:26209
 #: addons/enrollments/assets/js/create-enrollment/index.js:3165
 #: addons/subscription/assets/js/membership-settings/index.js:16384
 msgid "hourly"
@@ -11893,7 +12103,7 @@ msgstr ""
 
 #: addons/content-bank/assets/js/manage-contents/index.js:3175
 #: addons/content-bank/assets/js/manage-contents/index.js:24299
-#: addons/course-bundle/assets/js/bundle-builder/index.js:26142
+#: addons/course-bundle/assets/js/bundle-builder/index.js:26210
 #: addons/enrollments/assets/js/create-enrollment/index.js:3166
 #: addons/subscription/assets/js/membership-settings/index.js:16385
 msgid "hour"
@@ -11901,22 +12111,24 @@ msgstr ""
 
 #. translators: %d is the number of days
 #: addons/content-bank/assets/js/manage-contents/index.js:3179
-#: addons/course-bundle/assets/js/bundle-builder/index.js:26146
+#: addons/course-bundle/assets/js/bundle-builder/index.js:26214
 #: addons/enrollments/assets/js/create-enrollment/index.js:3170
 #: addons/subscription/assets/js/membership-settings/index.js:16389
+#, js-format
 msgid "%d days"
 msgstr ""
 
 #. translators: %d is the number of days
 #: addons/content-bank/assets/js/manage-contents/index.js:3181
-#: addons/course-bundle/assets/js/bundle-builder/index.js:26148
+#: addons/course-bundle/assets/js/bundle-builder/index.js:26216
 #: addons/enrollments/assets/js/create-enrollment/index.js:3172
 #: addons/subscription/assets/js/membership-settings/index.js:16391
+#, js-format
 msgid "%d day"
 msgstr ""
 
 #: addons/content-bank/assets/js/manage-contents/index.js:3182
-#: addons/course-bundle/assets/js/bundle-builder/index.js:26149
+#: addons/course-bundle/assets/js/bundle-builder/index.js:26217
 #: addons/enrollments/assets/js/create-enrollment/index.js:3173
 #: addons/subscription/assets/js/membership-settings/index.js:16392
 msgid "daily"
@@ -11924,29 +12136,31 @@ msgstr ""
 
 #. translators: %d is the number of weeks
 #: addons/content-bank/assets/js/manage-contents/index.js:3187
-#: addons/course-bundle/assets/js/bundle-builder/index.js:26154
+#: addons/course-bundle/assets/js/bundle-builder/index.js:26222
 #: addons/enrollments/assets/js/create-enrollment/index.js:3178
 #: addons/subscription/assets/js/membership-settings/index.js:16397
+#, js-format
 msgid "%d weeks"
 msgstr ""
 
 #. translators: %d is the number of weeks
 #: addons/content-bank/assets/js/manage-contents/index.js:3189
-#: addons/course-bundle/assets/js/bundle-builder/index.js:26156
+#: addons/course-bundle/assets/js/bundle-builder/index.js:26224
 #: addons/enrollments/assets/js/create-enrollment/index.js:3180
 #: addons/subscription/assets/js/membership-settings/index.js:16399
+#, js-format
 msgid "%d week"
 msgstr ""
 
 #: addons/content-bank/assets/js/manage-contents/index.js:3190
-#: addons/course-bundle/assets/js/bundle-builder/index.js:26157
+#: addons/course-bundle/assets/js/bundle-builder/index.js:26225
 #: addons/enrollments/assets/js/create-enrollment/index.js:3181
 #: addons/subscription/assets/js/membership-settings/index.js:16400
 msgid "weekly"
 msgstr ""
 
 #: addons/content-bank/assets/js/manage-contents/index.js:3191
-#: addons/course-bundle/assets/js/bundle-builder/index.js:26158
+#: addons/course-bundle/assets/js/bundle-builder/index.js:26226
 #: addons/enrollments/assets/js/create-enrollment/index.js:3182
 #: addons/subscription/assets/js/membership-settings/index.js:16401
 msgid "week"
@@ -11954,29 +12168,31 @@ msgstr ""
 
 #. translators: %d is the number of months
 #: addons/content-bank/assets/js/manage-contents/index.js:3195
-#: addons/course-bundle/assets/js/bundle-builder/index.js:26162
+#: addons/course-bundle/assets/js/bundle-builder/index.js:26230
 #: addons/enrollments/assets/js/create-enrollment/index.js:3186
 #: addons/subscription/assets/js/membership-settings/index.js:16405
+#, js-format
 msgid "%d months"
 msgstr ""
 
 #. translators: %d is the number of months
 #: addons/content-bank/assets/js/manage-contents/index.js:3197
-#: addons/course-bundle/assets/js/bundle-builder/index.js:26164
+#: addons/course-bundle/assets/js/bundle-builder/index.js:26232
 #: addons/enrollments/assets/js/create-enrollment/index.js:3188
 #: addons/subscription/assets/js/membership-settings/index.js:16407
+#, js-format
 msgid "%d month"
 msgstr ""
 
 #: addons/content-bank/assets/js/manage-contents/index.js:3198
-#: addons/course-bundle/assets/js/bundle-builder/index.js:26165
+#: addons/course-bundle/assets/js/bundle-builder/index.js:26233
 #: addons/enrollments/assets/js/create-enrollment/index.js:3189
 #: addons/subscription/assets/js/membership-settings/index.js:16408
 msgid "monthly"
 msgstr ""
 
 #: addons/content-bank/assets/js/manage-contents/index.js:3199
-#: addons/course-bundle/assets/js/bundle-builder/index.js:26166
+#: addons/course-bundle/assets/js/bundle-builder/index.js:26234
 #: addons/enrollments/assets/js/create-enrollment/index.js:3190
 #: addons/subscription/assets/js/membership-settings/index.js:16409
 msgid "month"
@@ -11984,29 +12200,31 @@ msgstr ""
 
 #. translators: %d is the number of years
 #: addons/content-bank/assets/js/manage-contents/index.js:3203
-#: addons/course-bundle/assets/js/bundle-builder/index.js:26170
+#: addons/course-bundle/assets/js/bundle-builder/index.js:26238
 #: addons/enrollments/assets/js/create-enrollment/index.js:3194
 #: addons/subscription/assets/js/membership-settings/index.js:16413
+#, js-format
 msgid "%d years"
 msgstr ""
 
 #. translators: %d is the number of years
 #: addons/content-bank/assets/js/manage-contents/index.js:3205
-#: addons/course-bundle/assets/js/bundle-builder/index.js:26172
+#: addons/course-bundle/assets/js/bundle-builder/index.js:26240
 #: addons/enrollments/assets/js/create-enrollment/index.js:3196
 #: addons/subscription/assets/js/membership-settings/index.js:16415
+#, js-format
 msgid "%d year"
 msgstr ""
 
 #: addons/content-bank/assets/js/manage-contents/index.js:3206
-#: addons/course-bundle/assets/js/bundle-builder/index.js:26173
+#: addons/course-bundle/assets/js/bundle-builder/index.js:26241
 #: addons/enrollments/assets/js/create-enrollment/index.js:3197
 #: addons/subscription/assets/js/membership-settings/index.js:16416
 msgid "yearly"
 msgstr ""
 
 #: addons/content-bank/assets/js/manage-contents/index.js:3207
-#: addons/course-bundle/assets/js/bundle-builder/index.js:26174
+#: addons/course-bundle/assets/js/bundle-builder/index.js:26242
 #: addons/enrollments/assets/js/create-enrollment/index.js:3198
 #: addons/subscription/assets/js/membership-settings/index.js:16417
 msgid "year"
@@ -12016,10 +12234,10 @@ msgstr ""
 #: addons/content-bank/assets/js/manage-contents/index.js:17296
 #: addons/content-bank/assets/js/manage-contents/index.js:19417
 #: addons/content-bank/assets/js/manage-contents/index.js:30614
-#: addons/course-bundle/assets/js/bundle-builder/index.js:5907
-#: addons/course-bundle/assets/js/bundle-builder/index.js:7723
-#: addons/course-bundle/assets/js/bundle-builder/index.js:10896
-#: addons/course-bundle/assets/js/bundle-builder/index.js:11085
+#: addons/course-bundle/assets/js/bundle-builder/index.js:5975
+#: addons/course-bundle/assets/js/bundle-builder/index.js:7791
+#: addons/course-bundle/assets/js/bundle-builder/index.js:10964
+#: addons/course-bundle/assets/js/bundle-builder/index.js:11153
 #: addons/enrollments/assets/js/create-enrollment/index.js:16167
 #: addons/enrollments/assets/js/create-enrollment/index.js:18239
 #: addons/enrollments/assets/js/create-enrollment/index.js:18851
@@ -12032,28 +12250,28 @@ msgid "Clear"
 msgstr ""
 
 #: addons/content-bank/assets/js/manage-contents/index.js:9960
-#: addons/course-bundle/assets/js/bundle-builder/index.js:23155
+#: addons/course-bundle/assets/js/bundle-builder/index.js:23223
 #: addons/enrollments/assets/js/create-enrollment/index.js:9706
 #: addons/subscription/assets/js/membership-settings/index.js:21681
 msgid "Once you perform this action this can’t be undone."
 msgstr ""
 
 #: addons/content-bank/assets/js/manage-contents/index.js:10030
-#: addons/course-bundle/assets/js/bundle-builder/index.js:14062
+#: addons/course-bundle/assets/js/bundle-builder/index.js:14130
 #: addons/enrollments/assets/js/create-enrollment/index.js:20551
 #: addons/subscription/assets/js/membership-settings/index.js:4942
 msgid "Page"
 msgstr ""
 
 #: addons/content-bank/assets/js/manage-contents/index.js:10050
-#: addons/course-bundle/assets/js/bundle-builder/index.js:14082
+#: addons/course-bundle/assets/js/bundle-builder/index.js:14150
 #: addons/enrollments/assets/js/create-enrollment/index.js:20571
 #: addons/subscription/assets/js/membership-settings/index.js:4962
 msgid "of"
 msgstr ""
 
 #: addons/content-bank/assets/js/manage-contents/index.js:15732
-#: addons/course-bundle/assets/js/bundle-builder/index.js:22771
+#: addons/course-bundle/assets/js/bundle-builder/index.js:22839
 #: addons/enrollments/assets/js/create-enrollment/index.js:15199
 #: addons/subscription/assets/js/membership-settings/index.js:13042
 msgid "Limit exceeded"
@@ -12061,13 +12279,15 @@ msgstr ""
 
 #. translators: %s is the file title
 #: addons/content-bank/assets/js/manage-contents/index.js:16122
-#: addons/course-bundle/assets/js/bundle-builder/index.js:9993
+#: addons/course-bundle/assets/js/bundle-builder/index.js:10061
+#, js-format
 msgid "%s size exceeds the maximum allowed size"
 msgstr ""
 
 #. translators: %d is the maximum number of files allowed
 #: addons/content-bank/assets/js/manage-contents/index.js:16146
-#: addons/course-bundle/assets/js/bundle-builder/index.js:10017
+#: addons/course-bundle/assets/js/bundle-builder/index.js:10085
+#, js-format
 msgid "Cannot select more than %d files"
 msgstr ""
 
@@ -12075,188 +12295,188 @@ msgstr ""
 #: addons/content-bank/assets/js/manage-contents/index.js:21173
 #: addons/content-bank/assets/js/manage-contents/index.js:22790
 #: addons/content-bank/assets/js/manage-contents/index.js:23201
-#: addons/course-bundle/assets/js/bundle-builder/index.js:8331
-#: addons/course-bundle/assets/js/bundle-builder/index.js:10071
+#: addons/course-bundle/assets/js/bundle-builder/index.js:8399
+#: addons/course-bundle/assets/js/bundle-builder/index.js:10139
 msgid "Upload Media"
 msgstr ""
 
 #: addons/content-bank/assets/js/manage-contents/index.js:17238
-#: addons/course-bundle/assets/js/bundle-builder/index.js:5849
+#: addons/course-bundle/assets/js/bundle-builder/index.js:5917
 #: addons/enrollments/assets/js/create-enrollment/index.js:16109
 #: addons/subscription/assets/js/membership-settings/index.js:2294
 msgid "No options available"
 msgstr ""
 
 #: addons/content-bank/assets/js/manage-contents/index.js:17513
-#: addons/course-bundle/assets/js/bundle-builder/index.js:6124
+#: addons/course-bundle/assets/js/bundle-builder/index.js:6192
 #: addons/enrollments/assets/js/create-enrollment/index.js:16384
 #: addons/subscription/assets/js/membership-settings/index.js:2569
 msgid "Formal"
 msgstr ""
 
 #: addons/content-bank/assets/js/manage-contents/index.js:17517
-#: addons/course-bundle/assets/js/bundle-builder/index.js:6128
+#: addons/course-bundle/assets/js/bundle-builder/index.js:6196
 #: addons/enrollments/assets/js/create-enrollment/index.js:16388
 #: addons/subscription/assets/js/membership-settings/index.js:2573
 msgid "Casual"
 msgstr ""
 
 #: addons/content-bank/assets/js/manage-contents/index.js:17521
-#: addons/course-bundle/assets/js/bundle-builder/index.js:6132
+#: addons/course-bundle/assets/js/bundle-builder/index.js:6200
 #: addons/enrollments/assets/js/create-enrollment/index.js:16392
 #: addons/subscription/assets/js/membership-settings/index.js:2577
 msgid "Professional"
 msgstr ""
 
 #: addons/content-bank/assets/js/manage-contents/index.js:17525
-#: addons/course-bundle/assets/js/bundle-builder/index.js:6136
+#: addons/course-bundle/assets/js/bundle-builder/index.js:6204
 #: addons/enrollments/assets/js/create-enrollment/index.js:16396
 #: addons/subscription/assets/js/membership-settings/index.js:2581
 msgid "Enthusiastic"
 msgstr ""
 
 #: addons/content-bank/assets/js/manage-contents/index.js:17529
-#: addons/course-bundle/assets/js/bundle-builder/index.js:6140
+#: addons/course-bundle/assets/js/bundle-builder/index.js:6208
 #: addons/enrollments/assets/js/create-enrollment/index.js:16400
 #: addons/subscription/assets/js/membership-settings/index.js:2585
 msgid "Informational"
 msgstr ""
 
 #: addons/content-bank/assets/js/manage-contents/index.js:17533
-#: addons/course-bundle/assets/js/bundle-builder/index.js:6144
+#: addons/course-bundle/assets/js/bundle-builder/index.js:6212
 #: addons/enrollments/assets/js/create-enrollment/index.js:16404
 #: addons/subscription/assets/js/membership-settings/index.js:2589
 msgid "Funny"
 msgstr ""
 
 #: addons/content-bank/assets/js/manage-contents/index.js:17543
-#: addons/course-bundle/assets/js/bundle-builder/index.js:6154
+#: addons/course-bundle/assets/js/bundle-builder/index.js:6222
 #: addons/enrollments/assets/js/create-enrollment/index.js:16414
 #: addons/subscription/assets/js/membership-settings/index.js:2599
 msgid "Essay"
 msgstr ""
 
 #: addons/content-bank/assets/js/manage-contents/index.js:17547
-#: addons/course-bundle/assets/js/bundle-builder/index.js:6158
+#: addons/course-bundle/assets/js/bundle-builder/index.js:6226
 #: addons/enrollments/assets/js/create-enrollment/index.js:16418
 #: addons/subscription/assets/js/membership-settings/index.js:2603
 msgid "Paragraph"
 msgstr ""
 
 #: addons/content-bank/assets/js/manage-contents/index.js:17551
-#: addons/course-bundle/assets/js/bundle-builder/index.js:6162
+#: addons/course-bundle/assets/js/bundle-builder/index.js:6230
 #: addons/enrollments/assets/js/create-enrollment/index.js:16422
 #: addons/subscription/assets/js/membership-settings/index.js:2607
 msgid "Outline"
 msgstr ""
 
 #: addons/content-bank/assets/js/manage-contents/index.js:17578
-#: addons/course-bundle/assets/js/bundle-builder/index.js:6189
+#: addons/course-bundle/assets/js/bundle-builder/index.js:6257
 #: addons/enrollments/assets/js/create-enrollment/index.js:16449
 #: addons/subscription/assets/js/membership-settings/index.js:2634
 msgid "Character Limit"
 msgstr ""
 
 #: addons/content-bank/assets/js/manage-contents/index.js:17587
-#: addons/course-bundle/assets/js/bundle-builder/index.js:6198
+#: addons/course-bundle/assets/js/bundle-builder/index.js:6266
 #: addons/enrollments/assets/js/create-enrollment/index.js:16458
 #: addons/subscription/assets/js/membership-settings/index.js:2643
 msgid "Language"
 msgstr ""
 
 #: addons/content-bank/assets/js/manage-contents/index.js:17597
-#: addons/course-bundle/assets/js/bundle-builder/index.js:6208
+#: addons/course-bundle/assets/js/bundle-builder/index.js:6276
 #: addons/enrollments/assets/js/create-enrollment/index.js:16468
 #: addons/subscription/assets/js/membership-settings/index.js:2653
 msgid "Tone"
 msgstr ""
 
 #: addons/content-bank/assets/js/manage-contents/index.js:17605
-#: addons/course-bundle/assets/js/bundle-builder/index.js:6216
+#: addons/course-bundle/assets/js/bundle-builder/index.js:6284
 #: addons/enrollments/assets/js/create-enrollment/index.js:16476
 #: addons/subscription/assets/js/membership-settings/index.js:2661
 msgid "Format"
 msgstr ""
 
 #: addons/content-bank/assets/js/manage-contents/index.js:18270
-#: addons/course-bundle/assets/js/bundle-builder/index.js:6574
+#: addons/course-bundle/assets/js/bundle-builder/index.js:6642
 #: addons/enrollments/assets/js/create-enrollment/index.js:17195
 #: addons/subscription/assets/js/membership-settings/index.js:3041
 msgid "Mastering Digital Marketing: A Complete Guide"
 msgstr ""
 
 #: addons/content-bank/assets/js/manage-contents/index.js:18271
-#: addons/course-bundle/assets/js/bundle-builder/index.js:6575
+#: addons/course-bundle/assets/js/bundle-builder/index.js:6643
 #: addons/enrollments/assets/js/create-enrollment/index.js:17196
 #: addons/subscription/assets/js/membership-settings/index.js:3042
 msgid "The Ultimate Photoshop Course for Beginners"
 msgstr ""
 
 #: addons/content-bank/assets/js/manage-contents/index.js:18272
-#: addons/course-bundle/assets/js/bundle-builder/index.js:6576
+#: addons/course-bundle/assets/js/bundle-builder/index.js:6644
 #: addons/enrollments/assets/js/create-enrollment/index.js:17197
 #: addons/subscription/assets/js/membership-settings/index.js:3043
 msgid "Python Programming: From Zero to Hero"
 msgstr ""
 
 #: addons/content-bank/assets/js/manage-contents/index.js:18273
-#: addons/course-bundle/assets/js/bundle-builder/index.js:6577
+#: addons/course-bundle/assets/js/bundle-builder/index.js:6645
 #: addons/enrollments/assets/js/create-enrollment/index.js:17198
 #: addons/subscription/assets/js/membership-settings/index.js:3044
 msgid "Creative Writing Essentials: Unlock Your Storytelling Potential"
 msgstr ""
 
 #: addons/content-bank/assets/js/manage-contents/index.js:18274
-#: addons/course-bundle/assets/js/bundle-builder/index.js:6578
+#: addons/course-bundle/assets/js/bundle-builder/index.js:6646
 #: addons/enrollments/assets/js/create-enrollment/index.js:17199
 #: addons/subscription/assets/js/membership-settings/index.js:3045
 msgid "The Complete Guide to Web Development with React"
 msgstr ""
 
 #: addons/content-bank/assets/js/manage-contents/index.js:18275
-#: addons/course-bundle/assets/js/bundle-builder/index.js:6579
+#: addons/course-bundle/assets/js/bundle-builder/index.js:6647
 #: addons/enrollments/assets/js/create-enrollment/index.js:17200
 #: addons/subscription/assets/js/membership-settings/index.js:3046
 msgid "Master Public Speaking: Deliver Powerful Presentations"
 msgstr ""
 
 #: addons/content-bank/assets/js/manage-contents/index.js:18276
-#: addons/course-bundle/assets/js/bundle-builder/index.js:6580
+#: addons/course-bundle/assets/js/bundle-builder/index.js:6648
 #: addons/enrollments/assets/js/create-enrollment/index.js:17201
 #: addons/subscription/assets/js/membership-settings/index.js:3047
 msgid "Excel for Business: From Basics to Advanced Analytics"
 msgstr ""
 
 #: addons/content-bank/assets/js/manage-contents/index.js:18277
-#: addons/course-bundle/assets/js/bundle-builder/index.js:6581
+#: addons/course-bundle/assets/js/bundle-builder/index.js:6649
 #: addons/enrollments/assets/js/create-enrollment/index.js:17202
 #: addons/subscription/assets/js/membership-settings/index.js:3048
 msgid "Fitness Fundamentals: Build Strength and Confidence"
 msgstr ""
 
 #: addons/content-bank/assets/js/manage-contents/index.js:18278
-#: addons/course-bundle/assets/js/bundle-builder/index.js:6582
+#: addons/course-bundle/assets/js/bundle-builder/index.js:6650
 #: addons/enrollments/assets/js/create-enrollment/index.js:17203
 #: addons/subscription/assets/js/membership-settings/index.js:3049
 msgid "Photography Made Simple: Capture Stunning Shots"
 msgstr ""
 
 #: addons/content-bank/assets/js/manage-contents/index.js:18279
-#: addons/course-bundle/assets/js/bundle-builder/index.js:6583
+#: addons/course-bundle/assets/js/bundle-builder/index.js:6651
 #: addons/enrollments/assets/js/create-enrollment/index.js:17204
 #: addons/subscription/assets/js/membership-settings/index.js:3050
 msgid "Financial Freedom: Learn the Basics of Investing"
 msgstr ""
 
 #: addons/content-bank/assets/js/manage-contents/index.js:18383
-#: addons/course-bundle/assets/js/bundle-builder/index.js:6687
+#: addons/course-bundle/assets/js/bundle-builder/index.js:6755
 #: addons/enrollments/assets/js/create-enrollment/index.js:17308
 #: addons/subscription/assets/js/membership-settings/index.js:3154
 msgid "Craft Your Course Description"
 msgstr ""
 
 #: addons/content-bank/assets/js/manage-contents/index.js:18384
-#: addons/course-bundle/assets/js/bundle-builder/index.js:6688
+#: addons/course-bundle/assets/js/bundle-builder/index.js:6756
 #: addons/enrollments/assets/js/create-enrollment/index.js:17309
 #: addons/subscription/assets/js/membership-settings/index.js:3155
 msgid "Provide a brief overview of your course topic, target audience, and key takeaways"
@@ -12264,57 +12484,57 @@ msgstr ""
 
 #: addons/content-bank/assets/js/manage-contents/index.js:18403
 #: addons/content-bank/assets/js/manage-contents/index.js:22014
-#: addons/course-bundle/assets/js/bundle-builder/index.js:6707
-#: addons/course-bundle/assets/js/bundle-builder/index.js:9172
+#: addons/course-bundle/assets/js/bundle-builder/index.js:6775
+#: addons/course-bundle/assets/js/bundle-builder/index.js:9240
 #: addons/enrollments/assets/js/create-enrollment/index.js:17328
 #: addons/subscription/assets/js/membership-settings/index.js:3174
 msgid "Inspire Me"
 msgstr ""
 
 #: addons/content-bank/assets/js/manage-contents/index.js:18505
-#: addons/course-bundle/assets/js/bundle-builder/index.js:6809
+#: addons/course-bundle/assets/js/bundle-builder/index.js:6877
 #: addons/enrollments/assets/js/create-enrollment/index.js:17430
 #: addons/subscription/assets/js/membership-settings/index.js:3276
 msgid "Rephrase"
 msgstr ""
 
 #: addons/content-bank/assets/js/manage-contents/index.js:18511
-#: addons/course-bundle/assets/js/bundle-builder/index.js:6815
+#: addons/course-bundle/assets/js/bundle-builder/index.js:6883
 #: addons/enrollments/assets/js/create-enrollment/index.js:17436
 #: addons/subscription/assets/js/membership-settings/index.js:3282
 msgid "Make Shorter"
 msgstr ""
 
 #: addons/content-bank/assets/js/manage-contents/index.js:18519
-#: addons/course-bundle/assets/js/bundle-builder/index.js:6823
+#: addons/course-bundle/assets/js/bundle-builder/index.js:6891
 #: addons/enrollments/assets/js/create-enrollment/index.js:17444
 #: addons/subscription/assets/js/membership-settings/index.js:3290
 msgid "Change Tone"
 msgstr ""
 
 #: addons/content-bank/assets/js/manage-contents/index.js:18533
-#: addons/course-bundle/assets/js/bundle-builder/index.js:6837
+#: addons/course-bundle/assets/js/bundle-builder/index.js:6905
 #: addons/enrollments/assets/js/create-enrollment/index.js:17458
 #: addons/subscription/assets/js/membership-settings/index.js:3304
 msgid "Translate to"
 msgstr ""
 
 #: addons/content-bank/assets/js/manage-contents/index.js:18545
-#: addons/course-bundle/assets/js/bundle-builder/index.js:6849
+#: addons/course-bundle/assets/js/bundle-builder/index.js:6917
 #: addons/enrollments/assets/js/create-enrollment/index.js:17470
 #: addons/subscription/assets/js/membership-settings/index.js:3316
 msgid "Write as Bullets"
 msgstr ""
 
 #: addons/content-bank/assets/js/manage-contents/index.js:18551
-#: addons/course-bundle/assets/js/bundle-builder/index.js:6855
+#: addons/course-bundle/assets/js/bundle-builder/index.js:6923
 #: addons/enrollments/assets/js/create-enrollment/index.js:17476
 #: addons/subscription/assets/js/membership-settings/index.js:3322
 msgid "Make Longer"
 msgstr ""
 
 #: addons/content-bank/assets/js/manage-contents/index.js:18557
-#: addons/course-bundle/assets/js/bundle-builder/index.js:6861
+#: addons/course-bundle/assets/js/bundle-builder/index.js:6929
 #: addons/enrollments/assets/js/create-enrollment/index.js:17482
 #: addons/subscription/assets/js/membership-settings/index.js:3328
 msgid "Simplify Language"
@@ -12322,8 +12542,8 @@ msgstr ""
 
 #: addons/content-bank/assets/js/manage-contents/index.js:18608
 #: addons/content-bank/assets/js/manage-contents/index.js:22041
-#: addons/course-bundle/assets/js/bundle-builder/index.js:6912
-#: addons/course-bundle/assets/js/bundle-builder/index.js:9199
+#: addons/course-bundle/assets/js/bundle-builder/index.js:6980
+#: addons/course-bundle/assets/js/bundle-builder/index.js:9267
 #: addons/enrollments/assets/js/create-enrollment/index.js:17533
 #: addons/subscription/assets/js/membership-settings/index.js:3379
 msgid "Generate Now"
@@ -12331,8 +12551,8 @@ msgstr ""
 
 #: addons/content-bank/assets/js/manage-contents/index.js:18616
 #: addons/content-bank/assets/js/manage-contents/index.js:22041
-#: addons/course-bundle/assets/js/bundle-builder/index.js:6920
-#: addons/course-bundle/assets/js/bundle-builder/index.js:9199
+#: addons/course-bundle/assets/js/bundle-builder/index.js:6988
+#: addons/course-bundle/assets/js/bundle-builder/index.js:9267
 #: addons/enrollments/assets/js/create-enrollment/index.js:17541
 #: addons/subscription/assets/js/membership-settings/index.js:3387
 msgid "Generate Again"
@@ -12340,57 +12560,57 @@ msgstr ""
 
 #: addons/content-bank/assets/js/manage-contents/index.js:18625
 #: addons/content-bank/assets/js/manage-contents/index.js:21678
-#: addons/course-bundle/assets/js/bundle-builder/index.js:6929
-#: addons/course-bundle/assets/js/bundle-builder/index.js:8836
+#: addons/course-bundle/assets/js/bundle-builder/index.js:6997
+#: addons/course-bundle/assets/js/bundle-builder/index.js:8904
 #: addons/enrollments/assets/js/create-enrollment/index.js:17550
 #: addons/subscription/assets/js/membership-settings/index.js:3396
 msgid "Use This"
 msgstr ""
 
 #: addons/content-bank/assets/js/manage-contents/index.js:18663
-#: addons/course-bundle/assets/js/bundle-builder/index.js:6971
+#: addons/course-bundle/assets/js/bundle-builder/index.js:7039
 #: addons/enrollments/assets/js/create-enrollment/index.js:17588
 #: addons/subscription/assets/js/membership-settings/index.js:3438
 msgid "Upgrade to Tutor LMS Pro today and experience the power of "
 msgstr ""
 
 #: addons/content-bank/assets/js/manage-contents/index.js:18670
-#: addons/course-bundle/assets/js/bundle-builder/index.js:6978
+#: addons/course-bundle/assets/js/bundle-builder/index.js:7046
 #: addons/enrollments/assets/js/create-enrollment/index.js:17595
 #: addons/subscription/assets/js/membership-settings/index.js:3445
 msgid "Upgrade your plan to access the AI feature"
 msgstr ""
 
 #: addons/content-bank/assets/js/manage-contents/index.js:18671
-#: addons/course-bundle/assets/js/bundle-builder/index.js:6979
+#: addons/course-bundle/assets/js/bundle-builder/index.js:7047
 #: addons/enrollments/assets/js/create-enrollment/index.js:17596
 #: addons/subscription/assets/js/membership-settings/index.js:3446
 msgid "Don’t miss out on this game-changing feature!"
 msgstr ""
 
 #: addons/content-bank/assets/js/manage-contents/index.js:18673
-#: addons/course-bundle/assets/js/bundle-builder/index.js:6981
+#: addons/course-bundle/assets/js/bundle-builder/index.js:7049
 #: addons/enrollments/assets/js/create-enrollment/index.js:17598
 #: addons/subscription/assets/js/membership-settings/index.js:3448
 msgid "Generate a complete course outline in seconds!"
 msgstr ""
 
 #: addons/content-bank/assets/js/manage-contents/index.js:18674
-#: addons/course-bundle/assets/js/bundle-builder/index.js:6982
+#: addons/course-bundle/assets/js/bundle-builder/index.js:7050
 #: addons/enrollments/assets/js/create-enrollment/index.js:17599
 #: addons/subscription/assets/js/membership-settings/index.js:3449
 msgid "Let the AI Studio create Quizzes on your behalf and give your brain a well-deserved break."
 msgstr ""
 
 #: addons/content-bank/assets/js/manage-contents/index.js:18675
-#: addons/course-bundle/assets/js/bundle-builder/index.js:6983
+#: addons/course-bundle/assets/js/bundle-builder/index.js:7051
 #: addons/enrollments/assets/js/create-enrollment/index.js:17600
 #: addons/subscription/assets/js/membership-settings/index.js:3450
 msgid "Generate images, customize backgrounds, and even remove unwanted objects with ease."
 msgstr ""
 
 #: addons/content-bank/assets/js/manage-contents/index.js:18676
-#: addons/course-bundle/assets/js/bundle-builder/index.js:6984
+#: addons/course-bundle/assets/js/bundle-builder/index.js:7052
 #: addons/enrollments/assets/js/create-enrollment/index.js:17601
 #: addons/subscription/assets/js/membership-settings/index.js:3451
 msgid "Say goodbye to typos and grammar errors with AI-powered copy editing."
@@ -12398,7 +12618,7 @@ msgstr ""
 
 #: addons/content-bank/assets/js/manage-contents/index.js:18685
 #: addons/course-bundle/assets/js/bundle-builder/index.js:3443
-#: addons/course-bundle/assets/js/bundle-builder/index.js:6993
+#: addons/course-bundle/assets/js/bundle-builder/index.js:7061
 #: addons/enrollments/assets/js/create-enrollment/index.js:17610
 #: addons/subscription/assets/js/membership-settings/index.js:3460
 msgid "Get Tutor LMS Pro"
@@ -12406,64 +12626,64 @@ msgstr ""
 
 #: addons/content-bank/assets/js/manage-contents/index.js:18712
 #: addons/content-bank/assets/js/manage-contents/index.js:21840
-#: addons/course-bundle/assets/js/bundle-builder/index.js:7020
-#: addons/course-bundle/assets/js/bundle-builder/index.js:8998
+#: addons/course-bundle/assets/js/bundle-builder/index.js:7088
+#: addons/course-bundle/assets/js/bundle-builder/index.js:9066
 #: addons/enrollments/assets/js/create-enrollment/index.js:17637
 #: addons/subscription/assets/js/membership-settings/index.js:3487
 msgid "Illustration"
 msgstr ""
 
 #: addons/content-bank/assets/js/manage-contents/index.js:18984
-#: addons/course-bundle/assets/js/bundle-builder/index.js:7290
+#: addons/course-bundle/assets/js/bundle-builder/index.js:7358
 #: addons/enrollments/assets/js/create-enrollment/index.js:17806
 #: addons/subscription/assets/js/membership-settings/index.js:3615
 msgid "This field is required"
 msgstr ""
 
 #: addons/content-bank/assets/js/manage-contents/index.js:18999
-#: addons/course-bundle/assets/js/bundle-builder/index.js:7305
+#: addons/course-bundle/assets/js/bundle-builder/index.js:7373
 #: addons/enrollments/assets/js/create-enrollment/index.js:17821
 #: addons/subscription/assets/js/membership-settings/index.js:3630
 msgid "The field is required"
 msgstr ""
 
 #: addons/content-bank/assets/js/manage-contents/index.js:19006
-#: addons/course-bundle/assets/js/bundle-builder/index.js:7312
+#: addons/course-bundle/assets/js/bundle-builder/index.js:7380
 #: addons/enrollments/assets/js/create-enrollment/index.js:17828
 #: addons/subscription/assets/js/membership-settings/index.js:3637
 msgid "Invalid date entered!"
 msgstr ""
 
 #: addons/content-bank/assets/js/manage-contents/index.js:19022
-#: addons/course-bundle/assets/js/bundle-builder/index.js:7328
+#: addons/course-bundle/assets/js/bundle-builder/index.js:7396
 #: addons/enrollments/assets/js/create-enrollment/index.js:17844
 #: addons/subscription/assets/js/membership-settings/index.js:3653
 msgid "Invalid time entered!"
 msgstr ""
 
 #: addons/content-bank/assets/js/manage-contents/index.js:19117
-#: addons/course-bundle/assets/js/bundle-builder/index.js:7423
+#: addons/course-bundle/assets/js/bundle-builder/index.js:7491
 #: addons/enrollments/assets/js/create-enrollment/index.js:17939
 #: addons/subscription/assets/js/membership-settings/index.js:3748
 msgid "Set OpenAI API key"
 msgstr ""
 
 #: addons/content-bank/assets/js/manage-contents/index.js:19134
-#: addons/course-bundle/assets/js/bundle-builder/index.js:7440
+#: addons/course-bundle/assets/js/bundle-builder/index.js:7508
 #: addons/enrollments/assets/js/create-enrollment/index.js:17956
 #: addons/subscription/assets/js/membership-settings/index.js:3765
 msgid "Connect API KEY"
 msgstr ""
 
 #: addons/content-bank/assets/js/manage-contents/index.js:19140
-#: addons/course-bundle/assets/js/bundle-builder/index.js:7446
+#: addons/course-bundle/assets/js/bundle-builder/index.js:7514
 #: addons/enrollments/assets/js/create-enrollment/index.js:17962
 #: addons/subscription/assets/js/membership-settings/index.js:3771
 msgid "API is not connected"
 msgstr ""
 
 #: addons/content-bank/assets/js/manage-contents/index.js:19144
-#: addons/course-bundle/assets/js/bundle-builder/index.js:7450
+#: addons/course-bundle/assets/js/bundle-builder/index.js:7518
 #: addons/enrollments/assets/js/create-enrollment/index.js:17966
 #: addons/subscription/assets/js/membership-settings/index.js:3775
 msgid "Please, ask your Admin to connect the API with Tutor LMS Pro."
@@ -12471,133 +12691,135 @@ msgstr ""
 
 #. translators: %1$s and %2$s are opening and closing anchor tags for the "OpenAI User settings" link
 #: addons/content-bank/assets/js/manage-contents/index.js:19161
-#: addons/course-bundle/assets/js/bundle-builder/index.js:7467
+#: addons/course-bundle/assets/js/bundle-builder/index.js:7535
 #: addons/enrollments/assets/js/create-enrollment/index.js:17983
 #: addons/subscription/assets/js/membership-settings/index.js:3792
+#, js-format
 msgid "Find your Secret API key in your %1$sOpenAI User settings%2$s and paste it here to connect OpenAI with your Tutor LMS website."
 msgstr ""
 
 #: addons/content-bank/assets/js/manage-contents/index.js:19167
-#: addons/course-bundle/assets/js/bundle-builder/index.js:7473
+#: addons/course-bundle/assets/js/bundle-builder/index.js:7541
 #: addons/enrollments/assets/js/create-enrollment/index.js:17989
 #: addons/subscription/assets/js/membership-settings/index.js:3798
 msgid "The page will reload after submission. Make sure to save the course information."
 msgstr ""
 
 #: addons/content-bank/assets/js/manage-contents/index.js:19178
-#: addons/course-bundle/assets/js/bundle-builder/index.js:7484
+#: addons/course-bundle/assets/js/bundle-builder/index.js:7552
 #: addons/enrollments/assets/js/create-enrollment/index.js:18000
 #: addons/subscription/assets/js/membership-settings/index.js:3809
 msgid "OpenAI API key"
 msgstr ""
 
 #: addons/content-bank/assets/js/manage-contents/index.js:19179
-#: addons/course-bundle/assets/js/bundle-builder/index.js:7485
+#: addons/course-bundle/assets/js/bundle-builder/index.js:7553
 #: addons/enrollments/assets/js/create-enrollment/index.js:18001
 #: addons/subscription/assets/js/membership-settings/index.js:3810
 msgid "Enter your OpenAI API key"
 msgstr ""
 
 #: addons/content-bank/assets/js/manage-contents/index.js:19186
-#: addons/course-bundle/assets/js/bundle-builder/index.js:7492
+#: addons/course-bundle/assets/js/bundle-builder/index.js:7560
 #: addons/enrollments/assets/js/create-enrollment/index.js:18008
 #: addons/subscription/assets/js/membership-settings/index.js:3817
 msgid "Enable OpenAI"
 msgstr ""
 
 #: addons/content-bank/assets/js/manage-contents/index.js:19324
-#: addons/course-bundle/assets/js/bundle-builder/index.js:7630
+#: addons/course-bundle/assets/js/bundle-builder/index.js:7698
 #: addons/enrollments/assets/js/create-enrollment/index.js:18146
 #: addons/subscription/assets/js/membership-settings/index.js:3955
 msgid "Create a Compelling Title"
 msgstr ""
 
 #: addons/content-bank/assets/js/manage-contents/index.js:19325
-#: addons/course-bundle/assets/js/bundle-builder/index.js:7631
+#: addons/course-bundle/assets/js/bundle-builder/index.js:7699
 #: addons/enrollments/assets/js/create-enrollment/index.js:18147
 #: addons/subscription/assets/js/membership-settings/index.js:3956
 msgid "Describe the main focus of your course in a few words"
 msgstr ""
 
 #: addons/content-bank/assets/js/manage-contents/index.js:19398
-#: addons/course-bundle/assets/js/bundle-builder/index.js:7704
+#: addons/course-bundle/assets/js/bundle-builder/index.js:7772
 #: addons/enrollments/assets/js/create-enrollment/index.js:18220
 #: addons/subscription/assets/js/membership-settings/index.js:4029
 msgid "Show/Hide Password"
 msgstr ""
 
 #: addons/content-bank/assets/js/manage-contents/index.js:19747
-#: addons/course-bundle/assets/js/bundle-builder/index.js:15077
+#: addons/course-bundle/assets/js/bundle-builder/index.js:15145
 msgid "Tutor ShortCode"
 msgstr ""
 
 #: addons/content-bank/assets/js/manage-contents/index.js:19752
-#: addons/course-bundle/assets/js/bundle-builder/index.js:15082
+#: addons/course-bundle/assets/js/bundle-builder/index.js:15150
 msgid "Student Registration Form"
 msgstr ""
 
 #: addons/content-bank/assets/js/manage-contents/index.js:19758
-#: addons/course-bundle/assets/js/bundle-builder/index.js:15088
+#: addons/course-bundle/assets/js/bundle-builder/index.js:15156
 msgid "Instructor Registration Form"
 msgstr ""
 
 #: addons/content-bank/assets/js/manage-contents/index.js:19767
-#: addons/course-bundle/assets/js/bundle-builder/index.js:15097
+#: addons/course-bundle/assets/js/bundle-builder/index.js:15165
 msgid "Courses Shortcode"
 msgstr ""
 
 #: addons/content-bank/assets/js/manage-contents/index.js:19772
-#: addons/course-bundle/assets/js/bundle-builder/index.js:15102
+#: addons/course-bundle/assets/js/bundle-builder/index.js:15170
 msgid "Course id, separate by (,) comma"
 msgstr ""
 
 #: addons/content-bank/assets/js/manage-contents/index.js:19778
-#: addons/course-bundle/assets/js/bundle-builder/index.js:15108
+#: addons/course-bundle/assets/js/bundle-builder/index.js:15176
 msgid "Exclude Course IDS"
 msgstr ""
 
 #: addons/content-bank/assets/js/manage-contents/index.js:19784
-#: addons/course-bundle/assets/js/bundle-builder/index.js:15114
+#: addons/course-bundle/assets/js/bundle-builder/index.js:15182
 msgid "Category IDS"
 msgstr ""
 
 #: addons/content-bank/assets/js/manage-contents/index.js:19790
-#: addons/course-bundle/assets/js/bundle-builder/index.js:15120
+#: addons/course-bundle/assets/js/bundle-builder/index.js:15188
 msgid "Order By"
 msgstr ""
 
 #: addons/content-bank/assets/js/manage-contents/index.js:19838
-#: addons/course-bundle/assets/js/bundle-builder/index.js:15168
+#: addons/course-bundle/assets/js/bundle-builder/index.js:15236
 msgid "Count"
 msgstr ""
 
 #: addons/content-bank/assets/js/manage-contents/index.js:20037
 #: addons/content-bank/assets/js/manage-contents/index.js:20058
-#: addons/course-bundle/assets/js/bundle-builder/index.js:15367
-#: addons/course-bundle/assets/js/bundle-builder/index.js:15388
+#: addons/course-bundle/assets/js/bundle-builder/index.js:15435
+#: addons/course-bundle/assets/js/bundle-builder/index.js:15456
 msgid "Back to WordPress Editor"
 msgstr ""
 
 #: addons/content-bank/assets/js/manage-contents/index.js:20042
-#: addons/course-bundle/assets/js/bundle-builder/index.js:15372
+#: addons/course-bundle/assets/js/bundle-builder/index.js:15440
 msgid "Warning: Switching to the WordPress default editor may cause issues with your current layout, design, and content."
 msgstr ""
 
 #. translators: %s is the editor name
 #: addons/content-bank/assets/js/manage-contents/index.js:20080
-#: addons/course-bundle/assets/js/bundle-builder/index.js:15410
+#: addons/course-bundle/assets/js/bundle-builder/index.js:15478
+#, js-format
 msgid "Edit with %s"
 msgstr ""
 
 #: addons/content-bank/assets/js/manage-contents/index.js:20163
-#: addons/course-bundle/assets/js/bundle-builder/index.js:15493
+#: addons/course-bundle/assets/js/bundle-builder/index.js:15561
 msgid "Edit with"
 msgstr ""
 
 #: addons/content-bank/assets/js/manage-contents/index.js:20957
 #: addons/content-bank/assets/js/manage-contents/index.js:24147
 #: addons/content-bank/assets/js/manage-contents/index.js:28856
-#: addons/course-bundle/assets/js/bundle-builder/index.js:11889
+#: addons/course-bundle/assets/js/bundle-builder/index.js:11957
 #: addons/enrollments/assets/js/create-enrollment/index.js:19844
 #: addons/subscription/assets/js/membership-settings/index.js:21972
 msgid "Unsaved Changes"
@@ -12607,13 +12829,14 @@ msgstr ""
 #: addons/content-bank/assets/js/manage-contents/index.js:20959
 #: addons/content-bank/assets/js/manage-contents/index.js:24149
 #: addons/content-bank/assets/js/manage-contents/index.js:28858
+#, js-format
 msgid "Collection: %s"
 msgstr ""
 
 #: addons/content-bank/assets/js/manage-contents/index.js:20975
 #: addons/content-bank/assets/js/manage-contents/index.js:24165
 #: addons/content-bank/assets/js/manage-contents/index.js:28874
-#: addons/course-bundle/assets/js/bundle-builder/index.js:11900
+#: addons/course-bundle/assets/js/bundle-builder/index.js:11968
 #: addons/enrollments/assets/js/create-enrollment/index.js:19855
 msgid "Discard Changes"
 msgstr ""
@@ -12661,159 +12884,159 @@ msgid "Maximum File Size Limit"
 msgstr ""
 
 #: addons/content-bank/assets/js/manage-contents/index.js:21263
-#: addons/course-bundle/assets/js/bundle-builder/index.js:8421
+#: addons/course-bundle/assets/js/bundle-builder/index.js:8489
 msgid "Replace Image"
 msgstr ""
 
 #: addons/content-bank/assets/js/manage-contents/index.js:21312
-#: addons/course-bundle/assets/js/bundle-builder/index.js:8470
+#: addons/course-bundle/assets/js/bundle-builder/index.js:8538
 msgid "A serene classroom setting with books and a chalkboard"
 msgstr ""
 
 #: addons/content-bank/assets/js/manage-contents/index.js:21313
-#: addons/course-bundle/assets/js/bundle-builder/index.js:8471
+#: addons/course-bundle/assets/js/bundle-builder/index.js:8539
 msgid "An abstract representation of innovation and creativity"
 msgstr ""
 
 #: addons/content-bank/assets/js/manage-contents/index.js:21314
-#: addons/course-bundle/assets/js/bundle-builder/index.js:8472
+#: addons/course-bundle/assets/js/bundle-builder/index.js:8540
 msgid "A vibrant workspace with a laptop and coffee cup"
 msgstr ""
 
 #: addons/content-bank/assets/js/manage-contents/index.js:21315
-#: addons/course-bundle/assets/js/bundle-builder/index.js:8473
+#: addons/course-bundle/assets/js/bundle-builder/index.js:8541
 msgid "A modern design with digital learning icons"
 msgstr ""
 
 #: addons/content-bank/assets/js/manage-contents/index.js:21316
-#: addons/course-bundle/assets/js/bundle-builder/index.js:8474
+#: addons/course-bundle/assets/js/bundle-builder/index.js:8542
 msgid "A futuristic cityscape with a glowing pathway"
 msgstr ""
 
 #: addons/content-bank/assets/js/manage-contents/index.js:21317
-#: addons/course-bundle/assets/js/bundle-builder/index.js:8475
+#: addons/course-bundle/assets/js/bundle-builder/index.js:8543
 msgid "A peaceful nature scene with soft colors"
 msgstr ""
 
 #: addons/content-bank/assets/js/manage-contents/index.js:21318
-#: addons/course-bundle/assets/js/bundle-builder/index.js:8476
+#: addons/course-bundle/assets/js/bundle-builder/index.js:8544
 msgid "A professional boardroom with sleek visuals"
 msgstr ""
 
 #: addons/content-bank/assets/js/manage-contents/index.js:21319
-#: addons/course-bundle/assets/js/bundle-builder/index.js:8477
+#: addons/course-bundle/assets/js/bundle-builder/index.js:8545
 msgid "A stack of books with warm, inviting lighting"
 msgstr ""
 
 #: addons/content-bank/assets/js/manage-contents/index.js:21320
-#: addons/course-bundle/assets/js/bundle-builder/index.js:8478
+#: addons/course-bundle/assets/js/bundle-builder/index.js:8546
 msgid "A dynamic collage of technology and education themes"
 msgstr ""
 
 #: addons/content-bank/assets/js/manage-contents/index.js:21321
-#: addons/course-bundle/assets/js/bundle-builder/index.js:8479
+#: addons/course-bundle/assets/js/bundle-builder/index.js:8547
 msgid "A bold and minimalistic design with striking colors"
 msgstr ""
 
 #: addons/content-bank/assets/js/manage-contents/index.js:21600
 #: addons/content-bank/assets/js/manage-contents/index.js:22534
-#: addons/course-bundle/assets/js/bundle-builder/index.js:8758
-#: addons/course-bundle/assets/js/bundle-builder/index.js:9692
+#: addons/course-bundle/assets/js/bundle-builder/index.js:8826
+#: addons/course-bundle/assets/js/bundle-builder/index.js:9760
 msgid "Magic Fill"
 msgstr ""
 
 #: addons/content-bank/assets/js/manage-contents/index.js:21649
-#: addons/course-bundle/assets/js/bundle-builder/index.js:8807
+#: addons/course-bundle/assets/js/bundle-builder/index.js:8875
 msgid "Generated Image"
 msgstr ""
 
 #: addons/content-bank/assets/js/manage-contents/index.js:21810
-#: addons/course-bundle/assets/js/bundle-builder/index.js:8968
+#: addons/course-bundle/assets/js/bundle-builder/index.js:9036
 msgid "Photo"
 msgstr ""
 
 #: addons/content-bank/assets/js/manage-contents/index.js:21815
-#: addons/course-bundle/assets/js/bundle-builder/index.js:8973
+#: addons/course-bundle/assets/js/bundle-builder/index.js:9041
 msgid "Neon"
 msgstr ""
 
 #: addons/content-bank/assets/js/manage-contents/index.js:21820
-#: addons/course-bundle/assets/js/bundle-builder/index.js:8978
+#: addons/course-bundle/assets/js/bundle-builder/index.js:9046
 msgid "3D"
 msgstr ""
 
 #: addons/content-bank/assets/js/manage-contents/index.js:21825
-#: addons/course-bundle/assets/js/bundle-builder/index.js:8983
+#: addons/course-bundle/assets/js/bundle-builder/index.js:9051
 msgid "Painting"
 msgstr ""
 
 #: addons/content-bank/assets/js/manage-contents/index.js:21830
-#: addons/course-bundle/assets/js/bundle-builder/index.js:8988
+#: addons/course-bundle/assets/js/bundle-builder/index.js:9056
 msgid "Sketch"
 msgstr ""
 
 #: addons/content-bank/assets/js/manage-contents/index.js:21835
-#: addons/course-bundle/assets/js/bundle-builder/index.js:8993
+#: addons/course-bundle/assets/js/bundle-builder/index.js:9061
 msgid "Concept"
 msgstr ""
 
 #: addons/content-bank/assets/js/manage-contents/index.js:21845
-#: addons/course-bundle/assets/js/bundle-builder/index.js:9003
+#: addons/course-bundle/assets/js/bundle-builder/index.js:9071
 msgid "Dreamy"
 msgstr ""
 
 #: addons/content-bank/assets/js/manage-contents/index.js:21850
-#: addons/course-bundle/assets/js/bundle-builder/index.js:9008
+#: addons/course-bundle/assets/js/bundle-builder/index.js:9076
 msgid "Filmic"
 msgstr ""
 
 #: addons/content-bank/assets/js/manage-contents/index.js:21855
-#: addons/course-bundle/assets/js/bundle-builder/index.js:9013
+#: addons/course-bundle/assets/js/bundle-builder/index.js:9081
 msgid "Retro"
 msgstr ""
 
 #: addons/content-bank/assets/js/manage-contents/index.js:21860
-#: addons/course-bundle/assets/js/bundle-builder/index.js:9018
+#: addons/course-bundle/assets/js/bundle-builder/index.js:9086
 msgid "Black & White"
 msgstr ""
 
 #: addons/content-bank/assets/js/manage-contents/index.js:21991
-#: addons/course-bundle/assets/js/bundle-builder/index.js:9149
+#: addons/course-bundle/assets/js/bundle-builder/index.js:9217
 msgid "Visualize Your Course"
 msgstr ""
 
 #: addons/content-bank/assets/js/manage-contents/index.js:21992
-#: addons/course-bundle/assets/js/bundle-builder/index.js:9150
+#: addons/course-bundle/assets/js/bundle-builder/index.js:9218
 msgid "Describe the image you want for your course thumbnail"
 msgstr ""
 
 #: addons/content-bank/assets/js/manage-contents/index.js:22023
-#: addons/course-bundle/assets/js/bundle-builder/index.js:9181
+#: addons/course-bundle/assets/js/bundle-builder/index.js:9249
 msgid "Styles"
 msgstr ""
 
 #: addons/content-bank/assets/js/manage-contents/index.js:22548
-#: addons/course-bundle/assets/js/bundle-builder/index.js:9706
+#: addons/course-bundle/assets/js/bundle-builder/index.js:9774
 msgid "Revert to Original"
 msgstr ""
 
 #: addons/content-bank/assets/js/manage-contents/index.js:22657
-#: addons/course-bundle/assets/js/bundle-builder/index.js:9815
+#: addons/course-bundle/assets/js/bundle-builder/index.js:9883
 msgid "Describe the Fill"
 msgstr ""
 
 #: addons/content-bank/assets/js/manage-contents/index.js:22658
-#: addons/course-bundle/assets/js/bundle-builder/index.js:9816
+#: addons/course-bundle/assets/js/bundle-builder/index.js:9884
 msgid "Write 5 words to describe..."
 msgstr ""
 
 #: addons/content-bank/assets/js/manage-contents/index.js:22682
-#: addons/course-bundle/assets/js/bundle-builder/index.js:9840
+#: addons/course-bundle/assets/js/bundle-builder/index.js:9908
 msgid "Generative Erase"
 msgstr ""
 
 #: addons/content-bank/assets/js/manage-contents/index.js:22700
-#: addons/course-bundle/assets/js/bundle-builder/index.js:9858
+#: addons/course-bundle/assets/js/bundle-builder/index.js:9926
 msgid "Use Image"
 msgstr ""
 
@@ -12887,7 +13110,7 @@ msgid "Add from URL"
 msgstr ""
 
 #: addons/content-bank/assets/js/manage-contents/index.js:23660
-#: addons/course-bundle/assets/js/bundle-builder/index.js:13369
+#: addons/course-bundle/assets/js/bundle-builder/index.js:13437
 msgid "Upload Thumbnail"
 msgstr ""
 
@@ -12915,9 +13138,9 @@ msgstr ""
 #: addons/content-bank/assets/js/manage-contents/index.js:27295
 #: addons/content-bank/assets/js/manage-contents/index.js:27982
 #: addons/course-bundle/assets/js/bundle-builder/index.js:1861
-#: addons/course-bundle/assets/js/bundle-builder/index.js:8218
-#: addons/course-bundle/assets/js/bundle-builder/index.js:13184
-#: addons/course-bundle/assets/js/bundle-builder/index.js:13585
+#: addons/course-bundle/assets/js/bundle-builder/index.js:8286
+#: addons/course-bundle/assets/js/bundle-builder/index.js:13252
+#: addons/course-bundle/assets/js/bundle-builder/index.js:13653
 msgid "Ok"
 msgstr ""
 
@@ -12932,6 +13155,7 @@ msgstr ""
 #. translators: %s is the number of selected items
 #: addons/content-bank/assets/js/manage-contents/index.js:23933
 #: addons/content-bank/assets/js/manage-contents/index.js:30274
+#, js-format
 msgid "%s selected"
 msgstr ""
 
@@ -12942,8 +13166,8 @@ msgstr ""
 #: addons/content-bank/assets/js/manage-contents/index.js:23987
 #: addons/content-bank/assets/js/manage-contents/index.js:30299
 #: addons/content-bank/assets/js/manage-contents/index.js:31311
-#: addons/course-bundle/assets/js/bundle-builder/index.js:8166
-#: addons/course-bundle/assets/js/bundle-builder/index.js:14700
+#: addons/course-bundle/assets/js/bundle-builder/index.js:8234
+#: addons/course-bundle/assets/js/bundle-builder/index.js:14768
 #: addons/enrollments/assets/js/create-enrollment/index.js:23042
 msgid "Add"
 msgstr ""
@@ -12978,7 +13202,8 @@ msgstr ""
 
 #. translators: %s is the maximum allowed upload file size (e.g., "2MB")
 #: addons/content-bank/assets/js/manage-contents/index.js:24264
-#: addons/course-bundle/assets/js/bundle-builder/index.js:13370
+#: addons/course-bundle/assets/js/bundle-builder/index.js:13438
+#, js-format
 msgid "JPEG, PNG, GIF, and WebP formats, up to %s"
 msgstr ""
 
@@ -12992,6 +13217,7 @@ msgstr ""
 
 #. translators: %s is the maximum allowed file size
 #: addons/content-bank/assets/js/manage-contents/index.js:24274
+#, js-format
 msgid "MP4, and WebM formats, up to %s"
 msgstr ""
 
@@ -13316,13 +13542,14 @@ msgid "Select"
 msgstr ""
 
 #: addons/content-bank/assets/js/manage-contents/index.js:30144
-#: addons/course-bundle/assets/js/bundle-builder/index.js:14532
+#: addons/course-bundle/assets/js/bundle-builder/index.js:14600
 #: addons/enrollments/assets/js/create-enrollment/index.js:21150
 msgid "Course item"
 msgstr ""
 
 #. translators: %d is the total number of courses
 #: addons/content-bank/assets/js/manage-contents/index.js:30155
+#, js-format
 msgid "Total Courses: %d"
 msgstr ""
 
@@ -13356,11 +13583,13 @@ msgstr ""
 
 #. translators: %1$d: number of imported courses, %2$d: number of total courses.
 #: addons/content-bank/assets/js/manage-contents/index.js:30558
+#, js-format
 msgid "Importing data: %1$d/%2$d"
 msgstr ""
 
 #. translators: %d: number of failed courses.
 #: addons/content-bank/assets/js/manage-contents/index.js:30561
+#, js-format
 msgid "Failed: %d"
 msgid_plural "Failed: %d"
 msgstr[0] ""
@@ -13368,6 +13597,7 @@ msgstr[1] ""
 
 #. translators: %1$d: number of imported courses, %2$d: number of total courses, %3$s: failed label.
 #: addons/content-bank/assets/js/manage-contents/index.js:30563
+#, js-format
 msgid "Importing data: %1$d/%2$d %3$s"
 msgstr ""
 
@@ -13419,6 +13649,7 @@ msgstr ""
 
 #. translators: %d: number of imported courses.
 #: addons/content-bank/assets/js/manage-contents/index.js:30797
+#, js-format
 msgctxt "imported"
 msgid "%d Course"
 msgid_plural "%d Courses"
@@ -13431,6 +13662,7 @@ msgstr ""
 
 #. translators: %d: number of failed courses.
 #: addons/content-bank/assets/js/manage-contents/index.js:30835
+#, js-format
 msgctxt "failed"
 msgid "%d Course"
 msgid_plural "%d Courses"
@@ -13531,7 +13763,7 @@ msgstr ""
 
 #: addons/course-bundle/assets/js/bundle-builder/index.js:2014
 #: addons/course-bundle/assets/js/bundle-builder/index.js:2021
-#: addons/course-bundle/assets/js/bundle-builder/index.js:13105
+#: addons/course-bundle/assets/js/bundle-builder/index.js:13173
 msgid "Schedule"
 msgstr ""
 
@@ -13565,11 +13797,6 @@ msgstr ""
 
 #: addons/course-bundle/assets/js/bundle-builder/index.js:2421
 msgid "Continue editing"
-msgstr ""
-
-#: addons/course-bundle/assets/js/bundle-builder/index.js:3109
-#: addons/subscription/assets/js/membership-settings/index.js:5998
-msgid "Close"
 msgstr ""
 
 #: addons/course-bundle/assets/js/bundle-builder/index.js:3133
@@ -13645,69 +13872,69 @@ msgstr ""
 msgid "Provide certificates for individual courses."
 msgstr ""
 
-#: addons/course-bundle/assets/js/bundle-builder/index.js:7828
+#: addons/course-bundle/assets/js/bundle-builder/index.js:7896
 msgid "Toggle options"
 msgstr ""
 
-#: addons/course-bundle/assets/js/bundle-builder/index.js:7881
-#: addons/course-bundle/assets/js/bundle-builder/index.js:8121
+#: addons/course-bundle/assets/js/bundle-builder/index.js:7949
+#: addons/course-bundle/assets/js/bundle-builder/index.js:8189
 msgid "No categories found."
 msgstr ""
 
-#: addons/course-bundle/assets/js/bundle-builder/index.js:7905
+#: addons/course-bundle/assets/js/bundle-builder/index.js:7973
 msgid "Clear selection"
 msgstr ""
 
-#: addons/course-bundle/assets/js/bundle-builder/index.js:8189
+#: addons/course-bundle/assets/js/bundle-builder/index.js:8257
 msgid "Category name is required"
 msgstr ""
 
-#: addons/course-bundle/assets/js/bundle-builder/index.js:8192
+#: addons/course-bundle/assets/js/bundle-builder/index.js:8260
 msgid "Category name"
 msgstr ""
 
-#: addons/course-bundle/assets/js/bundle-builder/index.js:8200
+#: addons/course-bundle/assets/js/bundle-builder/index.js:8268
 msgid "Select parent"
 msgstr ""
 
-#: addons/course-bundle/assets/js/bundle-builder/index.js:11173
+#: addons/course-bundle/assets/js/bundle-builder/index.js:11241
 #: addons/enrollments/assets/js/create-enrollment/index.js:19128
 #: addons/subscription/assets/js/membership-settings/index.js:6561
 msgid "Offer sale price"
 msgstr ""
 
-#: addons/course-bundle/assets/js/bundle-builder/index.js:11188
+#: addons/course-bundle/assets/js/bundle-builder/index.js:11256
 #: addons/enrollments/assets/js/create-enrollment/index.js:19143
 #: addons/subscription/assets/js/membership-settings/index.js:6576
 msgid "Sale price should be less than regular price"
 msgstr ""
 
-#: addons/course-bundle/assets/js/bundle-builder/index.js:11191
+#: addons/course-bundle/assets/js/bundle-builder/index.js:11259
 #: addons/enrollments/assets/js/create-enrollment/index.js:19146
 #: addons/subscription/assets/js/membership-settings/index.js:6579
 msgid "Sale price should be greater than 0"
 msgstr ""
 
-#: addons/course-bundle/assets/js/bundle-builder/index.js:11198
-#: addons/course-bundle/assets/js/bundle-builder/index.js:12938
+#: addons/course-bundle/assets/js/bundle-builder/index.js:11266
+#: addons/course-bundle/assets/js/bundle-builder/index.js:13006
 #: addons/enrollments/assets/js/create-enrollment/index.js:19153
 #: addons/subscription/assets/js/membership-settings/index.js:6586
 msgid "Sale Price"
 msgstr ""
 
-#: addons/course-bundle/assets/js/bundle-builder/index.js:11208
+#: addons/course-bundle/assets/js/bundle-builder/index.js:11276
 #: addons/enrollments/assets/js/create-enrollment/index.js:19163
 #: addons/subscription/assets/js/membership-settings/index.js:6596
 msgid "Schedule the sale price"
 msgstr ""
 
-#: addons/course-bundle/assets/js/bundle-builder/index.js:11218
+#: addons/course-bundle/assets/js/bundle-builder/index.js:11286
 #: addons/enrollments/assets/js/create-enrollment/index.js:19173
 msgid "Sale starts from"
 msgstr ""
 
-#: addons/course-bundle/assets/js/bundle-builder/index.js:11227
-#: addons/course-bundle/assets/js/bundle-builder/index.js:11264
+#: addons/course-bundle/assets/js/bundle-builder/index.js:11295
+#: addons/course-bundle/assets/js/bundle-builder/index.js:11332
 #: addons/enrollments/assets/js/create-enrollment/index.js:19182
 #: addons/enrollments/assets/js/create-enrollment/index.js:19219
 #: addons/subscription/assets/js/membership-settings/index.js:6615
@@ -13715,8 +13942,8 @@ msgstr ""
 msgid "Schedule date is required"
 msgstr ""
 
-#: addons/course-bundle/assets/js/bundle-builder/index.js:11239
-#: addons/course-bundle/assets/js/bundle-builder/index.js:11289
+#: addons/course-bundle/assets/js/bundle-builder/index.js:11307
+#: addons/course-bundle/assets/js/bundle-builder/index.js:11357
 #: addons/enrollments/assets/js/create-enrollment/index.js:19194
 #: addons/enrollments/assets/js/create-enrollment/index.js:19244
 #: addons/subscription/assets/js/membership-settings/index.js:6627
@@ -13724,372 +13951,379 @@ msgstr ""
 msgid "Schedule time is required"
 msgstr ""
 
-#: addons/course-bundle/assets/js/bundle-builder/index.js:11255
+#: addons/course-bundle/assets/js/bundle-builder/index.js:11323
 #: addons/enrollments/assets/js/create-enrollment/index.js:19210
 msgid "Sale ends to"
 msgstr ""
 
-#: addons/course-bundle/assets/js/bundle-builder/index.js:11270
+#: addons/course-bundle/assets/js/bundle-builder/index.js:11338
 #: addons/enrollments/assets/js/create-enrollment/index.js:19225
 #: addons/subscription/assets/js/membership-settings/index.js:6658
 msgid "Sales End date should be greater than start date"
 msgstr ""
 
-#: addons/course-bundle/assets/js/bundle-builder/index.js:11297
+#: addons/course-bundle/assets/js/bundle-builder/index.js:11365
 #: addons/enrollments/assets/js/create-enrollment/index.js:19252
 #: addons/subscription/assets/js/membership-settings/index.js:6685
 msgid "Sales End time should be greater than start time"
 msgstr ""
 
-#: addons/course-bundle/assets/js/bundle-builder/index.js:11351
-#: addons/course-bundle/assets/js/bundle-builder/index.js:12313
+#: addons/course-bundle/assets/js/bundle-builder/index.js:11419
+#: addons/course-bundle/assets/js/bundle-builder/index.js:12381
 #: addons/enrollments/assets/js/create-enrollment/index.js:19306
 #: addons/enrollments/assets/js/create-enrollment/index.js:20012
 msgid "No Renewal"
 msgstr ""
 
 #. translators: %s: number of times.
-#: addons/course-bundle/assets/js/bundle-builder/index.js:11667
+#: addons/course-bundle/assets/js/bundle-builder/index.js:11735
 #: addons/enrollments/assets/js/create-enrollment/index.js:19622
 #: addons/subscription/assets/js/membership-settings/index.js:6200
+#, js-format
 msgid "%s times"
 msgstr ""
 
-#: addons/course-bundle/assets/js/bundle-builder/index.js:11687
+#: addons/course-bundle/assets/js/bundle-builder/index.js:11755
 #: addons/enrollments/assets/js/create-enrollment/index.js:19642
 msgid "Enter plan name"
 msgstr ""
 
-#: addons/course-bundle/assets/js/bundle-builder/index.js:11700
+#: addons/course-bundle/assets/js/bundle-builder/index.js:11768
 #: addons/enrollments/assets/js/create-enrollment/index.js:19655
 msgid "Price must be greater than 0"
 msgstr ""
 
-#: addons/course-bundle/assets/js/bundle-builder/index.js:11707
+#: addons/course-bundle/assets/js/bundle-builder/index.js:11775
 #: addons/enrollments/assets/js/create-enrollment/index.js:19662
 #: addons/subscription/assets/js/membership-settings/index.js:6280
 msgid "Plan price"
 msgstr ""
 
-#: addons/course-bundle/assets/js/bundle-builder/index.js:11719
+#: addons/course-bundle/assets/js/bundle-builder/index.js:11787
 #: addons/enrollments/assets/js/create-enrollment/index.js:19674
 #: addons/subscription/assets/js/membership-settings/index.js:6272
 #: addons/subscription/assets/js/membership-settings/index.js:6292
 msgid "This value must be equal to or greater than 1"
 msgstr ""
 
-#: addons/course-bundle/assets/js/bundle-builder/index.js:11724
+#: addons/course-bundle/assets/js/bundle-builder/index.js:11792
 #: addons/enrollments/assets/js/create-enrollment/index.js:19679
 #: addons/subscription/assets/js/membership-settings/index.js:6301
 msgid "Billing Interval"
 msgstr ""
 
-#: addons/course-bundle/assets/js/bundle-builder/index.js:11725
+#: addons/course-bundle/assets/js/bundle-builder/index.js:11793
 #: addons/enrollments/assets/js/create-enrollment/index.js:19680
 #: addons/subscription/assets/js/membership-settings/index.js:6302
 msgid "12"
 msgstr ""
 
-#: addons/course-bundle/assets/js/bundle-builder/index.js:11739
+#: addons/course-bundle/assets/js/bundle-builder/index.js:11807
 #: addons/enrollments/assets/js/create-enrollment/index.js:19694
 #: addons/subscription/assets/js/membership-settings/index.js:6322
 msgid "Day(s)"
 msgstr ""
 
-#: addons/course-bundle/assets/js/bundle-builder/index.js:11743
+#: addons/course-bundle/assets/js/bundle-builder/index.js:11811
 #: addons/enrollments/assets/js/create-enrollment/index.js:19698
 #: addons/subscription/assets/js/membership-settings/index.js:6326
 msgid "Week(s)"
 msgstr ""
 
-#: addons/course-bundle/assets/js/bundle-builder/index.js:11747
+#: addons/course-bundle/assets/js/bundle-builder/index.js:11815
 #: addons/enrollments/assets/js/create-enrollment/index.js:19702
 #: addons/subscription/assets/js/membership-settings/index.js:6330
 msgid "Month(s)"
 msgstr ""
 
-#: addons/course-bundle/assets/js/bundle-builder/index.js:11751
+#: addons/course-bundle/assets/js/bundle-builder/index.js:11819
 #: addons/enrollments/assets/js/create-enrollment/index.js:19706
 #: addons/subscription/assets/js/membership-settings/index.js:6334
 msgid "Year(s)"
 msgstr ""
 
-#: addons/course-bundle/assets/js/bundle-builder/index.js:11767
+#: addons/course-bundle/assets/js/bundle-builder/index.js:11835
 #: addons/enrollments/assets/js/create-enrollment/index.js:19722
 #: addons/subscription/assets/js/membership-settings/index.js:6350
 msgid "Renew plan must be greater than 0"
 msgstr ""
 
-#: addons/course-bundle/assets/js/bundle-builder/index.js:11773
-#: addons/course-bundle/assets/js/bundle-builder/index.js:12308
+#: addons/course-bundle/assets/js/bundle-builder/index.js:11841
+#: addons/course-bundle/assets/js/bundle-builder/index.js:12376
 #: addons/enrollments/assets/js/create-enrollment/index.js:19728
 #: addons/enrollments/assets/js/create-enrollment/index.js:20007
 #: addons/subscription/assets/js/membership-settings/index.js:6356
 msgid "Billing Cycles"
 msgstr ""
 
-#: addons/course-bundle/assets/js/bundle-builder/index.js:11774
+#: addons/course-bundle/assets/js/bundle-builder/index.js:11842
 #: addons/enrollments/assets/js/create-enrollment/index.js:19729
 #: addons/subscription/assets/js/membership-settings/index.js:6357
 msgid "Select or type times to renewing the plan"
 msgstr ""
 
-#: addons/course-bundle/assets/js/bundle-builder/index.js:11775
+#: addons/course-bundle/assets/js/bundle-builder/index.js:11843
 #: addons/enrollments/assets/js/create-enrollment/index.js:19730
 #: addons/subscription/assets/js/membership-settings/index.js:6358
 msgid "Times"
 msgstr ""
 
-#: addons/course-bundle/assets/js/bundle-builder/index.js:11788
+#: addons/course-bundle/assets/js/bundle-builder/index.js:11856
 #: addons/enrollments/assets/js/create-enrollment/index.js:19743
 #: addons/subscription/assets/js/membership-settings/index.js:6436
 msgid "Charge enrollment fee"
 msgstr ""
 
-#: addons/course-bundle/assets/js/bundle-builder/index.js:11799
+#: addons/course-bundle/assets/js/bundle-builder/index.js:11867
 #: addons/enrollments/assets/js/create-enrollment/index.js:19754
 #: addons/subscription/assets/js/membership-settings/index.js:6447
 msgid "Enrollment fee must be greater than 0"
 msgstr ""
 
-#: addons/course-bundle/assets/js/bundle-builder/index.js:11805
+#: addons/course-bundle/assets/js/bundle-builder/index.js:11873
 #: addons/enrollments/assets/js/create-enrollment/index.js:19760
 msgid "Enrollment fee"
 msgstr ""
 
-#: addons/course-bundle/assets/js/bundle-builder/index.js:11807
+#: addons/course-bundle/assets/js/bundle-builder/index.js:11875
 #: addons/enrollments/assets/js/create-enrollment/index.js:19762
 #: addons/subscription/assets/js/membership-settings/index.js:6455
 msgid "Enter enrollment fee"
 msgstr ""
 
-#: addons/course-bundle/assets/js/bundle-builder/index.js:11818
+#: addons/course-bundle/assets/js/bundle-builder/index.js:11886
 #: addons/enrollments/assets/js/create-enrollment/index.js:19773
 #: addons/subscription/assets/js/membership-settings/index.js:6527
 msgid "Do not provide certificate"
 msgstr ""
 
-#: addons/course-bundle/assets/js/bundle-builder/index.js:11825
+#: addons/course-bundle/assets/js/bundle-builder/index.js:11893
 #: addons/enrollments/assets/js/create-enrollment/index.js:19780
 #: addons/subscription/assets/js/membership-settings/index.js:6534
 msgid "Mark as featured"
 msgstr ""
 
-#: addons/course-bundle/assets/js/bundle-builder/index.js:11890
+#: addons/course-bundle/assets/js/bundle-builder/index.js:11958
 #: addons/enrollments/assets/js/create-enrollment/index.js:19845
 msgid "Update plan"
 msgstr ""
 
-#: addons/course-bundle/assets/js/bundle-builder/index.js:11890
+#: addons/course-bundle/assets/js/bundle-builder/index.js:11958
 #: addons/enrollments/assets/js/create-enrollment/index.js:19845
 msgid "Create plan"
 msgstr ""
 
-#: addons/course-bundle/assets/js/bundle-builder/index.js:12278
+#: addons/course-bundle/assets/js/bundle-builder/index.js:12346
 #: addons/enrollments/assets/js/create-enrollment/index.js:19977
 msgid "Months"
 msgstr ""
 
-#: addons/course-bundle/assets/js/bundle-builder/index.js:12280
+#: addons/course-bundle/assets/js/bundle-builder/index.js:12348
 #: addons/enrollments/assets/js/create-enrollment/index.js:19979
 msgid "Years"
 msgstr ""
 
 #. translators: %1$s - recurring value, %2$s - recurring unit
-#: addons/course-bundle/assets/js/bundle-builder/index.js:12340
+#: addons/course-bundle/assets/js/bundle-builder/index.js:12408
 #: addons/enrollments/assets/js/create-enrollment/index.js:20039
+#, js-format
 msgid "Renew every %1$s %2$s"
 msgstr ""
 
 #. translators: %s is the title of the item to be deleted
-#: addons/course-bundle/assets/js/bundle-builder/index.js:12426
+#: addons/course-bundle/assets/js/bundle-builder/index.js:12494
 #: addons/enrollments/assets/js/create-enrollment/index.js:20125
+#, js-format
 msgid "Delete \"%s\""
 msgstr ""
 
-#: addons/course-bundle/assets/js/bundle-builder/index.js:12427
+#: addons/course-bundle/assets/js/bundle-builder/index.js:12495
 #: addons/enrollments/assets/js/create-enrollment/index.js:20126
 msgid "Are you sure you want to delete this plan? This cannot be undone."
 msgstr ""
 
-#: addons/course-bundle/assets/js/bundle-builder/index.js:12466
+#: addons/course-bundle/assets/js/bundle-builder/index.js:12534
 #: addons/enrollments/assets/js/create-enrollment/index.js:20165
 msgid "Subscription plan item"
 msgstr ""
 
-#: addons/course-bundle/assets/js/bundle-builder/index.js:12485
+#: addons/course-bundle/assets/js/bundle-builder/index.js:12553
 #: addons/enrollments/assets/js/create-enrollment/index.js:20184
 msgid "Edit subscription plan"
 msgstr ""
 
-#: addons/course-bundle/assets/js/bundle-builder/index.js:12506
-#: addons/course-bundle/assets/js/bundle-builder/index.js:12507
+#: addons/course-bundle/assets/js/bundle-builder/index.js:12574
+#: addons/course-bundle/assets/js/bundle-builder/index.js:12575
 #: addons/enrollments/assets/js/create-enrollment/index.js:20205
 #: addons/enrollments/assets/js/create-enrollment/index.js:20206
 msgid "Inactive"
 msgstr ""
 
-#: addons/course-bundle/assets/js/bundle-builder/index.js:12571
+#: addons/course-bundle/assets/js/bundle-builder/index.js:12639
 #: addons/enrollments/assets/js/create-enrollment/index.js:20270
 msgid "Subscription plan details"
 msgstr ""
 
-#: addons/course-bundle/assets/js/bundle-builder/index.js:12792
+#: addons/course-bundle/assets/js/bundle-builder/index.js:12860
 msgid "Manage Subscription Plans"
 msgstr ""
 
-#: addons/course-bundle/assets/js/bundle-builder/index.js:12807
+#: addons/course-bundle/assets/js/bundle-builder/index.js:12875
 msgid "Add Subscription"
 msgstr ""
 
-#: addons/course-bundle/assets/js/bundle-builder/index.js:12874
+#: addons/course-bundle/assets/js/bundle-builder/index.js:12942
 msgid "One-time purchase only"
 msgstr ""
 
-#: addons/course-bundle/assets/js/bundle-builder/index.js:12878
+#: addons/course-bundle/assets/js/bundle-builder/index.js:12946
 msgid "Subscription only"
 msgstr ""
 
-#: addons/course-bundle/assets/js/bundle-builder/index.js:12882
+#: addons/course-bundle/assets/js/bundle-builder/index.js:12950
 msgid "Subscription & one-time purchase"
 msgstr ""
 
-#: addons/course-bundle/assets/js/bundle-builder/index.js:12887
+#: addons/course-bundle/assets/js/bundle-builder/index.js:12955
 #: addons/subscription/assets/js/membership-settings/index.js:6408
 msgid "You have unchecked the Tax Collection option. Please review your pricing, as your tax settings currently indicate that prices are inclusive of tax."
 msgstr ""
 
-#: addons/course-bundle/assets/js/bundle-builder/index.js:12896
+#: addons/course-bundle/assets/js/bundle-builder/index.js:12964
 msgid "Purchase Options"
 msgstr ""
 
-#: addons/course-bundle/assets/js/bundle-builder/index.js:12932
+#: addons/course-bundle/assets/js/bundle-builder/index.js:13000
 msgid "Sale price must be less than regular price"
 msgstr ""
 
-#: addons/course-bundle/assets/js/bundle-builder/index.js:12940
+#: addons/course-bundle/assets/js/bundle-builder/index.js:13008
 msgid "0"
 msgstr ""
 
-#: addons/course-bundle/assets/js/bundle-builder/index.js:12963
+#: addons/course-bundle/assets/js/bundle-builder/index.js:13031
 #: addons/subscription/assets/js/membership-settings/index.js:6376
 msgid "Tax Collection"
 msgstr ""
 
-#: addons/course-bundle/assets/js/bundle-builder/index.js:12978
+#: addons/course-bundle/assets/js/bundle-builder/index.js:13046
 msgid "Charge tax on one-time purchase "
 msgstr ""
 
-#: addons/course-bundle/assets/js/bundle-builder/index.js:12993
+#: addons/course-bundle/assets/js/bundle-builder/index.js:13061
 msgid "Charge tax on subscription"
 msgstr ""
 
-#: addons/course-bundle/assets/js/bundle-builder/index.js:13125
+#: addons/course-bundle/assets/js/bundle-builder/index.js:13193
 msgid "Schedule date is required."
 msgstr ""
 
-#: addons/course-bundle/assets/js/bundle-builder/index.js:13130
+#: addons/course-bundle/assets/js/bundle-builder/index.js:13198
 msgid "Schedule date should be in the future."
 msgstr ""
 
-#: addons/course-bundle/assets/js/bundle-builder/index.js:13138
+#: addons/course-bundle/assets/js/bundle-builder/index.js:13206
 msgid "Select date"
 msgstr ""
 
-#: addons/course-bundle/assets/js/bundle-builder/index.js:13150
+#: addons/course-bundle/assets/js/bundle-builder/index.js:13218
 msgid "Schedule time is required."
 msgstr ""
 
-#: addons/course-bundle/assets/js/bundle-builder/index.js:13155
+#: addons/course-bundle/assets/js/bundle-builder/index.js:13223
 msgid "Schedule time should be in the future."
 msgstr ""
 
-#: addons/course-bundle/assets/js/bundle-builder/index.js:13198
+#: addons/course-bundle/assets/js/bundle-builder/index.js:13266
 msgid "Scheduled for"
 msgstr ""
 
 #. translators: %1$s: date, %2$s: time.
-#: addons/course-bundle/assets/js/bundle-builder/index.js:13236
+#: addons/course-bundle/assets/js/bundle-builder/index.js:13304
+#, js-format
 msgid "%1$s at %2$s"
 msgstr ""
 
 #. translators: %s: currency symbol.
-#: addons/course-bundle/assets/js/bundle-builder/index.js:13293
+#: addons/course-bundle/assets/js/bundle-builder/index.js:13361
+#, js-format
 msgid "Show Discount Amount (%s)"
 msgstr ""
 
-#: addons/course-bundle/assets/js/bundle-builder/index.js:13322
+#: addons/course-bundle/assets/js/bundle-builder/index.js:13390
 msgid "Visibility"
 msgstr ""
 
-#: addons/course-bundle/assets/js/bundle-builder/index.js:13323
+#: addons/course-bundle/assets/js/bundle-builder/index.js:13391
 msgid "Select visibility status"
 msgstr ""
 
 #. translators: %s: date.
-#: addons/course-bundle/assets/js/bundle-builder/index.js:13341
+#: addons/course-bundle/assets/js/bundle-builder/index.js:13409
+#, js-format
 msgid "Last updated on %s"
 msgstr ""
 
-#: addons/course-bundle/assets/js/bundle-builder/index.js:13352
+#: addons/course-bundle/assets/js/bundle-builder/index.js:13420
 msgid "Password is required"
 msgstr ""
 
-#: addons/course-bundle/assets/js/bundle-builder/index.js:13356
+#: addons/course-bundle/assets/js/bundle-builder/index.js:13424
 msgid "Enter password"
 msgstr ""
 
-#: addons/course-bundle/assets/js/bundle-builder/index.js:13383
+#: addons/course-bundle/assets/js/bundle-builder/index.js:13451
 msgid "Select Ribbon to Display"
 msgstr ""
 
-#: addons/course-bundle/assets/js/bundle-builder/index.js:13384
+#: addons/course-bundle/assets/js/bundle-builder/index.js:13452
 msgid "Select ribbon"
 msgstr ""
 
 #. translators: %d: number of selected courses.
-#: addons/course-bundle/assets/js/bundle-builder/index.js:13487
+#: addons/course-bundle/assets/js/bundle-builder/index.js:13555
+#, js-format
 msgid "%d Course selected"
 msgid_plural "%d Courses selected"
 msgstr[0] ""
 msgstr[1] ""
 
-#: addons/course-bundle/assets/js/bundle-builder/index.js:13501
-#: addons/course-bundle/assets/js/bundle-builder/index.js:14788
+#: addons/course-bundle/assets/js/bundle-builder/index.js:13569
+#: addons/course-bundle/assets/js/bundle-builder/index.js:14856
 msgid "Add Courses"
 msgstr ""
 
-#: addons/course-bundle/assets/js/bundle-builder/index.js:13760
+#: addons/course-bundle/assets/js/bundle-builder/index.js:13828
 msgid "Remove course"
 msgstr ""
 
-#: addons/course-bundle/assets/js/bundle-builder/index.js:13761
+#: addons/course-bundle/assets/js/bundle-builder/index.js:13829
 msgid "Are you sure you want to remove this course?"
 msgstr ""
 
-#: addons/course-bundle/assets/js/bundle-builder/index.js:13890
+#: addons/course-bundle/assets/js/bundle-builder/index.js:13958
 msgid "Total Duration"
 msgstr ""
 
-#: addons/course-bundle/assets/js/bundle-builder/index.js:13900
+#: addons/course-bundle/assets/js/bundle-builder/index.js:13968
 msgid "Selection Overview"
 msgstr ""
 
-#: addons/course-bundle/assets/js/bundle-builder/index.js:14763
+#: addons/course-bundle/assets/js/bundle-builder/index.js:14831
 #: addons/enrollments/assets/js/create-enrollment/index.js:22695
 msgid "Empty State"
 msgstr ""
 
-#: addons/course-bundle/assets/js/bundle-builder/index.js:14766
+#: addons/course-bundle/assets/js/bundle-builder/index.js:14834
 msgid "No Courses Added Yet"
 msgstr ""
 
-#: addons/course-bundle/assets/js/bundle-builder/index.js:15706
+#: addons/course-bundle/assets/js/bundle-builder/index.js:15774
 msgid "Bundle URL"
 msgstr ""
 
-#: addons/course-bundle/assets/js/bundle-builder/index.js:15744
-#: addons/course-bundle/assets/js/bundle-builder/index.js:15850
+#: addons/course-bundle/assets/js/bundle-builder/index.js:15812
+#: addons/course-bundle/assets/js/bundle-builder/index.js:15918
 msgid "Classic Editor"
 msgstr ""
 
@@ -14145,12 +14379,14 @@ msgstr ""
 
 #. translators: %d: number of courses in the bundle.
 #: addons/enrollments/assets/js/create-enrollment/index.js:21157
+#, js-format
 msgid "%d Course Bundle"
 msgstr ""
 
 #. translators: %s is the starting price.
 #: addons/enrollments/assets/js/create-enrollment/index.js:21224
 #: addons/subscription/assets/js/membership-settings/index.js:5590
+#, js-format
 msgid "Starting from %s"
 msgstr ""
 
@@ -14172,6 +14408,7 @@ msgstr ""
 
 #. translators: %d: maximum students.
 #: addons/enrollments/assets/js/create-enrollment/index.js:21442
+#, js-format
 msgid "This course has reached its maximum enrollment limit of %d student."
 msgid_plural "This course has reached its maximum enrollment limit of %d students."
 msgstr[0] ""
@@ -14179,6 +14416,7 @@ msgstr[1] ""
 
 #. translators: %d: exceeding students.
 #: addons/enrollments/assets/js/create-enrollment/index.js:21445
+#, js-format
 msgid "You're attempting to enroll %d more students, which exceeds the limit."
 msgid_plural "You're attempting to enroll %d more students, which exceeds the limit."
 msgstr[0] ""
@@ -14221,6 +14459,7 @@ msgstr ""
 
 #. translators: %1$d: number of students enrolled, %2$d: number of total students.23733
 #: addons/enrollments/assets/js/create-enrollment/index.js:21731
+#, js-format
 msgid "%1$d of %2$d student enrolled"
 msgid_plural "%1$d of %2$d students enrolled"
 msgstr[0] ""
@@ -14233,6 +14472,7 @@ msgstr ""
 #. translators: %d: number of students enrolled.
 #: addons/enrollments/assets/js/create-enrollment/index.js:21802
 #: addons/enrollments/assets/js/create-enrollment/index.js:21840
+#, js-format
 msgid "%d Student"
 msgid_plural "%d Students"
 msgstr[0] ""
@@ -14263,6 +14503,7 @@ msgstr ""
 
 #. translators: %s: error message.
 #: addons/enrollments/assets/js/create-enrollment/index.js:22071
+#, js-format
 msgid "Enrollment has been failed. Cause: %s"
 msgstr ""
 
@@ -14276,6 +14517,7 @@ msgstr ""
 
 #. translators: %d: number of remaining categories.
 #: addons/enrollments/assets/js/create-enrollment/index.js:22417
+#, js-format
 msgid "+ %d More"
 msgstr ""
 
@@ -14301,6 +14543,7 @@ msgstr ""
 
 #. translators: %s: number of times.
 #: addons/enrollments/assets/js/create-enrollment/index.js:22556
+#, js-format
 msgid "%s Times"
 msgstr ""
 
@@ -14354,6 +14597,7 @@ msgstr ""
 #: addons/enrollments/assets/js/create-enrollment/index.js:23017
 #: addons/enrollments/assets/js/create-enrollment/index.js:23927
 #: addons/subscription/assets/js/membership-settings/index.js:5690
+#, js-format
 msgid "%d Selected"
 msgstr ""
 
@@ -14377,6 +14621,7 @@ msgstr ""
 
 #. translators: %d: number of students imported.
 #: addons/enrollments/assets/js/create-enrollment/index.js:23238
+#, js-format
 msgid "%d student imported successfully"
 msgid_plural "%d students imported successfully"
 msgstr[0] ""
@@ -14410,6 +14655,7 @@ msgstr ""
 
 #. translators: %1$d: maximum students, %2$d: exceeding students.
 #: addons/enrollments/assets/js/create-enrollment/index.js:23899
+#, js-format
 msgid "This course has a maximum enrollment limit of %d student."
 msgid_plural "This course has a maximum enrollment limit of %d students."
 msgstr[0] ""
@@ -14417,6 +14663,7 @@ msgstr[1] ""
 
 #. translators: %1$d: maximum students, %2$d: exceeding students.
 #: addons/enrollments/assets/js/create-enrollment/index.js:23902
+#, js-format
 msgid "Enrolling the following %d student will exceed this limit."
 msgid_plural "Enrolling the following %d students will exceed this limit."
 msgstr[0] ""
@@ -14424,6 +14671,7 @@ msgstr[1] ""
 
 #. translators: %d: number of students selected.
 #: addons/enrollments/assets/js/create-enrollment/index.js:23921
+#, js-format
 msgid "%d Student selected"
 msgid_plural "%d Students selected"
 msgstr[0] ""
@@ -14498,6 +14746,7 @@ msgstr ""
 
 #. Translators: %s template name.
 #: addons/google-meet/assets/js/scripts.js:212
+#, js-format
 msgid "%s is required"
 msgstr ""
 
@@ -14579,6 +14828,7 @@ msgstr ""
 
 #. translators: %s: number of courses.
 #: addons/subscription/assets/js/membership-settings/index.js:5815
+#, js-format
 msgid "%s Courses"
 msgstr ""
 
@@ -14710,11 +14960,13 @@ msgstr ""
 
 #. translators: %s: number of billing cycles.
 #: addons/subscription/assets/js/membership-settings/index.js:22171
+#, js-format
 msgid "%s Billing Cycles"
 msgstr ""
 
 #. translators: %s: number of trial billing cycles.
 #: addons/subscription/assets/js/membership-settings/index.js:22194
+#, js-format
 msgid "%s trial"
 msgstr ""
 
@@ -14752,11 +15004,13 @@ msgstr ""
 
 #. Translators: %s template name.
 #: addons/tutor-email/assets/js/email-template.js:717
+#, js-format
 msgid "A test email for %s has been sent to admin!"
 msgstr ""
 
 #. Translators: %s template name.
 #: addons/tutor-email/assets/js/email-template.js:738
+#, js-format
 msgid "%s email template updated!"
 msgstr ""
 

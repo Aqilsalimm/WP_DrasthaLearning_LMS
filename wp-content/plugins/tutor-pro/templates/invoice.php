@@ -82,7 +82,7 @@ if ( $subscription_order ) {
 	<div class="<?php echo esc_attr( is_admin() ? 'tutor-wp-dashboard-header tutor-px-24 tutor-py-16 tutor-mb-24' : '' ); ?>">
 		<div class="tutor-d-flex tutor-justify-between <?php echo esc_attr( is_admin() ? '' : 'tutor-mb-24' ); ?>">
 			<a class="tutor-btn tutor-btn-ghost" href="<?php echo esc_url( $back_link ); ?>">
-				<span class="tutor-icon-previous tutor-mr-8" area-hidden="true"></span>
+				<span class="tutor-icon-previous tutor-mr-8" aria-hidden="true"></span>
 				<?php esc_html_e( 'Back', 'tutor-pro' ); ?>
 			</a>
 			<button id="tutor-download-invoice" class="tutor-btn tutor-btn-secondary" data-order-id="<?php echo esc_attr( $order_data->id ); ?>">

@@ -198,8 +198,8 @@ if ( 'cancelled' === $active_tab ) {
 								<td>
 									<div class="tutor-d-flex tutor-align-center tutor-gap-1 tutor-text-nowrap">
 									<?php echo esc_html( $list->course_title ); ?>
-										<a href="<?php echo esc_url( get_permalink( $list->course_id ) ); ?>" class="tutor-iconic-btn" target="_blank">
-											<span class="tutor-icon-external-link" area-hidden="true"></span>
+										<a href="<?php echo esc_url( get_permalink( $list->course_id ) ); ?>" class="tutor-iconic-btn" target="_blank" type="button">
+											<span class="tutor-icon-external-link" aria-hidden="true"></span>
 										</a>
 									</div>
 									<?php do_action( 'tutor_enrollment_row_course_info_meta', $list ); ?>
@@ -218,7 +218,7 @@ if ( 'cancelled' === $active_tab ) {
 								<td>
 									<div class="tutor-d-flex tutor-align-center">
 										<div class="tutor-progress-bar" style="min-width: 50px; --tutor-progress-value:<?php echo esc_attr( $course_progress ); ?>%;">
-											<div class="tutor-progress-value" area-hidden="true"></div>
+											<div class="tutor-progress-value" aria-hidden="true"></div>
 										</div>
 										<div class="tutor-fs-7 tutor-color-muted tutor-ml-12">
 											<?php echo esc_attr( $course_progress ); ?>%

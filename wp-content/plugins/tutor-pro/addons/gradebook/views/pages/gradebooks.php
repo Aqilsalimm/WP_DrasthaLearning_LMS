@@ -157,16 +157,16 @@ $navbar_data                = array(
 </div>
 
 <!-- Add New Grade Modal -->
-<div id="tutor-add-new-grade" class="tutor-modal">
+<div id="tutor-add-new-grade" class="tutor-modal" role="dialog" aria-modal="true" aria-labelledby="tutor-add-new-grade-title" aria-hidden="true">
 	<div class="tutor-modal-overlay"></div>
 	<div class="tutor-modal-window">
 		<form id="tutor-add-new-gradebook-form" class="tutor-modal-content" method="post" autocomplete="off">
 			<div class="tutor-modal-header">
-				<div class="tutor-modal-title">
+				<div id="tutor-add-new-grade-title" class="tutor-modal-title">
 					<?php esc_html_e( 'Add New Grade', 'tutor-pro' ); ?>
 				</div>
-				<button class="tutor-iconic-btn tutor-modal-close" data-tutor-modal-close>
-					<span class="tutor-icon-times" area-hidden="true"></span>
+				<button type="button" class="tutor-iconic-btn tutor-modal-close" data-tutor-modal-close aria-label="<?php esc_attr_e( 'Close', 'tutor-pro' ); ?>">
+					<span class="tutor-icon-times" aria-hidden="true"></span>
 				</button>
 			</div>
 
@@ -239,16 +239,16 @@ $navbar_data                = array(
 </div>
 
 <!-- Update Grade Modal -->
-<div id="tutor-update-existing-grade" class="tutor-modal">
+<div id="tutor-update-existing-grade" class="tutor-modal" role="dialog" aria-modal="true" aria-labelledby="tutor-update-existing-grade-title" aria-hidden="true">
 	<div class="tutor-modal-overlay"></div>
 	<div class="tutor-modal-window">
 		<form id="tutor-update-gradebook-form" class="tutor-modal-content" method="post" autocomplete="off">
 			<div class="tutor-modal-header">
-				<div class="tutor-modal-title">
+				<div id="tutor-update-existing-grade-title" class="tutor-modal-title">
 					<?php esc_html_e( 'Update Grade', 'tutor-pro' ); ?>
 				</div>
-				<button class="tutor-iconic-btn tutor-modal-close" data-tutor-modal-close>
-					<span class="tutor-icon-times" area-hidden="true"></span>
+				<button type="button" class="tutor-iconic-btn tutor-modal-close" data-tutor-modal-close aria-label="<?php esc_attr_e( 'Close', 'tutor-pro' ); ?>">
+					<span class="tutor-icon-times" aria-hidden="true"></span>
 				</button>
 			</div>
 

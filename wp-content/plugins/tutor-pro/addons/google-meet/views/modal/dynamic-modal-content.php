@@ -26,17 +26,17 @@ $course_id = $event->post_parent;
 
 ?>
 
-<div class="tutor-modal tutor-modal-scrollable" id="<?php echo esc_attr( $data['modal_id'] ); ?>">
+<div class="tutor-modal tutor-modal-scrollable" id="<?php echo esc_attr( $data['modal_id'] ); ?>" role="dialog" aria-modal="true" aria-labelledby="<?php echo esc_attr( $data['modal_id'] ); ?>-title" aria-hidden="true">
 	<div class="tutor-modal-overlay"></div>
 	<div class="tutor-modal-window">
 		<div class="tutor-modal-content">
 				
 				<div class="tutor-modal-header">
-					<div class="tutor-modal-title">
+					<div id="<?php echo esc_attr( $data['modal_id'] ); ?>-title" class="tutor-modal-title">
 						<?php esc_html_e( 'Google Meet', 'tutor-pro' ); ?>       
 					</div>
-					<button class="tutor-iconic-btn tutor-modal-close" data-tutor-modal-close="">
-						<span class="tutor-icon-times" area-hidden="true"></span>
+					<button type="button" class="tutor-iconic-btn tutor-modal-close" data-tutor-modal-close aria-label="<?php esc_attr_e( 'Close', 'tutor-pro' ); ?>">
+						<span class="tutor-icon-times" aria-hidden="true"></span>
 					</button>
 				</div>
 				<div class="tutor-modal-body tutor-modal-container">

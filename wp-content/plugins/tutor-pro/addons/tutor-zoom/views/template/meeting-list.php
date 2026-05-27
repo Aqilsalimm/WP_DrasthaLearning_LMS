@@ -132,7 +132,7 @@ $zoom_object   = new \TUTOR_ZOOM\Zoom( false );
 											<div class="tutor-dropdown-parent">
 												<button class="tutor-btn tutor-btn-outline-primary tutor-btn-md" action-tutor-dropdown="toggle">
 													<span><?php esc_html_e( 'Info', 'tutor-pro' ); ?></span>
-													<span class="tutor-icon-angle-down tutor-fs-7 tutor-ml-4" area-hidden="true"></span>
+													<span class="tutor-icon-angle-down tutor-fs-7 tutor-ml-4" aria-hidden="true"></span>
 												</button>
 
 												<ul class="tutor-dropdown" style="width: 280px;">
@@ -145,7 +145,7 @@ $zoom_object   = new \TUTOR_ZOOM\Zoom( false );
 														</div>
 														<div class="tutor-ml-auto">
 															<button class="tutor-iconic-btn" data-tutor-copy-target="<?php echo esc_attr( $copy_target_id ); ?>">
-																<span class="tutor-icon-copy-text" area-hidden="true"></span>
+																<span class="tutor-icon-copy-text" aria-hidden="true"></span>
 															</button>
 														</div>
 													</div>
@@ -159,12 +159,12 @@ $zoom_object   = new \TUTOR_ZOOM\Zoom( false );
 														</div>
 														<div class="tutor-ml-auto">
 															<button class="tutor-iconic-btn" data-tutor-copy-target="<?php echo esc_attr( $copy_target_id ); ?>-2">
-																<span class="tutor-icon-copy-text" area-hidden="true"></span>
+																<span class="tutor-icon-copy-text" aria-hidden="true"></span>
 															</button>
 														</div>
 													</div>
 
-													<div class="tutor-hr" area-hidden="true"></div>
+													<div class="tutor-hr" aria-hidden="true"></div>
 
 													<div class="tutor-px-24 tutor-py-12 tutor-mt-8">
 														<div class="tutor-fs-7 tutor-color-muted"><?php esc_html_e( 'Host Email', 'tutor-pro' ); ?></div>
@@ -177,18 +177,18 @@ $zoom_object   = new \TUTOR_ZOOM\Zoom( false );
 
 											<div class="tutor-dropdown-parent">
 												<button type="button" class="tutor-iconic-btn" action-tutor-dropdown="toggle">
-													<span class="tutor-icon-kebab-menu" area-hidden="true"></span>
+													<span class="tutor-icon-kebab-menu" aria-hidden="true"></span>
 												</button>
 												<ul class="tutor-dropdown tutor-dropdown-dark tutor-text-left">
 													<li>
 														<a href="#" class="tutor-dropdown-item" data-tutor-modal-target="tutor-zoom-meeting-modal-<?php echo esc_attr( $meeting->ID ); ?>">
-															<i class="tutor-icon-edit tutor-mr-8" area-hidden="true"></i>
+															<i class="tutor-icon-edit tutor-mr-8" aria-hidden="true"></i>
 															<spa><?php esc_html_e( 'Edit', 'tutor-pro' ); ?></span>
 														</a>
 													</li>
 													<li>
 														<a href="#" class="tutor-dropdown-item" data-tutor-modal-target="<?php echo esc_attr( $id_string_delete ); ?>">
-															<i class="tutor-icon-trash-can-bold tutor-mr-8" area-hidden="true"></i>
+															<i class="tutor-icon-trash-can-bold tutor-mr-8" aria-hidden="true"></i>
 															<span><?php esc_html_e( 'Delete', 'tutor-pro' ); ?></span>
 														</a>
 													</li>
@@ -247,7 +247,7 @@ $zoom_object   = new \TUTOR_ZOOM\Zoom( false );
 											</a>
 
 											<a href="#" class="tutor-iconic-btn" data-tutor-modal-target="<?php echo esc_attr( $id_string_delete ); ?>">
-												<i class="tutor-icon-trash-can-line" area-hidden="true"></i>
+												<i class="tutor-icon-trash-can-line" aria-hidden="true"></i>
 											</a>
 										</div>
 									</div>

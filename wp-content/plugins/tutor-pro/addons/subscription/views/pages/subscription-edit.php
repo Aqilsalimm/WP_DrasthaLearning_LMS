@@ -72,7 +72,7 @@ $recurring_limit = (int) $plan->recurring_limit;
 	<div class="tutor-wp-dashboard-header tutor-px-24">
 		<div class="tutor-d-lg-flex tutor-align-lg-center tutor-gap-1 tutor-px-12 tutor-py-16">
 			<a class="tutor-btn tutor-btn-ghost" href="<?php echo esc_url( $controller->subscription_model->get_subscription_list_url( 'backend' ) ); ?>">
-				<span class="tutor-icon-previous tutor-mr-8" area-hidden="true"></span>
+				<span class="tutor-icon-previous tutor-mr-8" aria-hidden="true"></span>
 			</a>
 			<span class="tutor-fs-5 tutor-fw-medium">
 				<?php esc_html_e( 'Subscription', 'tutor-pro' ); ?>
@@ -459,16 +459,16 @@ $recurring_limit = (int) $plan->recurring_limit;
 	</div>
 </div>
 
-<div class="tutor-modal tutor-subscription-status-change-modal">
+<div class="tutor-modal tutor-subscription-status-change-modal" role="dialog" aria-modal="true" aria-labelledby="tutor-subscription-status-change-title" aria-hidden="true">
 	<div class="tutor-modal-overlay"></div>
 	<div class="tutor-modal-window">
 		<div class="tutor-modal-content tutor-modal-content-white">
-			<button class="tutor-iconic-btn tutor-modal-close-o" data-tutor-modal-close>
-				<span class="tutor-icon-times" area-hidden="true"></span>
+			<button type="button" class="tutor-iconic-btn tutor-modal-close-o" data-tutor-modal-close aria-label="<?php esc_attr_e( 'Close', 'tutor-pro' ); ?>">
+				<span class="tutor-icon-times" aria-hidden="true"></span>
 			</button>
 
 			<div class="tutor-modal-body tutor-text-center">
-				<div class="tutor-fs-3 tutor-fw-medium tutor-color-black tutor-mb-12 tutor-mt-40">
+				<div id="tutor-subscription-status-change-title" class="tutor-fs-3 tutor-fw-medium tutor-color-black tutor-mb-12 tutor-mt-40">
 					<?php esc_html_e( 'Are you sure?', 'tutor-pro' ); ?>
 				</div>
 				<div class="tutor-fs-6 tutor-color-muted">

@@ -17,7 +17,7 @@
 					<div class="tutor-card">
 						<div class="tutor-d-flex tutor-flex-lg-column tutor-align-center tutor-text-lg-center tutor-px-12 tutor-px-lg-24 tutor-py-8 tutor-py-lg-32">
 							<span class="tutor-round-box tutor-mr-12 tutor-mr-lg-0 tutor-mb-lg-12">
-								<i class="<?php echo esc_attr( $value['icon'] ); ?>" area-hidden="true"></i>
+								<i class="<?php echo esc_attr( $value['icon'] ); ?>" aria-hidden="true"></i>
 							</span>
 							<div class="tutor-fs-3 tutor-fw-bold tutor-d-none tutor-d-lg-block">
 								<?php if ( $value['price'] ) : ?>

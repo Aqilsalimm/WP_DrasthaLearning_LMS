@@ -4,7 +4,7 @@
 
 namespace Composer\Autoload;
 
-class ComposerStaticInit2c1969c4b87a717e27776699c8de26a4
+class ComposerStaticInit29ad7d2b8f35c4b4ae97513831d0d638
 {
     public static $files = array (
         '7b11c4dc42b3b3023073cb14e519683c' => __DIR__ . '/..' . '/ralouphie/getallheaders/src/getallheaders.php',
@@ -16,15 +16,15 @@ class ComposerStaticInit2c1969c4b87a717e27776699c8de26a4
     );
 
     public static $prefixLengthsPsr4 = array (
-        'p' => 
+        'p' =>
         array (
             'phpseclib3\\' => 11,
         ),
-        'Z' => 
+        'Z' =>
         array (
             'Zoom\\' => 5,
         ),
-        'T' => 
+        'T' =>
         array (
             'TutorPro\\UnitTest\\' => 18,
             'TutorPro\\TutorAI\\' => 17,
@@ -45,7 +45,7 @@ class ComposerStaticInit2c1969c4b87a717e27776699c8de26a4
             'TutorPro\\Auth\\' => 14,
             'TUTOR_PRO\\' => 10,
         ),
-        'P' => 
+        'P' =>
         array (
             'Psr\\Log\\' => 8,
             'Psr\\Http\\Message\\' => 17,
@@ -53,12 +53,12 @@ class ComposerStaticInit2c1969c4b87a717e27776699c8de26a4
             'Psr\\Cache\\' => 10,
             'ParagonIE\\ConstantTime\\' => 23,
         ),
-        'M' => 
+        'M' =>
         array (
             'Monolog\\' => 8,
             'Minishlink\\WebPush\\' => 19,
         ),
-        'J' => 
+        'J' =>
         array (
             'Jose\\Component\\Signature\\Algorithm\\' => 35,
             'Jose\\Component\\Signature\\' => 25,
@@ -66,7 +66,7 @@ class ComposerStaticInit2c1969c4b87a717e27776699c8de26a4
             'Jose\\Component\\Core\\Util\\Ecc\\' => 29,
             'Jose\\Component\\Core\\' => 20,
         ),
-        'G' => 
+        'G' =>
         array (
             'GuzzleHttp\\Psr7\\' => 16,
             'GuzzleHttp\\Promise\\' => 19,
@@ -75,12 +75,12 @@ class ComposerStaticInit2c1969c4b87a717e27776699c8de26a4
             'Google\\Auth\\' => 12,
             'Google\\' => 7,
         ),
-        'F' => 
+        'F' =>
         array (
             'Firebase\\JWT\\' => 13,
             'FG\\' => 3,
         ),
-        'B' => 
+        'B' =>
         array (
             'Brick\\Math\\' => 11,
             'Base64Url\\' => 10,
@@ -88,191 +88,191 @@ class ComposerStaticInit2c1969c4b87a717e27776699c8de26a4
     );
 
     public static $prefixDirsPsr4 = array (
-        'phpseclib3\\' => 
+        'phpseclib3\\' =>
         array (
             0 => __DIR__ . '/..' . '/phpseclib/phpseclib/phpseclib',
         ),
-        'Zoom\\' => 
+        'Zoom\\' =>
         array (
             0 => __DIR__ . '/../..' . '/addons/tutor-zoom/zoom-app',
         ),
-        'TutorPro\\UnitTest\\' => 
+        'TutorPro\\UnitTest\\' =>
         array (
             0 => __DIR__ . '/../..' . '/tests/PHPUnit',
         ),
-        'TutorPro\\TutorAI\\' => 
+        'TutorPro\\TutorAI\\' =>
         array (
             0 => __DIR__ . '/../..' . '/tutorai',
         ),
-        'TutorPro\\Tools\\' => 
+        'TutorPro\\Tools\\' =>
         array (
             0 => __DIR__ . '/../..' . '/tools',
             1 => __DIR__ . '/../..' . '/tools/importers',
             2 => __DIR__ . '/../..' . '/tools/handlers',
             3 => __DIR__ . '/../..' . '/tools/exporters',
         ),
-        'TutorPro\\Tests\\' => 
+        'TutorPro\\Tests\\' =>
         array (
             0 => __DIR__ . '/../..' . '/tests',
         ),
-        'TutorPro\\TemplateImport\\' => 
+        'TutorPro\\TemplateImport\\' =>
         array (
             0 => __DIR__ . '/../..' . '/template-import',
         ),
-        'TutorPro\\Subscription\\' => 
+        'TutorPro\\Subscription\\' =>
         array (
             0 => __DIR__ . '/../..' . '/addons/subscription/src',
         ),
-        'TutorPro\\SocialLogin\\' => 
+        'TutorPro\\SocialLogin\\' =>
         array (
             0 => __DIR__ . '/../..' . '/addons/social-login/includes',
         ),
-        'TutorPro\\RestAPI\\' => 
+        'TutorPro\\RestAPI\\' =>
         array (
             0 => __DIR__ . '/../..' . '/rest-api',
         ),
-        'TutorPro\\OpenAI\\' => 
+        'TutorPro\\OpenAI\\' =>
         array (
             0 => __DIR__ . '/../..' . '/openai',
         ),
-        'TutorPro\\H5P\\' => 
+        'TutorPro\\H5P\\' =>
         array (
             0 => __DIR__ . '/../..' . '/addons/h5p/src',
         ),
-        'TutorPro\\GoogleMeet\\' => 
+        'TutorPro\\GoogleMeet\\' =>
         array (
             0 => __DIR__ . '/../..' . '/addons/google-meet/includes',
         ),
-        'TutorPro\\GiftCourse\\' => 
+        'TutorPro\\GiftCourse\\' =>
         array (
             0 => __DIR__ . '/../..' . '/gift-course',
         ),
-        'TutorPro\\Ecommerce\\' => 
+        'TutorPro\\Ecommerce\\' =>
         array (
             0 => __DIR__ . '/../..' . '/ecommerce',
         ),
-        'TutorPro\\CourseBundle\\' => 
+        'TutorPro\\CourseBundle\\' =>
         array (
             0 => __DIR__ . '/../..' . '/addons/course-bundle/src',
         ),
-        'TutorPro\\ContentBank\\' => 
+        'TutorPro\\ContentBank\\' =>
         array (
             0 => __DIR__ . '/../..' . '/addons/content-bank/src',
         ),
-        'TutorPro\\ChatGPT\\' => 
+        'TutorPro\\ChatGPT\\' =>
         array (
             0 => __DIR__ . '/../..' . '/addons/tutor-chatgpt/classes',
         ),
-        'TutorPro\\Auth\\' => 
+        'TutorPro\\Auth\\' =>
         array (
             0 => __DIR__ . '/../..' . '/addons/auth/classes',
         ),
-        'TUTOR_PRO\\' => 
+        'TUTOR_PRO\\' =>
         array (
             0 => __DIR__ . '/../..' . '/classes',
         ),
-        'Psr\\Log\\' => 
+        'Psr\\Log\\' =>
         array (
             0 => __DIR__ . '/..' . '/psr/log/Psr/Log',
         ),
-        'Psr\\Http\\Message\\' => 
+        'Psr\\Http\\Message\\' =>
         array (
             0 => __DIR__ . '/..' . '/psr/http-factory/src',
             1 => __DIR__ . '/..' . '/psr/http-message/src',
         ),
-        'Psr\\Http\\Client\\' => 
+        'Psr\\Http\\Client\\' =>
         array (
             0 => __DIR__ . '/..' . '/psr/http-client/src',
         ),
-        'Psr\\Cache\\' => 
+        'Psr\\Cache\\' =>
         array (
             0 => __DIR__ . '/..' . '/psr/cache/src',
         ),
-        'ParagonIE\\ConstantTime\\' => 
+        'ParagonIE\\ConstantTime\\' =>
         array (
             0 => __DIR__ . '/..' . '/paragonie/constant_time_encoding/src',
         ),
-        'Monolog\\' => 
+        'Monolog\\' =>
         array (
             0 => __DIR__ . '/..' . '/monolog/monolog/src/Monolog',
         ),
-        'Minishlink\\WebPush\\' => 
+        'Minishlink\\WebPush\\' =>
         array (
             0 => __DIR__ . '/..' . '/minishlink/web-push/src',
         ),
-        'Jose\\Component\\Signature\\Algorithm\\' => 
+        'Jose\\Component\\Signature\\Algorithm\\' =>
         array (
             0 => __DIR__ . '/..' . '/web-token/jwt-signature-algorithm-ecdsa',
         ),
-        'Jose\\Component\\Signature\\' => 
+        'Jose\\Component\\Signature\\' =>
         array (
             0 => __DIR__ . '/..' . '/web-token/jwt-signature',
         ),
-        'Jose\\Component\\KeyManagement\\' => 
+        'Jose\\Component\\KeyManagement\\' =>
         array (
             0 => __DIR__ . '/..' . '/web-token/jwt-key-mgmt',
         ),
-        'Jose\\Component\\Core\\Util\\Ecc\\' => 
+        'Jose\\Component\\Core\\Util\\Ecc\\' =>
         array (
             0 => __DIR__ . '/..' . '/web-token/jwt-util-ecc',
         ),
-        'Jose\\Component\\Core\\' => 
+        'Jose\\Component\\Core\\' =>
         array (
             0 => __DIR__ . '/..' . '/web-token/jwt-core',
         ),
-        'GuzzleHttp\\Psr7\\' => 
+        'GuzzleHttp\\Psr7\\' =>
         array (
             0 => __DIR__ . '/..' . '/guzzlehttp/psr7/src',
         ),
-        'GuzzleHttp\\Promise\\' => 
+        'GuzzleHttp\\Promise\\' =>
         array (
             0 => __DIR__ . '/..' . '/guzzlehttp/promises/src',
         ),
-        'GuzzleHttp\\' => 
+        'GuzzleHttp\\' =>
         array (
             0 => __DIR__ . '/..' . '/guzzlehttp/guzzle/src',
         ),
-        'Google\\Service\\' => 
+        'Google\\Service\\' =>
         array (
             0 => __DIR__ . '/..' . '/google/apiclient-services/src',
         ),
-        'Google\\Auth\\' => 
+        'Google\\Auth\\' =>
         array (
             0 => __DIR__ . '/..' . '/google/auth/src',
         ),
-        'Google\\' => 
+        'Google\\' =>
         array (
             0 => __DIR__ . '/..' . '/google/apiclient/src',
         ),
-        'Firebase\\JWT\\' => 
+        'Firebase\\JWT\\' =>
         array (
             0 => __DIR__ . '/..' . '/firebase/php-jwt/src',
         ),
-        'FG\\' => 
+        'FG\\' =>
         array (
             0 => __DIR__ . '/..' . '/fgrosse/phpasn1/lib',
         ),
-        'Brick\\Math\\' => 
+        'Brick\\Math\\' =>
         array (
             0 => __DIR__ . '/..' . '/brick/math/src',
         ),
-        'Base64Url\\' => 
+        'Base64Url\\' =>
         array (
             0 => __DIR__ . '/..' . '/spomky-labs/base64url/src',
         ),
     );
 
     public static $prefixesPsr0 = array (
-        'P' => 
+        'P' =>
         array (
-            'Parsedown' => 
+            'Parsedown' =>
             array (
                 0 => __DIR__ . '/..' . '/erusev/parsedown',
             ),
         ),
-        'G' => 
+        'G' =>
         array (
-            'Google_' => 
+            'Google_' =>
             array (
                 0 => __DIR__ . '/../..' . '/addons/google-classroom/src',
             ),
@@ -306,10 +306,10 @@ class ComposerStaticInit2c1969c4b87a717e27776699c8de26a4
     public static function getInitializer(ClassLoader $loader)
     {
         return \Closure::bind(function () use ($loader) {
-            $loader->prefixLengthsPsr4 = ComposerStaticInit2c1969c4b87a717e27776699c8de26a4::$prefixLengthsPsr4;
-            $loader->prefixDirsPsr4 = ComposerStaticInit2c1969c4b87a717e27776699c8de26a4::$prefixDirsPsr4;
-            $loader->prefixesPsr0 = ComposerStaticInit2c1969c4b87a717e27776699c8de26a4::$prefixesPsr0;
-            $loader->classMap = ComposerStaticInit2c1969c4b87a717e27776699c8de26a4::$classMap;
+            $loader->prefixLengthsPsr4 = ComposerStaticInit29ad7d2b8f35c4b4ae97513831d0d638::$prefixLengthsPsr4;
+            $loader->prefixDirsPsr4 = ComposerStaticInit29ad7d2b8f35c4b4ae97513831d0d638::$prefixDirsPsr4;
+            $loader->prefixesPsr0 = ComposerStaticInit29ad7d2b8f35c4b4ae97513831d0d638::$prefixesPsr0;
+            $loader->classMap = ComposerStaticInit29ad7d2b8f35c4b4ae97513831d0d638::$classMap;
 
         }, null, ClassLoader::class);
     }

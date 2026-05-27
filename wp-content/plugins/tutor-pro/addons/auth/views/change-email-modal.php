@@ -27,16 +27,16 @@ if ( ! $is_pending ) { ?>
 
 <?php if ( ! $is_pending ) : ?>
 <!-- Change Email Modal -->
-<form class="tutor-modal tutor-modal-scrollable" id="tutor-change-email-modal">
+<form class="tutor-modal tutor-modal-scrollable" id="tutor-change-email-modal" role="dialog" aria-modal="true" aria-labelledby="tutor-change-email-title" aria-hidden="true">
 	<div class="tutor-modal-overlay"></div>
 	<div class="tutor-modal-window">
 		<div class="tutor-modal-content">
 			<div class="tutor-modal-header">
-				<div class="tutor-modal-title">
+				<div id="tutor-change-email-title" class="tutor-modal-title">
 					<?php esc_html_e( 'Update Email', 'tutor-pro' ); ?>
 				</div>
-				<button class="tutor-modal-close tutor-iconic-btn" data-tutor-modal-close role="button">
-					<span class="tutor-icon-times" area-hidden="true"></span>
+				<button type="button" class="tutor-modal-close tutor-iconic-btn" data-tutor-modal-close aria-label="<?php esc_attr_e( 'Close', 'tutor-pro' ); ?>">
+					<span class="tutor-icon-times" aria-hidden="true"></span>
 				</button>
 			</div>
 

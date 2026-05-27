@@ -23,7 +23,7 @@ $courses = tutor_utils()->get_courses_by_student_instructor_id( $student_id, $us
 
 <div class="analytics-student-details tutor-user-public-profile tutor-user-public-profile-pp-circle">
 	<a class="tutor-btn tutor-btn-ghost" href="<?php echo esc_url( tutor_utils()->tutor_dashboard_url() . 'analytics/students' ); ?>">
-		<i class="tutor-icon-previous tutor-mr-8" area-hidden="true"></i> <?php esc_html_e( 'Back', 'tutor-pro' ); ?>
+		<i class="tutor-icon-previous tutor-mr-8" aria-hidden="true"></i> <?php esc_html_e( 'Back', 'tutor-pro' ); ?>
 	</a>
 
 	<div class="photo-area">
@@ -36,12 +36,12 @@ $courses = tutor_utils()->get_courses_by_student_instructor_id( $student_id, $us
 			</div>
 			<div class="profile-name tutor-color-white">
 				<h3 class="analytics-profile-name">
-				   <?php echo esc_html( $student_details->display_name ); ?>
+					<?php echo esc_html( $student_details->display_name ); ?>
 				</h3>
 				<div class="analytics-profile-authormeta">
 					<span class="tutor-fs-7 ">
 						<span class="">
-						   <?php esc_html_e( 'Email: ', 'tutor-pro' ); ?>
+							<?php esc_html_e( 'Email: ', 'tutor-pro' ); ?>
 						</span>
 						<span class="tutor-fs-7 tutor-fw-medium">
 							<?php echo esc_html( $student_details->user_email ); ?>
@@ -133,7 +133,7 @@ $courses = tutor_utils()->get_courses_by_student_instructor_id( $student_id, $us
 								<td class="tutor-td-middle">
 									<div class="tutor-d-flex tutor-align-center">
 										<div class="tutor-progress-bar" style="min-width: 50px; --tutor-progress-value: <?php echo esc_attr( $completed_count ); ?>%">
-											<div class="tutor-progress-value" area-hidden="true"></div>
+											<div class="tutor-progress-value" aria-hidden="true"></div>
 										</div>
 
 										<div class="tutor-ml-12">
@@ -163,22 +163,22 @@ $courses = tutor_utils()->get_courses_by_student_instructor_id( $student_id, $us
 		}
 		?>
 
-		<div id="modal-course-overview" class="modal-course-overview tutor-modal">
+		<div id="modal-course-overview" class="modal-course-overview tutor-modal" role="dialog" aria-modal="true" aria-labelledby="modal-course-overview-title" aria-hidden="true">
 			<div class="tutor-modal-overlay"></div>
 			<div class="tutor-modal-window tutor-modal-window-lg">
 				<div class="tutor-modal-content tutor-modal-content-white">
-					<button class="tutor-iconic-btn tutor-modal-close-o" data-tutor-modal-close>
-						<span class="tutor-icon-times" area-hidden="true"></span>
+					<button type="button" class="tutor-iconic-btn tutor-modal-close-o" data-tutor-modal-close aria-label="<?php esc_attr_e( 'Close', 'tutor-pro' ); ?>">
+						<span class="tutor-icon-times" aria-hidden="true"></span>
 					</button>
 
 					<div class="tutor-modal-body" id="tutor_progress_modal_content">
 						<div class="tutor-mt-48">
-							<img class="tutor-d-inline-block" src="<?php echo esc_url( tutor()->url . 'assets/images/icon-trash.svg' ); ?>" />
+							<img class="tutor-d-inline-block" src="<?php echo esc_url( tutor()->url . 'assets/images/icon-trash.svg' ); ?>" alt="<?php esc_attr_e( 'Delete This Question?', 'tutor-pro' ); ?>" aria-hidden="true" />
 						</div>
 
-						<div class="tutor-fs-3 tutor-fw-medium tutor-color-black tutor-mb-12"><?php esc_html_e( 'Delete This Question?', 'tutor-pro' ); ?></div>
+						<div id="modal-course-overview-title" class="tutor-fs-3 tutor-fw-medium tutor-color-black tutor-mb-12"><?php esc_html_e( 'Delete This Question?', 'tutor-pro' ); ?></div>
 						<div class="tutor-fs-6 tutor-color-muted"><?php esc_html_e( 'All the replies also will be deleted.', 'tutor-pro' ); ?></div>
-						
+
 						<div class="tutor-d-flex tutor-justify-center tutor-my-48">
 							<button data-tutor-modal-close class="tutor-btn tutor-btn-outline-primary">
 								<?php esc_html_e( 'Cancel', 'tutor-pro' ); ?>

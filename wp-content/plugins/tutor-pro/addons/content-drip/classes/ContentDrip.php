@@ -227,7 +227,7 @@ class ContentDrip {
 		$is_lock = $this->is_lock_lesson( $post->ID );
 
 		if ( $is_lock ) {
-			echo '<i class="tutor-icon-lock-line tutor-fs-7 tutor-color-muted tutor-mr-4" area-hidden="true"></i>';
+			echo '<i class="tutor-icon-lock-line tutor-fs-7 tutor-color-muted tutor-mr-4" aria-hidden="true"></i>';
 		}
 	}
 

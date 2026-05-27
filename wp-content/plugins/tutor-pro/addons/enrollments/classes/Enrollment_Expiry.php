@@ -11,6 +11,7 @@
 
 namespace TUTOR_ENROLLMENTS;
 
+use Tutor\Helpers\QueryHelper;
 use TUTOR\Input;
 use Tutor\Traits\JsonResponse;
 
@@ -168,7 +169,9 @@ class Enrollment_Expiry {
 
 			$ids = array_column( $expired_list, 'ID' );
 			if ( count( $ids ) ) {
-				$wpdb->query( "UPDATE {$wpdb->posts} SET post_status='cancel' WHERE ID IN ( " . implode( ',', $ids ) . ' )' );//phpcs:ignore
+				$in_clause = QueryHelper::prepare_in_clause( $ids );
+				//phpcs:ignore -- sanitized $in_clause.
+				$wpdb->query( $wpdb->prepare( "UPDATE {$wpdb->posts} SET post_status='cancel' WHERE ID IN ({$in_clause})" ) );
 
 				foreach ( $ids as $id ) {
 					do_action( 'tutor_enrollment/after/expired', $id );

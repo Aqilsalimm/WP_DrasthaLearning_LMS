@@ -27,7 +27,7 @@ $assignment_id       = $submitted_assignment->comment_post_ID;
 <div class="tutor-admin-wrap">
 	<div class="tutor-wp-dashboard-header tutor-px-24 tutor-pt-32 tutor-pb-20">
 		<div class="tutor-mb-8">
-			<a class="tutor-btn tutor-btn-ghost" href="<?php echo esc_url( $assignment_page_url ); ?>"><i class="tutor-icon-previous tutor-mr-8" area-hidden="true"></i> <?php esc_html_e( 'Back', 'tutor-pro' ); ?></a>
+			<a class="tutor-btn tutor-btn-ghost" href="<?php echo esc_url( $assignment_page_url ); ?>"><i class="tutor-icon-previous tutor-mr-8" aria-hidden="true"></i> <?php esc_html_e( 'Back', 'tutor-pro' ); ?></a>
 		</div>
 
 		<div class="tutor-fs-3 tutor-color-black tutor-fw-medium">

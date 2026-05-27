@@ -43,7 +43,7 @@ $previous_url = esc_url( tutor_utils()->tutor_dashboard_url() . 'courses' );
 	<div class="back-summary-wrapper">
 		<div>
 			<a class="tutor-btn tutor-btn-ghost" href="<?php echo esc_url( tutor_utils()->tutor_dashboard_url() . 'analytics/courses' ); ?>">
-				<span class="tutor-icon-previous" area-hidden="true"></span>
+				<span class="tutor-icon-previous" aria-hidden="true"></span>
 				<?php esc_html_e( 'Back', 'tutor-pro' ); ?>
 			</a>
 		</div>

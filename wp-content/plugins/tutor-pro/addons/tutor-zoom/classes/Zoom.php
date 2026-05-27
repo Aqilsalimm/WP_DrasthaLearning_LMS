@@ -168,12 +168,12 @@ class Zoom extends Tutor_Base {
 				<div class="tutor-course-content-top-right-action">
 					<?php if ( $topic->ID > 0 ) : ?>
 						<a href="javascript:;" class="tutor-zoom-meeting-modal-open-btn tutor-iconic-btn" data-tutor-modal-target="tutor-zoom-modal-cb-<?php echo esc_attr( $meeting->ID ); ?>">
-							<span class="tutor-icon-edit" area-hidden="true"></span>
+							<span class="tutor-icon-edit" aria-hidden="true"></span>
 						</a>
 					<?php endif; ?>
 
 					<a href="javascript:;" class="tutor-iconic-btn" data-tutor-modal-target="<?php echo esc_attr( $id_string_delete ); ?>">
-						<span class="tutor-icon-trash-can-line" area-hidden="true"></span>
+						<span class="tutor-icon-trash-can-line" aria-hidden="true"></span>
 					</a>
 				</div>
 			</div>
@@ -355,7 +355,7 @@ class Zoom extends Tutor_Base {
 		if ( ! empty( $api_key ) && ! empty( $api_secret ) ) {
 			?>
 			<button class="tutor-btn tutor-btn-outline-primary tutor-btn-sm" data-tutor-modal-target="<?php echo $new_modal_; ?>">
-				<i class="tutor-icon-brand-zoom tutor-mr-8" area-hidden="true"></i>
+				<i class="tutor-icon-brand-zoom tutor-mr-8" aria-hidden="true"></i>
 				<?php _e( 'Zoom Live Lesson', 'tutor-pro' ); ?>
 			</button>
 			<?php
@@ -1073,7 +1073,7 @@ class Zoom extends Tutor_Base {
 			echo "<input type='checkbox' class='tutor-form-check-input tutor-form-check-circle' disabled='disabled' readonly='readonly' checked='checked'/>";
 		} else {
 			if ( $lock_icon ) {
-				echo '<i class="tutor-icon-lock-line tutor-fs-7 tutor-color-muted tutor-mr-4" area-hidden="true"></i>';
+				echo '<i class="tutor-icon-lock-line tutor-fs-7 tutor-color-muted tutor-mr-4" aria-hidden="true"></i>';
 			} else {
 				echo "<input type='checkbox' class='tutor-form-check-input tutor-form-check-circle' disabled='disabled' readonly='readonly'/>";
 			}

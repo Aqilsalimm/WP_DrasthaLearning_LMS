@@ -227,7 +227,7 @@ class Init {
 			<div class="tutor-course-builder-section tutor-course-builder-info">
 				<div class="tutor-course-builder-section-title">
 					<span class="tutor-fs-5 tutor-fw-bold tutor-color-secondary">
-						<i class="tutor-icon-down" area-hidden="true"></i>
+						<i class="tutor-icon-down" aria-hidden="true"></i>
 						<span>
 							<?php esc_html_e( 'Connect Tutor Course', 'tutor-pro' ); ?>
 						</span>

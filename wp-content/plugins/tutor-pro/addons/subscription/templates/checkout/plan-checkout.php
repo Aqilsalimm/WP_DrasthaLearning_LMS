@@ -78,7 +78,7 @@ $trial_classes      = $show_trial_info ? 'tutor-bg-white tutor-p-12 tutor-radius
 		</div>
 		<?php if ( $item->is_coupon_applied ) : ?>
 		<div class="tutor-checkout-coupon-badge">
-			<i class="tutor-icon-tag" area-hidden="true"></i>
+			<i class="tutor-icon-tag" aria-hidden="true"></i>
 			<span><?php echo esc_html( $checkout_data->coupon_title ); ?></span>
 		</div>
 		<?php endif; ?>

@@ -72,18 +72,18 @@ if ( ! tutor_utils()->is_instructor( get_current_user_id(), true ) || ! tutor_ut
 						</div>
 					<?php } else { ?>
 						<!-- @todo: move to toast -->
-						<div id="modal-course-save-feedback" class="tutor-modal tutor-is-active">
+						<div id="modal-course-save-feedback" class="tutor-modal tutor-is-active" role="dialog" aria-modal="true" aria-labelledby="modal-course-save-feedback-title" aria-hidden="false">
 							<span class="tutor-modal-overlay"></span>
 							<div class="tutor-modal-window tutor-modal-window-md">
 								<div class="tutor-modal-content tutor-modal-content-white">
-									<button class="tutor-iconic-btn tutor-modal-close-o" data-tutor-modal-close>
-										<span class="tutor-icon-times" area-hidden="true"></span>
+									<button type="button" class="tutor-iconic-btn tutor-modal-close-o" data-tutor-modal-close aria-label="<?php esc_attr_e( 'Close', 'tutor-pro' ); ?>">
+										<span class="tutor-icon-times" aria-hidden="true"></span>
 									</button>
 
 									<div class="tutor-modal-body tutor-text-center">
 										<div class="tutor-py-48">
-											<img class="tutor-d-inline-block" src="<?php echo esc_url( tutor()->url . 'assets/images/icon-cup.svg' ); ?>" />
-											<div class="tutor-fs-3 tutor-fw-medium tutor-color-black tutor-mb-12">
+											<img class="tutor-d-inline-block" src="<?php echo esc_url( tutor()->url . 'assets/images/icon-cup.svg' ); ?>" alt="<?php esc_attr_e( 'Thank You!', 'tutor-pro' ); ?>" aria-hidden="true" />
+											<div id="modal-course-save-feedback-title" class="tutor-fs-3 tutor-fw-medium tutor-color-black tutor-mb-12">
 												<?php esc_html_e( 'Thank You!', 'tutor-pro' ); ?>
 											</div>
 											<div class="tutor-fs-6 tutor-color-muted">
@@ -114,7 +114,7 @@ if ( ! tutor_utils()->is_instructor( get_current_user_id(), true ) || ! tutor_ut
 				<div class="tutor-course-builder-section tutor-course-builder-info">
 					<div class="tutor-course-builder-section-title">
 						<span class="tutor-fs-5 tutor-fw-bold tutor-color-secondary">
-							<i class="color-text-brand tutor-icon-angle-up tutor-fs-5" area-hidden="true"></i>
+							<i class="color-text-brand tutor-icon-angle-up tutor-fs-5" aria-hidden="true"></i>
 							<span><?php esc_html_e( 'Course Info', 'tutor-pro' ); ?></span>
 						</span>
 					</div>

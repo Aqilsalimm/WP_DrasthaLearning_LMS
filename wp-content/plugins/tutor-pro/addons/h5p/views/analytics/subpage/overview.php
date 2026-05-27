@@ -24,7 +24,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 			<div class="tutor-card tutor-card-secondary tutor-p-24">
 				<div class="tutor-d-flex">
 					<div class="tutor-round-box">
-						<span class="tutor-icon-dashboard" area-hidden="true"></span>
+						<span class="tutor-icon-dashboard" aria-hidden="true"></span>
 					</div>
 
 					<div class="tutor-ml-20">
@@ -38,7 +38,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 			<div class="tutor-card tutor-card-secondary tutor-p-24">
 				<div class="tutor-d-flex">
 					<div class="tutor-round-box">
-						<span class="tutor-icon-dashboard" area-hidden="true"></span>
+						<span class="tutor-icon-dashboard" aria-hidden="true"></span>
 					</div>
 
 					<div class="tutor-ml-20">
@@ -52,7 +52,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 			<div class="tutor-card tutor-card-secondary tutor-p-24">
 				<div class="tutor-d-flex">
 					<div class="tutor-round-box">
-						<span class="tutor-icon-book-open" area-hidden="true"></span>
+						<span class="tutor-icon-book-open" aria-hidden="true"></span>
 					</div>
 
 					<div class="tutor-ml-20">
@@ -66,7 +66,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 			<div class="tutor-card tutor-card-secondary tutor-p-24">
 				<div class="tutor-d-flex">
 					<div class="tutor-round-box">
-						<span class="tutor-icon-star-bold" area-hidden="true"></span>
+						<span class="tutor-icon-star-bold" aria-hidden="true"></span>
 					</div>
 
 					<div class="tutor-ml-20">
@@ -80,7 +80,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 			<div class="tutor-card tutor-card-secondary tutor-p-24">
 				<div class="tutor-d-flex">
 					<div class="tutor-round-box">
-						<span class="tutor-icon-user-graduate" area-hidden="true"></span>
+						<span class="tutor-icon-user-graduate" aria-hidden="true"></span>
 					</div>
 
 					<div class="tutor-ml-20">

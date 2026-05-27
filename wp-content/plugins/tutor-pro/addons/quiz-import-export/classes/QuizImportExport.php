@@ -45,7 +45,7 @@ class QuizImportExport {
 		<span class="tutor-import-quiz-button">
 			<input name="csv_file" class="tutor-csv-file" data-topic="<?php echo esc_attr( $topic_id ); ?>" type="file" accept=".csv" />
 			<button class="tutor-btn tutor-btn-outline-primary tutor-btn-sm">
-				<i class="tutor-icon-import-o tutor-fs-6 tutor-mr-8" area-hidden="true"></i>
+				<i class="tutor-icon-import-o tutor-fs-6 tutor-mr-8" aria-hidden="true"></i>
 				<?php esc_html_e( 'Import Quiz', 'tutor-pro' ); ?>
 			</button>
 		</span>
@@ -63,7 +63,7 @@ class QuizImportExport {
 		if ( $quiz_id ) {
 			?>
 			<a href="#quiz-builder-export" class="btn-csv-download tutor-iconic-btn" data-id="<?php echo esc_attr( $quiz_id ); ?>">
-				<span class="tutor-icon-export" area-hidden="true"></span>
+				<span class="tutor-icon-export" aria-hidden="true"></span>
 			</a>
 			<?php
 		}

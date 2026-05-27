@@ -69,7 +69,7 @@ use Tutor\Models\OrderModel;
 									<div class="tutor-d-flex tutor-align-center tutor-gap-1">
 										<?php echo esc_html( get_the_title( $report->post_parent ) ); ?>
 										<a href="<?php echo esc_url( get_permalink( $report->post_parent ) ); ?>" class="tutor-iconic-btn" target="_blank">
-											<span class="tutor-icon-external-link" area-hidden="true"></span>
+											<span class="tutor-icon-external-link" aria-hidden="true"></span>
 										</a>
 									</div>
 								</td>

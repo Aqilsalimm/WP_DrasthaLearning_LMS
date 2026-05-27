@@ -13,7 +13,7 @@ $order_id                = (int) $data['order_id'];
 $tutor_toc_page_link     = tutor_utils()->get_toc_page_link();
 $tutor_privacy_page_link = tutor_utils()->get_privacy_page_link();
 ?>
-<form class="tutor-modal tutor-modal-scrollable" id="payment_gateway_modal" method="post">
+<form class="tutor-modal tutor-modal-scrollable" id="payment_gateway_modal" method="post" role="dialog" aria-modal="true" aria-labelledby="payment_gateway_modal-title" aria-hidden="true">
 	<?php tutor_nonce_field( true ); ?>
 	<input type="hidden" name="tutor_action" value="tutor_pay_incomplete_order">
 	<input type="hidden" name="order_id" value="<?php echo esc_attr( $order_id ); ?>">
@@ -21,11 +21,11 @@ $tutor_privacy_page_link = tutor_utils()->get_privacy_page_link();
 	<div class="tutor-modal-window">
 		<div class="tutor-modal-content tutor-modal-content-white">
 			<div class="tutor-modal-body" style="text-align: left;">
-				<button class="tutor-iconic-btn tutor-modal-close-o" data-tutor-modal-close>
-					<span class="tutor-icon-times" area-hidden="true"></span>
+				<button type="button" class="tutor-iconic-btn tutor-modal-close-o" data-tutor-modal-close aria-label="<?php esc_attr_e( 'Close', 'tutor-pro' ); ?>">
+					<span class="tutor-icon-times" aria-hidden="true"></span>
 				</button>
 
-				<h5 class="tutor-fs-5 tutor-fw-medium tutor-color-black tutor-mb-12">
+				<h5 id="payment_gateway_modal-title" class="tutor-fs-5 tutor-fw-medium tutor-color-black tutor-mb-12">
 					<?php esc_html_e( 'Billing Address', 'tutor-pro' ); ?>
 				</h5>
 				<div class="tutor-checkout-billing tutor-mb-16">

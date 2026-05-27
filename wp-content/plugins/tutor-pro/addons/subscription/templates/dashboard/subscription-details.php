@@ -67,14 +67,14 @@ $recurring_limit        = (int) $plan->recurring_limit;
 
 <div class="tutor-subscription-info tutor-mb-32">
 	<a class="tutor-btn tutor-btn-ghost" href="<?php echo esc_url( $page_link ); ?>">
-		<span class="tutor-icon-previous tutor-mr-8" area-hidden="true"></span>
+		<span class="tutor-icon-previous tutor-mr-8" aria-hidden="true"></span>
 		<?php esc_html_e( 'Back', 'tutor-pro' ); ?>
 	</a>
 
 	<?php if ( $is_plan_course_deleted ) : ?>
 	<div class="tutor-alert tutor-warning tutor-mt-20">
 		<p class="tutor-fs-7">
-			<span class="tutor-icon-warning tutor-mr-8 tutor-color-warning" area-hidden="true"></span>	<?php esc_html_e( 'This course has been deleted. No further actions are available for this subscription.', 'tutor-pro' ); ?>
+			<span class="tutor-icon-warning tutor-mr-8 tutor-color-warning" aria-hidden="true"></span>	<?php esc_html_e( 'This course has been deleted. No further actions are available for this subscription.', 'tutor-pro' ); ?>
 		</p>
 	</div>
 	<?php endif; ?>
@@ -401,16 +401,16 @@ $recurring_limit        = (int) $plan->recurring_limit;
 					<?php tutor_utils()->tutor_empty_state( tutor_utils()->not_found_text() ); ?>
 <?php endif; ?>
 
-<div id="tutor-subscription-cancel-plan-modal" class="tutor-modal">
+<div id="tutor-subscription-cancel-plan-modal" class="tutor-modal" role="dialog" aria-modal="true" aria-labelledby="tutor-subscription-cancel-title" aria-hidden="true">
 	<div class="tutor-modal-overlay"></div>
 	<div class="tutor-modal-window">
 		<div class="tutor-modal-content tutor-modal-content-white">
-			<button class="tutor-iconic-btn tutor-modal-close-o" data-tutor-modal-close>
-				<span class="tutor-icon-times" area-hidden="true"></span>
+			<button type="button" class="tutor-iconic-btn tutor-modal-close-o" data-tutor-modal-close aria-label="<?php esc_attr_e( 'Close', 'tutor-pro' ); ?>">
+				<span class="tutor-icon-times" aria-hidden="true"></span>
 			</button>
 
 			<div class="tutor-modal-body tutor-text-center">
-				<div class="tutor-fs-3 tutor-fw-medium tutor-color-black tutor-mb-12 tutor-mt-40">
+				<div id="tutor-subscription-cancel-title" class="tutor-fs-3 tutor-fw-medium tutor-color-black tutor-mb-12 tutor-mt-40">
 					<?php esc_html_e( 'Cancel plan?', 'tutor-pro' ); ?>
 				</div>
 				<div class="tutor-fs-6 tutor-color-muted">
@@ -431,16 +431,16 @@ $recurring_limit        = (int) $plan->recurring_limit;
 </div>
 
 <!-- subscription early renewal modal -->
-<div id="tutor-subscription-early-renewal-modal" class="tutor-modal">
+<div id="tutor-subscription-early-renewal-modal" class="tutor-modal" role="dialog" aria-modal="true" aria-labelledby="tutor-subscription-renewal-title" aria-hidden="true">
 	<div class="tutor-modal-overlay"></div>
 	<div class="tutor-modal-window">
 		<div class="tutor-modal-content tutor-modal-content-white">
-			<button class="tutor-iconic-btn tutor-modal-close-o" data-tutor-modal-close>
-				<span class="tutor-icon-times" area-hidden="true"></span>
+			<button type="button" class="tutor-iconic-btn tutor-modal-close-o" data-tutor-modal-close aria-label="<?php esc_attr_e( 'Close', 'tutor-pro' ); ?>">
+				<span class="tutor-icon-times" aria-hidden="true"></span>
 			</button>
 
 			<div class="tutor-modal-body tutor-text-center">
-				<div class="tutor-fs-3 tutor-fw-medium tutor-color-black tutor-mb-12 tutor-mt-40">
+				<div id="tutor-subscription-renewal-title" class="tutor-fs-3 tutor-fw-medium tutor-color-black tutor-mb-12 tutor-mt-40">
 					<?php esc_html_e( 'Early Renewal', 'tutor-pro' ); ?>
 				</div>
 				<div class="tutor-fs-6 tutor-color-muted">

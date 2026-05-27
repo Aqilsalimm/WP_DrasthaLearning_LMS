@@ -122,7 +122,7 @@ class Quiz extends Tutor_Base {
 							<?php esc_html_e( 'H5P Question Answer', 'tutor-pro' ); ?>
 						</div>
 						<button class="tutor-iconic-btn tutor-modal-close" data-tutor-modal-close>
-							<span class="tutor-icon-times" area-hidden="true"></span>
+							<span class="tutor-icon-times" aria-hidden="true"></span>
 						</button>
 					</div>
 					<div class="tutor-modal-body tutor-modal-container"></div>

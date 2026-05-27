@@ -102,7 +102,7 @@ if ( is_admin() ) {
 					<?php esc_html_e( 'Search', 'tutor-pro' ); ?>
 				</label>
 				<div class="tutor-form-wrap">
-					<span class="tutor-icon-search tutor-form-icon" area-hidden="true"></span>
+					<span class="tutor-icon-search tutor-form-icon" aria-hidden="true"></span>
 					<input name="search" type="search" class="tutor-form-control" value="<?php echo esc_attr( $_search ); ?>" autocomplete="off" placeholder="<?php esc_html_e( 'Search meeting', 'tutor-pro' ); ?>">
 				</div>
 			</div>

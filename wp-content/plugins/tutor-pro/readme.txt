@@ -5,7 +5,7 @@ Tags: lms, course, elearning, education, learning management system
 Requires at least: 5.3
 Tested up to: 6.9
 Requires PHP: 7.4
-Stable tag: 3.9.7
+Stable tag: 3.9.10
 License: GPLv3
 License URI: https://www.gnu.org/licenses/gpl-3.0.html
 
@@ -319,10 +319,32 @@ Tutor LMS allows you to offer certificates to your students upon course completi
 
 == Changelog ==
 
-= 3.9.7 - Fed 25, 2026
+= 3.9.10 - Apr 29, 2026
 
-Fix: Resolved SQL injection security vulnerabilities to enhance system security.
-Fix: Fixed an issue where Stripe orders were automatically canceled in certain cases.
+Update: Improved user permission checks to enhance security.
+Fix: Resolved an issue where line breaks were not preserved in question–answer text created via the API. (Pro)
+
+= 3.9.9 - Apr 13, 2026
+
+Update: Updated Tutor LMS modals and icons for better WCAG 2 accessibility support.
+Update: Added a terms and conditions agreement checkbox to the signup page.
+Update: Strengthened security for the eCommerce checkout process.
+Fix: Resolved an SQL injection vulnerability on the instructor listing page.
+Fix: Resolved Stripe pending status issue for delayed payments. (Pro)
+
+= 3.9.8 - Apr 01, 2026
+
+Update: Added proper authorization check while updating the lessons.
+Update: Strengthen SQL queries across multiple deletion and update operations.
+Update: Improved security in quiz attempts search by preventing SQL injection.
+Fix: Fixed private course enrollment via AJAX without proper validation.
+Fix: Resolved the billing profile overwrite issue in Tutor LMS native eCommerce.
+Fix: Replaced wp_remote_get with wp_safe_remote_get for safer course import with media files.
+
+= 3.9.7 - Fed 24, 2026
+
+Fix: SQL injection security vulnerabilities.
+Fix: Stripe order automatically cancelled in certain cases.
 
 = 3.9.6 - Jan 28, 2026
 

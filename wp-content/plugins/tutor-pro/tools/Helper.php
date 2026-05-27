@@ -142,7 +142,7 @@ class Helper {
 					mkdir( $upload_dir, 0777, true );
 				}
 
-				$file_data = wp_remote_get( $file_url )['body'] ?? false;
+				$file_data = wp_safe_remote_get( $file_url )['body'] ?? false;
 				if ( false !== $file_data ) {
 					// Save the image to the uploads directory.
 					file_put_contents( $file_path, $file_data );

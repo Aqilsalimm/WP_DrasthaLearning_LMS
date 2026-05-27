@@ -52,7 +52,7 @@ $total_progress = Input::post( 'total_progress', 0 );
 		<div class="tutor-col-xl-4">
 			<div class="course-total-completed course-progress tutor-d-flex tutor-align-center">
 				<div class="tutor-progress-bar" style="--tutor-progress-value:<?php esc_attr( $total_progress . '%;' ); ?>">
-					<div class="tutor-progress-value" area-hidden="true"></div>
+					<div class="tutor-progress-value" aria-hidden="true"></div>
 				</div>
 				<div class="tutor-color-black tutor-fs-7 tutor-fw-medium tutor-ml-12 tutor-text-nowrap">
 					<?php echo esc_html( $total_progress ); ?>% <?php esc_html_e( ' Complete', 'tutor-pro' ); ?>

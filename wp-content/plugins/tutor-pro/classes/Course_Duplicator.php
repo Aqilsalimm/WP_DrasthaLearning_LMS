@@ -450,7 +450,7 @@ class Course_Duplicator {
 		$duplicate = '?tutor_action=duplicate_course&is_wp_admin=' . ( is_admin() ? 'yes' : 'no' ) . '&course_id=' . $id;
 		?>
 		<a class="tutor-dropdown-item" href="<?php echo esc_url( $duplicate ); ?>">
-			<i class="tutor-icon-copy tutor-mr-8" area-hidden="true"></i>
+			<i class="tutor-icon-copy tutor-mr-8" aria-hidden="true"></i>
 			<span><?php esc_html_e( 'Duplicate', 'tutor-pro' ); ?></span>
 		</a>
 		<?php

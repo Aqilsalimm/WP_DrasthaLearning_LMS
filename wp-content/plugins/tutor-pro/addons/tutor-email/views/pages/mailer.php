@@ -57,8 +57,8 @@ $bulk_email_limit = (int) tutor_utils()->get_option( 'tutor_bulk_email_limit', 1
 		<div class="email-page-container header-main tutor-d-flex flex-wrap  tutor-align-center tutor-justify-between">
 			<div class="header-left tutor-d-flex tutor-gap-2">
 				<div>
-					<a href="<?php echo esc_url( $email_back_url ); ?>" class="prev-page">
-						<img src="<?php echo esc_url( $arrow_left ); ?>" alt="arrow-left">
+					<a href="<?php echo esc_url( $email_back_url ); ?>" class="prev-page" aria-label="<?php esc_attr_e( 'Go back', 'tutor-pro' ); ?>">
+						<img src="<?php echo esc_url( $arrow_left ); ?>" alt="<?php esc_attr_e( 'Go back', 'tutor-pro' ); ?>" aria-hidden="true">
 					</a>
 				</div>
 				<div>
@@ -301,13 +301,13 @@ $bulk_email_limit = (int) tutor_utils()->get_option( 'tutor_bulk_email_limit', 1
 											<div class="tutor-form-alignment tutor-text-right">
 												<input type="hidden" name="email_action_position" value="<?php echo esc_attr( $button_position ); ?>" />
 												<div class="tutor-btn-group" role="group">
-													<button type="button" class="tutor-btn tutor-btn-secondary" data-position="left">
+													<button type="button" class="tutor-btn tutor-btn-secondary" data-position="left" aria-label="<?php esc_attr_e( 'Align left', 'tutor-pro' ); ?>">
 														<i class="tutor-icon-align-left" aria-hidden="true"></i>
 													</button>
-													<button type="button" class="tutor-btn tutor-btn-secondary" data-position="center">
+													<button type="button" class="tutor-btn tutor-btn-secondary" data-position="center" aria-label="<?php esc_attr_e( 'Align center', 'tutor-pro' ); ?>">
 														<i class="tutor-icon-align-center" aria-hidden="true"></i>
 													</button>
-													<button type="button" class="tutor-btn tutor-btn-secondary" data-position="right">
+													<button type="button" class="tutor-btn tutor-btn-secondary" data-position="right" aria-label="<?php esc_attr_e( 'Align right', 'tutor-pro' ); ?>">
 														<i class="tutor-icon-align-right" aria-hidden="true"></i>
 													</button>
 												</div>
@@ -330,10 +330,10 @@ $bulk_email_limit = (int) tutor_utils()->get_option( 'tutor_bulk_email_limit', 1
 					<div class="tutor-pl-md-16 tutor-pl-xl-32" data-email_template="<?php echo esc_attr( $email_template ); ?>">
 						<div class="tutor-d-flex tutor-justify-between tutor-align-center tutor-my-24">
 							<div class="tutor-email-preview-responsive-buttons">
-								<button class="tutor-btn tutor-btn-sm active" data-preview-mode="desktop">
+								<button class="tutor-btn tutor-btn-sm active" data-preview-mode="desktop" aria-label="<?php esc_attr_e( 'Desktop preview', 'tutor-pro' ); ?>">
 									<i class="tutor-icon-desktop" aria-hidden="true"></i>
 								</button>
-								<button class="tutor-btn tutor-btn-sm" data-preview-mode="mobile">
+								<button class="tutor-btn tutor-btn-sm" data-preview-mode="mobile" aria-label="<?php esc_attr_e( 'Mobile preview', 'tutor-pro' ); ?>">
 									<i class="tutor-icon-mobile" aria-hidden="true"></i>
 								</button>
 							</div>
@@ -367,20 +367,20 @@ $bulk_email_limit = (int) tutor_utils()->get_option( 'tutor_bulk_email_limit', 1
 	</main>
 </section>
 
-<div class="tutor-modal" id="tutor-email-confirmation-modal">
+<div class="tutor-modal" id="tutor-email-confirmation-modal" role="dialog" aria-modal="true" aria-labelledby="tutor-email-confirmation-title" aria-hidden="true">
 	<div class="tutor-modal-overlay"></div>
 	<div class="tutor-modal-window">
 		<div class="tutor-modal-content tutor-modal-content-white">
-			<button class="tutor-iconic-btn tutor-modal-close-o" data-tutor-modal-close>
-				<span class="tutor-icon-times" area-hidden="true"></span>
+			<button type="button" class="tutor-iconic-btn tutor-modal-close-o" data-tutor-modal-close aria-label="<?php esc_attr_e( 'Close', 'tutor-pro' ); ?>">
+				<span class="tutor-icon-times" aria-hidden="true"></span>
 			</button>
 
 			<div class="tutor-modal-body tutor-text-center">
 				<div class="tutor-mt-48">
-					<img class="tutor-d-inline-block" src="<?php echo esc_url( TUTOR_EMAIL()->url . 'assets/images/sendmail.svg' ); ?>" />
+					<img class="tutor-d-inline-block" src="<?php echo esc_url( TUTOR_EMAIL()->url . 'assets/images/sendmail.svg' ); ?>" alt="<?php esc_attr_e( 'Send Email?', 'tutor-pro' ); ?>" aria-hidden="true" />
 				</div>
 
-				<div class="tutor-email-modal-title tutor-fs-3 tutor-color-black tutor-mb-28">
+				<div id="tutor-email-confirmation-title" class="tutor-email-modal-title tutor-fs-3 tutor-color-black tutor-mb-28">
 					<?php esc_html_e( 'Do you want to send this email to', 'tutor-pro' ); ?> <br/> <strong>0</strong> <?php esc_html_e( 'receivers?', 'tutor-pro' ); ?>
 				</div>
 

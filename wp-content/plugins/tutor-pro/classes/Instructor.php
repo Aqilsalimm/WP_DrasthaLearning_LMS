@@ -61,16 +61,16 @@ class Instructor {
 			class="tutor-btn tutor-btn-outline-primary tutor-btn-sm">
 			<?php esc_html_e( 'Edit', 'tutor-pro' ); ?>
 		</a>
-		<form class="tutor-modal tutor-modal-scrollable tutor-instructor-edit-modal" id="<?php echo esc_attr( $id ); ?>">
+		<form class="tutor-modal tutor-modal-scrollable tutor-instructor-edit-modal" id="<?php echo esc_attr( $id ); ?>" role="dialog" aria-modal="true" aria-labelledby="<?php echo esc_attr( $id ); ?>-title" aria-hidden="true">
 			<div class="tutor-modal-overlay"></div>
 			<div class="tutor-modal-window">
 				<div class="tutor-modal-content">
 					<div class="tutor-modal-header">
-						<div class="tutor-modal-title">
+						<div id="<?php echo esc_attr( $id ); ?>-title" class="tutor-modal-title">
 							<?php esc_html_e( 'Edit Instructor', 'tutor-pro' ); ?>
 						</div>
-						<button class="tutor-modal-close tutor-iconic-btn" data-tutor-modal-close role="button">
-							<span class="tutor-icon-times" area-hidden="true"></span>
+						<button type="button" class="tutor-modal-close tutor-iconic-btn" data-tutor-modal-close aria-label="<?php esc_attr_e( 'Close', 'tutor-pro' ); ?>">
+							<span class="tutor-icon-times" aria-hidden="true"></span>
 						</button>
 					</div>
 

@@ -44,7 +44,7 @@ $total_course = Analytics::get_courses_with_search_by_user( $user->ID, $search, 
 		<div class="tutor-mb-24">
 			<form method="get" id="tutor_analytics_search_form">
 				<div class="tutor-form-wrap">
-					<span class="tutor-icon-search tutor-form-icon" area-hidden="true"></span>
+					<span class="tutor-icon-search tutor-form-icon" aria-hidden="true"></span>
 					<input type="search" class="tutor-form-control" autocomplete="off" name="search" placeholder="<?php esc_attr_e( 'Search...', 'tutor-pro' ); ?>">
 				</div>
 			</form>

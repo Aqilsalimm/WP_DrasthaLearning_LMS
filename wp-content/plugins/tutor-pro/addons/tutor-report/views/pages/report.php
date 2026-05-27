@@ -38,7 +38,7 @@ if ( Input::has( 'sub_page' ) ) {
 							<?php esc_html_e( 'LMS Reports', 'tutor-pro' ); ?>
 						</span>
 
-						<span class="tutor-mx-8" area-hidden="true">/</span>
+						<span class="tutor-mx-8" aria-hidden="true">/</span>
 
 						<span class="tutor-fs-7 tutor-color-muted">
 							<?php echo esc_html( $current_name ); ?>

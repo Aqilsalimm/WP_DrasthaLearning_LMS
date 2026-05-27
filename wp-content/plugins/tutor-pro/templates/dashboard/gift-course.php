@@ -115,12 +115,12 @@ $message        = $gift_data->message;
 	</div>
 </div>
 
-<div class="tutor-modal" id="tutor-greetings-popup-<?php echo esc_attr( $course->ID ); ?>">
+<div class="tutor-modal" id="tutor-greetings-popup-<?php echo esc_attr( $course->ID ); ?>" role="dialog" aria-modal="true" aria-labelledby="tutor-greetings-title-<?php echo esc_attr( $course->ID ); ?>" aria-hidden="true">
 	<div class="tutor-modal-overlay"></div>
 	<div class="tutor-modal-window">
 		<div class="tutor-modal-content tutor-modal-content-white">
-			<button class="tutor-iconic-btn tutor-modal-close-o" data-tutor-modal-close>
-				<span class="tutor-icon-times" area-hidden="true"></span>
+			<button class="tutor-iconic-btn tutor-modal-close-o" data-tutor-modal-close aria-label="<?php esc_attr_e( 'Close', 'tutor-pro' ); ?>">
+				<span class="tutor-icon-times" aria-hidden="true"></span>
 			</button>
 
 			<div class="tutor-greetings-modal">
@@ -136,7 +136,7 @@ $message        = $gift_data->message;
 								<p class="tutor-m-0"><?php esc_html_e( 'Hey', 'tutor-pro' ); ?> <span class="tutor-fw-medium"><?php echo esc_html( $recipient_name ); ?> </span>!</p>
 							</div>
 							<div class="tutor-greetings-content">
-								<svg class="tutor-greetings-ribbon" width="68" height="57" viewBox="0 0 68 57" fill="none" xmlns="http://www.w3.org/2000/svg">
+								<svg class="tutor-greetings-ribbon" width="68" height="57" viewBox="0 0 68 57" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
 									<path d="M10.687 2.50712C29.1471 -2.63179 35.0839 18.8055 34.3473 28.2032H25.377C9.04883 28.2032 4.36022 20.666 4.05693 16.8974C3.12014 7.85272 8.08666 3.53526 10.687 2.50712Z" stroke="#FE621E" stroke-width="3"/>
 									<path d="M58.1284 2.50712C39.6684 -2.63179 33.7315 18.8055 34.4682 28.2032H43.4384C59.7666 28.2032 64.4552 20.666 64.7585 16.8974C65.6953 7.85272 60.7288 3.53526 58.1284 2.50712Z" stroke="#FE621E" stroke-width="3"/>
 									<path d="M34.4303 28.0586C30.9093 34.277 19.5745 48.3386 2.40381 54.8381" stroke="#FE621E" stroke-width="3" stroke-linecap="round"/>
@@ -152,7 +152,7 @@ $message        = $gift_data->message;
 				</div> <!-- tutor-greetings-card-wrapper -->
 				<div class="tutor-gifted-course-wrapper">
 					<div class="tutor-gifted-course">
-						<h3 class="tutor-gifted-course-title tutor-m-0 tutor-mb-12"><?php esc_html_e( 'Gifted Course', 'tutor-pro' ); ?></h3>
+						<h3 id="tutor-greetings-title-<?php echo esc_attr( $course->ID ); ?>" class="tutor-gifted-course-title tutor-m-0 tutor-mb-12"><?php esc_html_e( 'Gifted Course', 'tutor-pro' ); ?></h3>
 						<div class="tutor-gifted-course-card">
 							<div class="tutor-gifted-course-image tutor-flex-center tutor-w-s">
 								<img src="<?php echo esc_url( get_tutor_course_thumbnail_src( 'post-thumbnail', $course->ID ) ); ?>" alt="<?php echo esc_attr( $course->post_title ); ?>" />

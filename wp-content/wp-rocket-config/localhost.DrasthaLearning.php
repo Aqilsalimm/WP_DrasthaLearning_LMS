@@ -4,7 +4,7 @@ defined( 'ABSPATH' ) || exit;
 $rocket_cookie_hash = 'bdc39f63dc51779f75cc9d11645b3627';
 $rocket_logged_in_cookie = 'wordpress_logged_in_bdc39f63dc51779f75cc9d11645b3627';
 $rocket_cache_mobile_files_tablet = 'desktop';
-$rocket_cache_reject_uri = '/DrasthaLearning(/(?:.+/)?feed(?:/(?:.+/?)?)?$|/(?:.+/)?embed/|/login/|/checkout-3/??(.*)|/cart-3/?|/my-account-2/??(.*)|/(index.php/)?(.*)wp-json(/.*|$))';
+$rocket_cache_reject_uri = '/DrasthaLearning(/(?:.+/)?feed(?:/(?:.+/?)?)?$|/(?:.+/)?embed/|/accessdrasthalearning/|/checkout-3/??(.*)|/cart-3/?|/my-account-2/??(.*)|/(index.php/)?(.*)wp-json(/.*|$))';
 $rocket_cache_reject_cookies = 'wordpress_logged_in_.+|wp-postpass_|wptouch_switch_toggle|comment_author_|comment_author_email_';
 $rocket_cache_reject_ua = 'facebookexternalhit|WhatsApp';
 $rocket_cache_query_strings = array();

@@ -79,15 +79,15 @@ $available_status = array(
 									</div>
 									<div class="tutor-dropdown-parent">
 										<button type="button" class="tutor-iconic-btn" action-tutor-dropdown="toggle">
-											<span class="tutor-icon-kebab-menu" area-hidden="true"></span>
+											<span class="tutor-icon-kebab-menu" aria-hidden="true"></span>
 										</button>
 										<div id="table-dashboard-review-list-<?php echo esc_attr( $review->comment_ID ); ?>" class="tutor-dropdown tutor-dropdown-dark tutor-text-left">
 											<a class="tutor-dropdown-item" href="<?php echo esc_url( get_permalink( $review->comment_post_ID ) ); ?>" target="_blank">
-												<i class="tutor-icon-edit tutor-mr-8" area-hidden="true"></i>
+												<i class="tutor-icon-edit tutor-mr-8" aria-hidden="true"></i>
 												<span><?php esc_html_e( 'Preview', 'tutor-pro' ); ?></span>
 											</a>
 											<a data-tutor-modal-target="tutor-common-confirmation-modal" class="tutor-dropdown-item tutor-admin-review-delete tutor-delete-recent-reviews" data-id="<?php echo esc_attr( $review->comment_ID ); ?>">
-												<i class="tutor-icon-trash-can-bold tutor-mr-8" area-hidden="true"></i>
+												<i class="tutor-icon-trash-can-bold tutor-mr-8" aria-hidden="true"></i>
 												<span><?php esc_html_e( 'Delete', 'tutor-pro' ); ?></span>
 											</a>
 										</div>

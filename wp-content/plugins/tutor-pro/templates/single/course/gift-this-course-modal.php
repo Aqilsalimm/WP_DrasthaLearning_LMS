@@ -15,18 +15,18 @@ $modal_id  = isset( $modal_id ) ? $modal_id : 'tutor-gift-this-course-modal';
 
 ?>
 
-<div id="<?php echo esc_attr( $modal_id ); ?>" class="tutor-modal tutor-modal-scrollable">
+<div id="<?php echo esc_attr( $modal_id ); ?>" class="tutor-modal tutor-modal-scrollable" role="dialog" aria-modal="true" aria-labelledby="<?php echo esc_attr( $modal_id ); ?>-title" aria-hidden="true">
 	<span class="tutor-modal-overlay"></span>
 	<div class="tutor-modal-window">
 		<div class="tutor-modal-content">
 			<div class="tutor-modal-body">
-				<div class="tutor-gift-modal-title">
+				<div class="tutor-gift-modal-title" id="<?php echo esc_attr( $modal_id ); ?>-title">
 					<div class="tutor-gift-modal-title-left">
-						<img class="tutor-gift-modal-title-image" src="<?php echo esc_url( tutor_pro()->url . 'assets/images/gift.svg' ); ?>" alt="<?php esc_html_e( 'Gift box image', 'tutor-pro' ); ?>" />
+						<img class="tutor-gift-modal-title-image" src="<?php echo esc_url( tutor_pro()->url . 'assets/images/gift.svg' ); ?>" alt="<?php esc_html_e( 'Gift box image', 'tutor-pro' ); ?>" aria-hidden="true" />
 						<?php esc_html_e( 'Gift this Course', 'tutor-pro' ); ?>
 					</div>
-					<button class="tutor-iconic-btn tutor-modal-close-o" data-tutor-modal-close>
-						<span class="tutor-icon-times" area-hidden="true"></span>
+					<button class="tutor-iconic-btn tutor-modal-close-o" data-tutor-modal-close aria-label="<?php esc_attr_e( 'Close', 'tutor-pro' ); ?>">
+						<span class="tutor-icon-times" aria-hidden="true"></span>
 					</button>
 				</div>
 				<div class="tutor-row tutor-g-4">

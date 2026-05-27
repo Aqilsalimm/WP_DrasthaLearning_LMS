@@ -184,17 +184,17 @@ if ( $license ) {
 
 </div>
 
-<div class="tutor-modal" id="tutor-license-remove-confirm-popup">
+<div class="tutor-modal" id="tutor-license-remove-confirm-popup" role="dialog" aria-modal="true" aria-labelledby="tutor-license-remove-title" aria-hidden="true">
 	<div class="tutor-modal-overlay"></div>
 	<div class="tutor-modal-window">
 		<div class="tutor-modal-content tutor-modal-content-white">
-			<button class="tutor-iconic-btn tutor-modal-close-o" data-tutor-modal-close>
-				<span class="tutor-icon-times" area-hidden="true"></span>
+			<button type="button" class="tutor-iconic-btn tutor-modal-close-o" data-tutor-modal-close aria-label="<?php esc_attr_e( 'Close', 'tutor-pro' ); ?>">
+				<span class="tutor-icon-times" aria-hidden="true"></span>
 			</button>
 
 			<div class="tutor-modal-body tutor-text-center">
 				<div style="max-width:460px; margin: 44px auto;">
-					<div class="tutor-fs-4 tutor-fw-medium tutor-color-black tutor-mb-12"><?php esc_html_e( 'Remove the License?', 'tutor-pro' ); ?></div>
+					<div id="tutor-license-remove-title" class="tutor-fs-4 tutor-fw-medium tutor-color-black tutor-mb-12"><?php esc_html_e( 'Remove the License?', 'tutor-pro' ); ?></div>
 					<div class="tutor-fs-6 tutor-color-muted"><?php esc_html_e( 'Removing the license will deactivate premium features of Tutor LMS. This action cannot be undone.', 'tutor-pro' ); ?></div>
 					<div class="tutor-d-flex tutor-justify-center tutor-mt-28">
 						<button class="tutor-btn tutor-color-secondary" data-tutor-modal-close>

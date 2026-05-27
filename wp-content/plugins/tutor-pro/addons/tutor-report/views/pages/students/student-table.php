@@ -58,7 +58,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 										<?php echo wp_kses( tutor_utils()->get_tutor_avatar( $student->ID ), tutor_utils()->allowed_avatar_tags() ); ?>
 										<?php echo esc_html( $student->display_name ); ?>
 										<a href="<?php echo esc_url( tutor_utils()->profile_url( $student->ID, false ) ); ?>" class="tutor-iconic-btn" target="_blank">
-											<span class="tutor-icon-external-link" area-hidden="true"></span>
+											<span class="tutor-icon-external-link" aria-hidden="true"></span>
 										</a>
 									</div>
 								</td>
